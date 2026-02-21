@@ -4,8 +4,9 @@ Da[作词]: 小九
 Da[作曲]: regulus
 Da[制谱]:WinMCHG31400
 P: 1=E 4/4
-Rp: page=1.79 font_lyrics=Roman,CommonSerif/600/1 margin_after_props=0 margin_before_line=0 \
-note_count_lining=true inset_before_lyrics=2.2 margin_after_lyrics=0.1
+Rp: page=1.68 font_lyrics=Roman,CommonSerif/600/1 margin_after_props=0 margin_before_line=0 \
+note_count_lining=true inset_before_lyrics=0 margin_after_lyrics=0.1 \
+margin_after_part_notes=0 inset_before_lyrics=0 margin_after_part=0  margin_between_parts=0 
 ===
 Frp: n=9
 N: &lpr;1.7d.6d | 1.7d.6d |3.2.5 |4.3.2|3.2.6d|3.2.6d|3.2.6|4.3.2|

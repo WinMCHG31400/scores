@@ -7,8 +7,8 @@ P: 1=bA4 3/4
 Rp: page=A4 font_lyrics=Roman,CommonSerif/600/0.95
 ===
 Frp: n=7
-N: |{"前奏略"}(6d5d)6d~-|6d0(2d3d)|4d16d|5d-0|04d6d|2d4d~-|4d00|
-Lc: 太阳系 曾环绕的行星知其姓名 
+N: /{"前奏略"}6d.(5d)6d~|6d0(2d3d)|4d1.(6d^)|(5d^)5d.0|04d6d|2d4d~-|4d00|
+Lc: 太阳系 曾环绕的行%星知其姓名 
 ---
 Frp: n=7
 N: 4d(5d4d)6d~|6d--|000|006d|5d6d~-|6d(2d3d)4d|16d5d~|
