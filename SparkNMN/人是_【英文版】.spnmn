@@ -1,0 +1,94 @@
+Dt: 人是_【英文版】
+//Dv: Version 1.15.9
+Da[作词]: 17764xr
+Da[作曲]: 钱雷
+Da[制谱]:WinMCHG31400
+P: 1=C 6/8 qpm=105
+Rp: page=A4 font_lyrics=Roman,CommonSerif/600/0.95 n=5  \
+margin_before_line=0 margin_after_line=0 inset_before_lyrics=1.4 \
+margin_after_props=0 sectionorder=none margin_between_parts=0 \
+time_lining=true note_count_lining=true scale=0.9 margin_between_parts=0 \
+margin_after_part_notes=2 inset_before_lyrics=1.6 margin_after_part=0
+===
+Frp: n=11
+N:&lpr;3.~(317d)|6d.~(6d13)|#2.7d.~|7d.~7d(6d)|2.~(223)|4.~(432)|3.6d.~|6d.~6d.|
+---
+Frp: n=7
+N:3.~(317d)|6d.~(6d13)|#2.7d.~|7d.~7d(6d)|2.~(223)|4.~(432)|3.6d.~|6d.~6d.&rpr;||:1(6d)1(6d)|1(6d~)(6d12)|
+Lw: %{17}You fol-low the cal-"l of" hu-rri-
+---
+Frp: n=6
+N: 1(7d~)(7d7d6d)|7d.0(6d)|2(2~)(223)|4(4~)(432)|3.(017d)|6d.0.|
+Lw:  cane-"s of" des-ti-ny. A  child chilled un-der.the sea blin-ded by mag-"ma’s" heat.
+---
+Frp: n=5
+N:||:1(6d)1(6d)|1(6d~)(6d12)|1(7d~)(7d7d6d)|7d.0(6d)|2(2~)(223)|
+Lw:  [[1.]]You're on the fron-"t of" the coin tossed by god on a whim. Moun-tain-"s in" the way
+Lw: [[2.]]Sta-ring at the chess-board be-tween des-ti-ny and me.When moon-light fa-des
+---
+Frp: n=4
+N:4(4~)(432)|3.(017d)|1.0.|(21b7d)(217d)|
+Lw:  I'm gon-na cra-"ck it"  with my fist.No-ah'-"s Ark" helped con- quer 
+Lw: away I find an-swers in the mist.Fu-ture is bru-ta-"l and"
+---
+Frp: n=4
+N:2(2~)(212)|3(7d~)(7d7d1)|7d(6d~)6d.|(21b7d)(217d)|
+Lw:the sea  but I'll con-quer night with bare feet.No one can be the maste-
+Lw:  ruth-less a mons-te-"r of" i-ron and steel.Doo-"m o"-"f ev"-ery-thing in-
+---
+Frp: n=5
+N:2(2~)(212)|3(3~)(34^3^)|3.(431e)|{$}7.~7(6)|3.(431e)|
+Lw: "r of" my-self no one e-xcept% me.[[1.,2.]]Let Sa-tan co-vet me.Let the rea-
+Lw: to dust is where nir-vana con-sists%{4} e-rode me.From all your 
+---
+Frp: n=4
+N:7.~7(6)|3.0(3)|(321)(321)|3(2~)(212)|
+Lw:  per kiss me.All "my love" could be de-stroyed but I know  e-ven 
+Lw:   me-mo-ries.All "my love" could be de-stroyed but I know  e-ven
+---
+Frp: n=5
+N:(343)(343)|3.(431e)|7.~7(6)|3.(431e)|7.2e(1e)|
+Lw: god could ne-ver de-feat  me.The fate may beat down me.But on will spi-rit of
+Lw: god could ne-ver de-feat  me.The fate may beat down me.But on will spi-rit of
+---
+Frp: n=4
+N:7.6(3)|(321)(321)|3(2~)(212)|(343)(343)|
+Lw: life live.In the eyes of the chil-"d il"-lu-mi-na-ted a-gainst the gen-tle dark 
+Lw: life live.In the eyes of the chil-"d il"-lu-mi-na-ted a-gainst the gen-tle dark
+---
+Frp: n=7
+J: 1.
+N: 3.(37d1)|7d(6d~)6d~.|6d.&lpr;1.|1.1.|2.1.|1.1.|1.1.|
+Lw: night.By the dy-ing light
+---
+Frp: n=13
+J: 1.
+N: 2.3.|7d.7d(6d)|(7d23)3(1e)|7.~7(6)|3.~3(1e)|7.2e(1e)|7.6.|7.~7.~|7.~7.|0.0.|0.0.|0.0.|0.0.&rpr;:||
+---
+Frp: n=5
+J: 2.,*
+N:3.(371e)|7(6~)6d.~|6d.~6d.~|6d.~6d.|0.0(6)|
+Lw: night.By the dy-ing light.I 
+---
+Frp: n=4
+J: 
+N:(2e1e6)(2e1e6)|2e(2e~)(2e1e2e)|1e.~(1e76)|7.0(6)|
+Lw: will be Noah’-"s Ark" my-self if the floo-ding wave's on its peak.We 
+---
+Frp: n=5
+J: 
+N:(1e)60(6)|(1e)60.|(061e)2e(1e)|1e(7~)(761e)|7.~7(6)|
+Lw: are to  seize the light  ev-en if a-way the bea-con faints and
+---
+Frp: n=4
+J: 
+N:e|(3e4e3e)(3e4e3e)|(3e4e3e)3e.
+Lw:go a-head don't look back you will sur-vive
+N: 4.~4.|0.0.|0.(431e){D.S.}||
+Lw: dims "3.">Let the tides
+---
+Frp: n=6
+J: "结束句"
+N: 
+N: /3.(371e)|7(6~)6.~|6.~6.~|6.~6.|0.(371e)|7(6~)6.~|6.~6.|||
+Lw: night.By the re-born light.Fu-ture a-head lies.
