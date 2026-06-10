@@ -264,7 +264,7 @@ tracks:
   track_expressions: []
   voice_color_names:
   - ""
-- singer: 琉璃liliko
+- singer: Aikie_ML_v201
   phonemizer: OpenUtau.Core.DiffSinger.DiffSingerChinesePhonemizer
   renderer_settings:
     renderer: DIFFSINGER
@@ -272,11 +272,11 @@ tracks:
   track_color: Blue
   mute: false
   solo: false
-  volume: -0.09836065573768948
+  volume: 7.573770491803277
   pan: 0
   track_expressions: []
   voice_color_names:
-  - '01: liliko'
+  - ""
 voice_parts:
 - duration: 203520
   name: New Part
