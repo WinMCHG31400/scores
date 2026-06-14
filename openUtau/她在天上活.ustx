@@ -1481,7 +1481,7 @@ voice_parts:
     phoneme_expressions: []
     phoneme_overrides: []
   - position: 100800
-    duration: 960
+    duration: 1920
     tone: 59
     lyric: +
     pitch:
