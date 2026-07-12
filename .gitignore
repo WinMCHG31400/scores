@@ -2,3 +2,4 @@
 *.json
 *-autosave.ustx
 /MuseScore/.mscbackup
+*.wav
