@@ -1,11 +1,11 @@
 Dt: 雪域明珠
-Ds: 颂非遗唐卡
+Ds: Akie秋绘-颂非遗唐卡
 //Dv: Version 1.15.9
 Da[作词]: 长眠
 Da[作曲]: 金丝草Ivy
 P: 1=E 4/4 qpm=162
-Rp: page=A4 font_lyrics=Roman,CommonSerif/600/0.95 n=8 \
-margin_before_line=0 sectionorder=none
+Rp: page=1.5 font_lyrics=Roman,CommonSerif/600/0.95 n=8 \
+margin_before_line=0 sectionorder=none font_text=Roman,CommonSerif/500/0.95 
 ===
 Frp: n=9
 Nc: /{w=0.4}omit(19)||:003d3d|7d-07d|17d6d3d|5d6d5d2d|
@@ -22,13 +22,13 @@ Nc: 003d3d|7d-07d|17d5d3d|5d6d5d2d|3d03d5d|6d.6d.5d|2d-05d|3d--0|
 Lc: 纳木措的湖水清灌溉绿洲草场人在漫步雄鹰翱翔
 ---
 Frp: n=9
-Nc: 003d4d|6d-6d-|7d-00|127d^5d^|6d06d7d|1(7d)1.3|27d5d3d|16d--|{w=0.4}omit(2)|
+Nc: 003d4d|6d-6d-|7d-00|127d^5d^|6d06d7d|1(7d)1.3|2(7d)5d.3d|16d--|{w=0.4}omit(2)|
 Lc: 画龙点睛在古老篇%章宝石粉末成色骨骼碾碎海洋
 ---
 Nc: 0006d|(3^2)3^-1|2.3.5|3~---|3---|1-6-|5--2|4---|
 Lc: 远处%%唱诗歌绝响漂泊了故乡
 ---
-Nc: 000(12)|3-05|200(17d)|6d--2|1-00|3.6d.3|2--7d^|6d^6d--|
+Nc: 000(12)|3-05|200(17d)|6d--1|1-00|3.6d.3|2--7d^|6d^6d--|
 Lc: 流动的壁画异域的城邦传奇在额间%镶
 ---
 Nc: 0006d|(3^2)3^-1|2.3.5|3~---|3---|1-6-|5--2|3---|
@@ -47,3 +47,6 @@ Nc: 0000|1---|2-00|25-3~|3--0|3-6d-|7d-05d|6d---|{w=0.4}omit(2):||
 Lc: 五色粗麻线乌嘴垂两边
 ---
 Nc: /{w=0.4}omit
+===
+T: *可以在Github仓库WinMCHG31400/scores的OpenUtau文件夹内下载本曲的openUtau项目文件，带拟合原唱的音高曲线，也可以很容易的转换为midi导入到你喜欢的其他软件，使用需标明出处
+T: *本简谱的原始文件在上述仓库的SparkNMN文件夹内，使用需标明出处
