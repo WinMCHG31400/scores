@@ -238,7 +238,7 @@ exp_selectors:
 - bre
 exp_primary: 0
 exp_secondary: 1
-key: 0
+key: 7
 time_signatures:
 - bar_position: 0
   beat_per_bar: 4
@@ -267,71 +267,6 @@ voice_parts:
   track_no: 0
   position: 0
   notes:
-  - position: 910
-    duration: 933
-    tone: 35
-    lyric: a
-    pitch:
-      data:
-      - {x: -40, y: 0, shape: io}
-      - {x: 15, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    tuning: 0
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 3583
-    duration: 219
-    tone: 56
-    lyric: a
-    pitch:
-      data:
-      - {x: -40, y: 0, shape: io}
-      - {x: 15, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    tuning: 0
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 3802
-    duration: 472
-    tone: 55
-    lyric: a
-    pitch:
-      data:
-      - {x: -40, y: 10, shape: io}
-      - {x: 15, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    tuning: 0
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 4274
-    duration: 346
-    tone: 55
-    lyric: a
-    pitch:
-      data:
-      - {x: -40, y: 0, shape: io}
-      - {x: 15, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    tuning: 0
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 13213
-    duration: 876
-    tone: 33
-    lyric: a
-    pitch:
-      data:
-      - {x: -40, y: 0, shape: io}
-      - {x: 15, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    tuning: 0
-    phoneme_expressions: []
-    phoneme_overrides: []
   - position: 38419
     duration: 461
     tone: 59
@@ -1450,10 +1385,38 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
+  - position: 91440
+    duration: 240
+    tone: 57
+    lyric: "2"
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    tuning: 0
+    phoneme_expressions: []
+    phoneme_overrides:
+    - index: 0
+      phoneme: e
+  - position: 91680
+    duration: 220
+    tone: 57
+    lyric: G
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    tuning: 0
+    phoneme_expressions: []
+    phoneme_overrides: []
   - position: 91907
     duration: 218
     tone: 59
-    lyric: "2"
+    lyric: 网
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -1466,7 +1429,7 @@ voice_parts:
   - position: 92125
     duration: 254
     tone: 60
-    lyric: G
+    lyric: 络
     pitch:
       data:
       - {x: -40, y: -10, shape: io}
@@ -1479,7 +1442,7 @@ voice_parts:
   - position: 92379
     duration: 265
     tone: 59
-    lyric: 网
+    lyric: 兑
     pitch:
       data:
       - {x: -40, y: 10, shape: io}
@@ -1492,7 +1455,7 @@ voice_parts:
   - position: 92644
     duration: 230
     tone: 60
-    lyric: 络
+    lyric: 颗
     pitch:
       data:
       - {x: -40, y: -10, shape: io}
@@ -1505,7 +1468,7 @@ voice_parts:
   - position: 92874
     duration: 450
     tone: 71
-    lyric: 兑
+    lyric: 硬
     pitch:
       data:
       - {x: -40, y: -110, shape: io}
@@ -1518,7 +1481,7 @@ voice_parts:
   - position: 93324
     duration: 322
     tone: 69
-    lyric: 颗
+    lyric: 币
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
