@@ -272,6 +272,22 @@ tracks:
   track_color: Blue
   mute: false
   solo: false
+  mix_fx:
+    enabled: true
+    eq_preset: vocal_air
+    comp_preset: gentle
+    reverb_preset: small_room
+    eq_low_db: 0
+    eq_mid_freq: 3000
+    eq_mid_db: 1.5
+    eq_high_db: 3
+    comp_threshold_db: -18
+    comp_ratio: 2
+    comp_makeup_db: 2.5
+    reverb_size: 0.3
+    reverb_damp: 0.7
+    reverb_wet: 1
+    reverb_pre_delay_ms: 12
   volume: 5.803278688524607
   pan: 0
   track_expressions: []
@@ -12660,6 +12676,15 @@ voice_parts:
     - 0
     - 0
     abbr: pitd
+  - xs: []
+    ys: []
+    abbr: brec
+  - xs: []
+    ys: []
+    abbr: voic
+  - xs: []
+    ys: []
+    abbr: tenc
 wave_parts:
 - name: 1_雪域明珠_UVR-MDX-NET-Inst_Main_(Vocals).wav
   comment: ""
