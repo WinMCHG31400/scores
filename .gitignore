@@ -4,3 +4,5 @@
 /MuseScore/.mscbackup
 *.wav
 /openUtau/Export
+MuseScore/*.mid
+openUtau/*.mid

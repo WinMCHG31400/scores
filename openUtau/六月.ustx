@@ -255,7 +255,7 @@ tracks:
   track_color: Blue
   mute: false
   solo: false
-  volume: 5.803278688524607
+  volume: 6.393442622950825
   pan: 0
   track_expressions: []
   voice_color_names:
@@ -266,7 +266,7 @@ tracks:
     renderer: DIFFSINGER
   track_name: Track2
   track_color: Blue
-  mute: false
+  mute: true
   solo: false
   volume: -8.950819672131132
   pan: 0
@@ -277,7 +277,7 @@ tracks:
   renderer_settings: {}
   track_name: Track3
   track_color: Blue
-  mute: true
+  mute: false
   solo: false
   volume: 0
   pan: 0
@@ -383,7 +383,7 @@ voice_parts:
     phoneme_expressions: []
     phoneme_overrides: []
   - position: 41564
-    duration: 300
+    duration: 376
     tone: 62
     lyric: 泊
     pitch:
@@ -1124,7 +1124,7 @@ voice_parts:
     phoneme_expressions: []
     phoneme_overrides: []
   - position: 80885
-    duration: 807
+    duration: 895
     tone: 55
     lyric: +
     pitch:
@@ -54907,6 +54907,15 @@ voice_parts:
     - 11
     - 8
     abbr: pitd
+  - xs: []
+    ys: []
+    abbr: brec
+  - xs: []
+    ys: []
+    abbr: voic
+  - xs: []
+    ys: []
+    abbr: tenc
 - duration: 199440
   name: 1_六月_UVR-MDX-NET-Inst_Main_(Vocals)
   comment: ""
@@ -109529,6 +109538,15 @@ voice_parts:
     - 11
     - 8
     abbr: pitd
+  - xs: []
+    ys: []
+    abbr: brec
+  - xs: []
+    ys: []
+    abbr: voic
+  - xs: []
+    ys: []
+    abbr: tenc
 wave_parts:
 - name: 1_六月_UVR-MDX-NET-Inst_Main_(Instrumental).wav
   comment: ""
