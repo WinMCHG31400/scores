@@ -13,7 +13,7 @@ expressions:
     type: Curve
     min: -240
     max: 120
-    default_value: 0
+    default_value: 20
     is_flag: false
     flag: ""
     skip_output_if_default: false
@@ -32,10 +32,11 @@ expressions:
     abbr: clr
     type: Options
     min: 0
-    max: -1
+    max: 0
     default_value: 0
     is_flag: false
-    options: []
+    options:
+    - ""
     skip_output_if_default: false
   eng:
     name: resampler engine
@@ -242,7 +243,7 @@ exp_selectors:
 - dec
 - gen
 - bre
-exp_primary: 1
+exp_primary: 0
 exp_secondary: 0
 key: 0
 time_signatures:
@@ -253,17 +254,6 @@ tempos:
 - position: 0
   bpm: 162
 tracks:
-- phonemizer: OpenUtau.Core.DefaultPhonemizer
-  renderer_settings: {}
-  track_name: Track1
-  track_color: Blue
-  mute: false
-  solo: false
-  volume: 0
-  pan: 0
-  track_expressions: []
-  voice_color_names:
-  - ""
 - singer: Aikie_ML_v201
   phonemizer: OpenUtau.Core.DiffSinger.DiffSingerChinesePhonemizer
   renderer_settings:
@@ -288,7 +278,7 @@ tracks:
     reverb_damp: 0.7
     reverb_wet: 1
     reverb_pre_delay_ms: 12
-  volume: 5.803278688524607
+  volume: 4.032786885245912
   pan: 0
   track_expressions: []
   voice_color_names:
@@ -310,7 +300,7 @@ tracks:
   track_color: Blue
   mute: false
   solo: false
-  volume: -5.409836065573767
+  volume: -2.4590163934426172
   pan: 0
   track_expressions: []
   voice_color_names:
@@ -319,7 +309,7 @@ voice_parts:
 - duration: 342240
   name: 1_雪域明珠_UVR-MDX-NET-Inst_Main_(Vocals)
   comment: ""
-  track_no: 1
+  track_no: 0
   position: 0
   notes:
   - position: 37493
@@ -2509,7 +2499,7 @@ voice_parts:
     phoneme_expressions: []
     phoneme_overrides: []
   - position: 107516
-    duration: 3448
+    duration: 1684
     tone: 68
     lyric: 响
     pitch:
@@ -3130,7 +3120,7 @@ voice_parts:
     phoneme_expressions: []
     phoneme_overrides: []
   - position: 131094
-    duration: 1944
+    duration: 1626
     tone: 61
     lyric: 镶
     pitch:
@@ -3374,7 +3364,7 @@ voice_parts:
     phoneme_expressions: []
     phoneme_overrides: []
   - position: 138283
-    duration: 3422
+    duration: 2237
     tone: 68
     lyric: 扬
     pitch:
@@ -12688,7 +12678,7 @@ voice_parts:
 wave_parts:
 - name: 1_雪域明珠_UVR-MDX-NET-Inst_Main_(Vocals).wav
   comment: ""
-  track_no: 2
+  track_no: 1
   position: 0
   relative_path: D:\Users\minec\Music\uvr5\1_雪域明珠_UVR-MDX-NET-Inst_Main_(Vocals).wav
   file_duration_ms: 286977.8911
@@ -12698,7 +12688,7 @@ wave_parts:
   fadeout: 0
 - name: 1_雪域明珠_UVR-MDX-NET-Inst_Main_(Instrumental).wav
   comment: ""
-  track_no: 3
+  track_no: 2
   position: 0
   relative_path: D:\Users\minec\Music\uvr5\1_雪域明珠_UVR-MDX-NET-Inst_Main_(Instrumental).wav
   file_duration_ms: 286977.8911
