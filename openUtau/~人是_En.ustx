@@ -2174,7 +2174,7 @@ voice_parts:
   - position: 56880
     duration: 240
     tone: 64
-    lyric: hai
+    lyric: By
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -2187,7 +2187,7 @@ voice_parts:
   - position: 57120
     duration: 240
     tone: 59
-    lyric: tong
+    lyric: the
     pitch:
       data:
       - {x: -40, y: 50, shape: io}
@@ -2200,7 +2200,7 @@ voice_parts:
   - position: 57360
     duration: 240
     tone: 60
-    lyric: de
+    lyric: dy
     pitch:
       data:
       - {x: -40, y: -10, shape: io}
@@ -2213,7 +2213,7 @@ voice_parts:
   - position: 57600
     duration: 480
     tone: 59
-    lyric: shuang
+    lyric: ing
     pitch:
       data:
       - {x: -40, y: 10, shape: io}
@@ -2226,7 +2226,7 @@ voice_parts:
   - position: 58080
     duration: 1440
     tone: 57
-    lyric: mou
+    lyric: light
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -2395,7 +2395,7 @@ voice_parts:
   - position: 83520
     duration: 480
     tone: 60
-    lyric: wei
+    lyric: Sta
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -2408,7 +2408,7 @@ voice_parts:
   - position: 84000
     duration: 240
     tone: 57
-    lyric: zhi
+    lyric: ring
     pitch:
       data:
       - {x: -40, y: 30, shape: io}
@@ -2421,7 +2421,7 @@ voice_parts:
   - position: 84240
     duration: 480
     tone: 60
-    lyric: tan
+    lyric: at
     pitch:
       data:
       - {x: -40, y: -30, shape: io}
@@ -2434,7 +2434,7 @@ voice_parts:
   - position: 84720
     duration: 240
     tone: 57
-    lyric: kai
+    lyric: the
     pitch:
       data:
       - {x: -40, y: 30, shape: io}
@@ -2447,7 +2447,7 @@ voice_parts:
   - position: 84960
     duration: 480
     tone: 60
-    lyric: qi
+    lyric: chess
     pitch:
       data:
       - {x: -40, y: -30, shape: io}
@@ -2460,7 +2460,7 @@ voice_parts:
   - position: 85440
     duration: 240
     tone: 57
-    lyric: ju
+    lyric: board
     pitch:
       data:
       - {x: -40, y: 30, shape: io}
@@ -2473,7 +2473,7 @@ voice_parts:
   - position: 85920
     duration: 240
     tone: 60
-    lyric: she
+    lyric: be
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -2486,7 +2486,7 @@ voice_parts:
   - position: 86160
     duration: 240
     tone: 62
-    lyric: qi
+    lyric: tween
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -2499,7 +2499,7 @@ voice_parts:
   - position: 86400
     duration: 480
     tone: 60
-    lyric: zuo
+    lyric: des-
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -2512,7 +2512,7 @@ voice_parts:
   - position: 86880
     duration: 480
     tone: 59
-    lyric: ri
+    lyric: ti
     pitch:
       data:
       - {x: -40, y: 10, shape: io}
@@ -2525,7 +2525,7 @@ voice_parts:
   - position: 87360
     duration: 240
     tone: 59
-    lyric: cai
+    lyric: ny
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -2538,7 +2538,7 @@ voice_parts:
   - position: 87600
     duration: 240
     tone: 57
-    lyric: ke
+    lyric: and
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -2551,7 +2551,7 @@ voice_parts:
   - position: 87840
     duration: 720
     tone: 59
-    lyric: po
+    lyric: me
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -2564,7 +2564,7 @@ voice_parts:
   - position: 89040
     duration: 240
     tone: 57
-    lyric: zai
+    lyric: When
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -2577,7 +2577,7 @@ voice_parts:
   - position: 89280
     duration: 480
     tone: 62
-    lyric: jian
+    lyric: moon
     pitch:
       data:
       - {x: -40, y: -50, shape: io}
@@ -2590,7 +2590,7 @@ voice_parts:
   - position: 89760
     duration: 480
     tone: 62
-    lyric: le
+    lyric: light
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -2603,7 +2603,7 @@ voice_parts:
   - position: 90240
     duration: 240
     tone: 62
-    lyric: wo
+    lyric: fa
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -2616,7 +2616,7 @@ voice_parts:
   - position: 90480
     duration: 240
     tone: 64
-    lyric: de
+    lyric: des
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -2625,11 +2625,13 @@ voice_parts:
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
     tuning: 0
     phoneme_expressions: []
-    phoneme_overrides: []
+    phoneme_overrides:
+    - index: 2
+      offset: 108
   - position: 90720
     duration: 480
     tone: 65
-    lyric: yue
+    lyric: away
     pitch:
       data:
       - {x: -40, y: -10, shape: io}
@@ -2638,11 +2640,15 @@ voice_parts:
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
     tuning: 0
     phoneme_expressions: []
-    phoneme_overrides: []
+    phoneme_overrides:
+    - index: 1
+      offset: -78
+    - index: 2
+      offset: -84
   - position: 91200
     duration: 480
     tone: 65
-    lyric: guang
+    lyric: I
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -2655,7 +2661,7 @@ voice_parts:
   - position: 91680
     duration: 240
     tone: 64
-    lyric: wo
+    lyric: find
     pitch:
       data:
       - {x: -40, y: 10, shape: io}
@@ -2668,7 +2674,7 @@ voice_parts:
   - position: 91920
     duration: 240
     tone: 62
-    lyric: de
+    lyric: an
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -2681,7 +2687,7 @@ voice_parts:
   - position: 92160
     duration: 960
     tone: 64
-    lyric: lan
+    lyric: swers[s er]
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -2694,7 +2700,7 @@ voice_parts:
   - position: 93120
     duration: 240
     tone: 60
-    lyric: wo
+    lyric: in
     pitch:
       data:
       - {x: -40, y: 40, shape: io}
@@ -2707,7 +2713,7 @@ voice_parts:
   - position: 93360
     duration: 240
     tone: 59
-    lyric: de
+    lyric: the
     pitch:
       data:
       - {x: -40, y: 10, shape: io}
@@ -2720,7 +2726,7 @@ voice_parts:
   - position: 93600
     duration: 960
     tone: 60
-    lyric: ai
+    lyric: mist
     pitch:
       data:
       - {x: -40, y: -10, shape: io}
@@ -22327,6 +22333,15 @@ voice_parts:
     - -16
     - 0
     abbr: pitd
+  - xs: []
+    ys: []
+    abbr: brec
+  - xs: []
+    ys: []
+    abbr: voic
+  - xs: []
+    ys: []
+    abbr: tenc
 - duration: 7680
   name: New Part
   comment: ""
@@ -22817,4 +22832,13 @@ voice_parts:
     - 5
     - 0
     abbr: pitd
+  - xs: []
+    ys: []
+    abbr: brec
+  - xs: []
+    ys: []
+    abbr: voic
+  - xs: []
+    ys: []
+    abbr: tenc
 wave_parts: []

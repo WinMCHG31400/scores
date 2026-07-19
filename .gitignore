@@ -1,9 +1,5 @@
-*.html
-*.json
+/**/**.*
+!openUtau/*.ustx
 *-autosave.ustx
-/MuseScore/.mscbackup
-*.wav
-/openUtau/Export
-MuseScore/*.mid
-openUtau/*.mid
-*.pkf
+!MuseScore/*.mscx
+!SparkNMN/*.spnmn
