@@ -3,3 +3,4 @@
 *-autosave.ustx
 !MuseScore/*.mscx
 !SparkNMN/*.spnmn
+!**/README.md
