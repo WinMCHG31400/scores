@@ -1,9 +1,10 @@
 Dt: 人是_【英文版】
+Ds: 一清清清
 //Dv: Version 1.15.9
 Da[作词]: 17764xr
 Da[作曲]: 钱雷
-Da[制谱]:WinMCHG31400
-P: 1=C 6/8 qpm=105
+Dl:WinMCHG31400
+P: 1=C4 6/8 qpm=105
 Rp: page=A4 font_lyrics=Roman,CommonSerif/600/0.95 n=5  \
 margin_before_line=0 margin_after_line=0 inset_before_lyrics=1.4 \
 margin_after_props=0 sectionorder=none margin_between_parts=0 \
@@ -23,7 +24,7 @@ Lw:  cane-"s of" des-ti-ny. A  child chilled un-der.the sea blin-ded by mag-"ma�
 ---
 Frp: n=5
 N:||:1(6d)1(6d)|1(6d~)(6d12)|1(7d~)(7d7d6d)|7d.0(6d)|2(2~)(223)|
-Lw:  [[1.]]You're on the fron-"t of" the coin tossed by god on a whim. Moun-tain-"s in" the way
+Lw[]:  [[1.]]You're on the fron-"t of" the coin tossed by god on a whim. Moun-tain-"s in" the way
 Lw: [[2.]]Sta-ring at the chess-board be-tween des-ti-ny and me.When moon-light fa-des
 ---
 Frp: n=4
@@ -92,3 +93,8 @@ J: "结束句"
 N: 
 N: /3.(371e)|7(6~)6.~|6.~6.~|6.~6.|0.(371e)|7(6~)6.~|6.~6.|||
 Lw: night.By the re-born light.Fu-ture a-head lies.
+
+===
+T: 
+T: *非官方
+T: *可以在Github仓库WinMCHG31400/scores下载源文件，使用需标明出处

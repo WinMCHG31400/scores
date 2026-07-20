@@ -1,10 +1,10 @@
 Dt:守夜者
-Ds:流浪地球2印象曲·月球视角
+Ds:乐正绫/洛天依\n流浪地球2印象曲·月球视角
 Da[作编曲]:清风疾行
 Da[作词]: 汨罗河童
-Da[扒谱]: winMCHG31400
+Dl: winMCHG31400
 
-P:1=C 4/4 qpm=130
+P:1=C4 4/4 qpm=130
 Rp: page=A4 font_lyrics=Roman,CommonSerif/600/0.955\
 margin_before_line=0 margin_after_line=0 inset_before_lyrics=1.6
 ===
@@ -77,3 +77,8 @@ Lc:“请你最后%回%望我的%方向%流浪的航%程啊太长太%长%请你
 Frp:n=9
 N:6(5e^6e^)(5e.^(3e^))3e|5e(5e^6e^)6(2e^3e~)|3e^---|00(2e)1e.|6(5e^6e^)6e3e|5e6e7e^1ee^|2e^3e~--|3e^---|omit|||
 Lc:在新%芽%间撒下%月壤%当东方再%一次出现霞%光”
+
+===
+T: 
+T: *非官方
+T: *可以在Github仓库WinMCHG31400/scores下载源文件，使用需标明出处
