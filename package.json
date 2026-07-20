@@ -1,0 +1,6 @@
+{
+  "name": "gaokao-shuxue-site",
+  "scripts": {
+    "build": "node src/generate-indexes.js"
+  }
+}
