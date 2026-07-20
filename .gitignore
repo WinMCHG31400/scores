@@ -6,3 +6,5 @@
 !SparkNMN/pdf/*.pdf
 !**/README.md
 !**/README_en.md
+!src/*
+!packages.json
