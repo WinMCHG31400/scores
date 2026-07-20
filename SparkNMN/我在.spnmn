@@ -1,11 +1,11 @@
 Dt: 我在
-Ds: 电影《流浪地球2》主题歌
+Ds: 刘欣-电影《流浪地球2》主题歌
 //Dv: Version 1.15.9
 Da[作词]: 刘欣
 Da[作曲]: 刘欣
 Da[扒谱]:WinMCHG31400
 P: 1=D3 4/4 qpm=130
-Rp: page=1.51 font_lyrics=Roman,CommonSerif/600/1 n=4 scale=0.98 \
+Rp: page=1.6 font_lyrics=Roman,CommonSerif/600/1 n=4 scale=0.98 \
 margin_before_line=0 margin_after_line=0 inset_before_lyrics=2 \
 margin_after_lyrics=0 margin_after_part=0 margin_after_props=0 sectionorder=none \
 inset_before_lyrics=2.2 offset_lyrics_iter=0.5
@@ -43,3 +43,6 @@ Frp: n=5
 J: 2.,*
 Nc: omit(6)|26--|omit(7)|26--|omit|||
 Lc: 我信我信
+===
+T: 
+T: *可以在Github仓库WinMCHG31400/scores下载源文件，使用需标明出处

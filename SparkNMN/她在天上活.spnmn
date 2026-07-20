@@ -3,9 +3,8 @@ Ds: 刘慈欣《带上她的眼睛》同人曲
 //Dv: Version 1.15.9
 Da[作词]: 苏栗无
 Da[作曲]: 小吉他
-Da[扒谱]:WinMCHG31400
 P: 1=D4 4/4 qpm=140
-Rp: page=1.434 font_lyrics=Roman,CommonSerif/600/0.955 scale=0.93 \
+Rp: page= font_lyrics=Roman,CommonSerif/600/0.955 scale=0.93 \
 margin_before_line=0 margin_after_line=0 inset_before_lyrics=2 n=8 \
 margin_after_lyrics=0 margin_after_part=0 margin_after_props=0 sectionorder=none \
 inset_before_lyrics=2
@@ -25,7 +24,7 @@ Lc: 若百年后唯物尽头，有灵魂存留/相逢要在无垠苍穹
 Nc: 6d6d6d3|27d-0|17d-(7d6d)|5d6d-0|6d3d6d1[(7d)]|7d(17d~)7d-|5d6d--|0000|
 Lc: 此时再无地火，孤零一双眼眸/少女雀跃在空濛雨后
 -
-Nc: 06d6d(7d7d^)|1^7d6d-|5d.(3d~)3d-|03dT3d5d3d|6d06d(12~)|217d6d|5d.(6d~)6d-|0000|
+N: 06d6d(7d7d^)|1^7d6d-|5d.(3d~)3d-|03dT3d5d3d|6d06d(12~)|217d6d|5d.(6d~)6d-|0000|
 Lc: 若十年后%地壳尽头，幸事当头/寄语要说天涯与共
 ---
 Nc: 6d6d6d3[(2)]|27d-0|17d-(7d6d)|5d6d-0|6d3d6d1[(7d)]|7d17d-|5d.(5d^)6d^-|0000|
@@ -51,6 +50,10 @@ Nc: &lpr;3ee3ee2ee7e|6e-3ee-|3ee3ee2ee7e|6e-3ee-|3ee3ee2ee7e|6e-3ee-|3ee3ee2ee7e
 -
 Frp: n=8
 Nc: 3ee3ee2ee7e|6e-3ee-|3ee3ee2ee7e|6e-3ee-|3ee3ee2ee7e|6e-3ee-|3ee3ee2ee7e|6e-7e-&rpr;|
+===
+T: 
+T: *非官方
+T: *可以在Github仓库WinMCHG31400/scores下载源文件，使用需标明出处
 
 
 

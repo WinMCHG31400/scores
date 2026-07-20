@@ -2,6 +2,7 @@
 !openUtau/*.ustx
 *-autosave.ustx
 !MuseScore/*.mscx
-!SparkNMN/*.spnmn
+!SparkNMN/**/*.spnmn
+!SparkNMN/pdf/*.pdf
 !**/README.md
 !**/README_en.md
