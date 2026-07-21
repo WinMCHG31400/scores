@@ -3,7 +3,8 @@ Ds: 《三体》同人曲
 //Dv: Version 1.15.9
 Da[作词]: 失量中子弹
 Da[作曲]: 钱雷
-P: 1=bD 4/4 qpm=70
+Dl: WinMCHG31400
+P: 1=bD4 4/4 qpm=70
 Rp: page=1.49 font_lyrics=Roman,CommonSerif/600/1.1 \
 margin_before_line=0 margin_after_line=0 inset_before_lyrics=2 \
 margin_after_props=0 sectionorder=none margin_between_parts=0 time_lining=true note_count_lining=true scale=1
