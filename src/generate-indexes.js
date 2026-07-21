@@ -11,7 +11,7 @@ const CONFIG = {
     package-lock.json
     .git/*
     `, // 忽略文件列表的文件路径
-  BASE_URL: 'https://gaokao-math.pages.dev', // 部署域名
+  BASE_URL: 'https://winmchg31400-scores.pages.dev', // 部署域名
 };
 
 function simpleGitignore(patterns) {
@@ -240,9 +240,7 @@ function generateDirectoryIndex(dirPath, relativePath = '') {
   html += `
         </div>
         <div class="footer">
-        <a href="https://github.com/WinMCHG31400/gaokaomath/" target="_blank">GitHub</a> | 
-            Fork from <a href="https://github.com/deekur/gaokaomath" target="_blank">deekur/gaokaomath</a>
-        </div>
+       
     </div>
 </body>
 </html>
