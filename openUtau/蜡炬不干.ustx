@@ -247,7 +247,7 @@ exp_secondary: 1
 key: 3
 time_signatures:
 - bar_position: 0
-  beat_per_bar: 4
+  beat_per_bar: 2
   beat_unit: 4
 tempos:
 - position: 0
@@ -4261,4 +4261,13 @@ voice_parts:
   - xs: []
     ys: []
     abbr: dyn
+  - xs: []
+    ys: []
+    abbr: brec
+  - xs: []
+    ys: []
+    abbr: voic
+  - xs: []
+    ys: []
+    abbr: tenc
 wave_parts: []

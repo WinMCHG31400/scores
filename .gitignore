@@ -8,3 +8,4 @@
 !**/README_en.md
 !src/*
 !package.json
+!SynthV/**/*.svp
