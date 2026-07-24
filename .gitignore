@@ -1,5 +1,5 @@
 /**/**.*
-!openUtau/*.ustx
+!openUtau/**/*.ustx
 *-autosave.ustx
 !MuseScore/*.mscx
 !SparkNMN/**/*.spnmn
