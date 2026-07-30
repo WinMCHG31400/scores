@@ -15,6 +15,7 @@ expressions:
     max: 120
     default_value: 0
     is_flag: false
+    flag: ""
     skip_output_if_default: false
   pitd:
     name: pitch deviation
@@ -24,16 +25,18 @@ expressions:
     max: 1200
     default_value: 0
     is_flag: false
+    flag: ""
     skip_output_if_default: false
   clr:
     name: voice color
     abbr: clr
     type: Options
     min: 0
-    max: -1
+    max: 0
     default_value: 0
     is_flag: false
-    options: []
+    options:
+    - ""
     skip_output_if_default: false
   eng:
     name: resampler engine
@@ -220,24 +223,64 @@ expressions:
     abbr: voic
     type: Curve
     min: 0
+    max: 250
+    default_value: 150
+    is_flag: false
+    flag: ""
+    skip_output_if_default: false
+  velc:
+    name: velocity (curve)
+    abbr: velc
+    type: Curve
+    min: 0
+    max: 200
+    default_value: 100
+    is_flag: false
+    flag: ""
+    skip_output_if_default: false
+  ene:
+    name: energy (curve)
+    abbr: ene
+    type: Curve
+    min: -100
+    max: 100
+    default_value: 0
+    is_flag: false
+    flag: ""
+    skip_output_if_default: false
+  pexp:
+    name: pitch expressiveness (curve)
+    abbr: pexp
+    type: Curve
+    min: 0
     max: 100
     default_value: 100
+    is_flag: false
+    flag: ""
+    skip_output_if_default: false
+  shmc:
+    name: shift mouth opening (curve)
+    abbr: shmc
+    type: Curve
+    min: -100
+    max: 100
+    default_value: 0
     is_flag: false
     flag: ""
     skip_output_if_default: false
 exp_selectors:
 - dyn
 - pitd
-- clr
-- eng
-- vel
-- vol
+- voic
+- shfc
+- tenc
+- ene
 - atk
 - dec
 - gen
 - bre
-exp_primary: 1
-exp_secondary: 0
+exp_primary: 0
+exp_secondary: 3
 key: 2
 time_signatures:
 - bar_position: 0
@@ -255,6 +298,22 @@ tracks:
   track_color: Blue
   mute: false
   solo: false
+  mix_fx:
+    enabled: true
+    eq_preset: vocal_air
+    comp_preset: gentle
+    reverb_preset: small_room
+    eq_low_db: 0
+    eq_mid_freq: 3000
+    eq_mid_db: 1.5
+    eq_high_db: 3
+    comp_threshold_db: -18
+    comp_ratio: 2
+    comp_makeup_db: 2.5
+    reverb_size: 0.3
+    reverb_damp: 0.7
+    reverb_wet: 1
+    reverb_pre_delay_ms: 12
   volume: 8.163934426229517
   pan: 0
   track_expressions: []
@@ -264,9 +323,9 @@ tracks:
   renderer_settings: {}
   track_name: Track2
   track_color: Blue
-  mute: false
+  mute: true
   solo: false
-  volume: -7.1803278688524586
+  volume: 0
   pan: 0
   track_expressions: []
   voice_color_names:
@@ -359,7 +418,7 @@ voice_parts:
   - position: 18993
     duration: 260
     tone: 62
-    lyric: 贪
+    lyric: 渴
     pitch:
       data:
       - {x: -40, y: -10, shape: io}
@@ -372,7 +431,7 @@ voice_parts:
   - position: 19253
     duration: 447
     tone: 64
-    lyric: 图
+    lyric: 望
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -385,7 +444,7 @@ voice_parts:
   - position: 19700
     duration: 260
     tone: 62
-    lyric: 路
+    lyric: 城
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -398,7 +457,7 @@ voice_parts:
   - position: 19960
     duration: 708
     tone: 62
-    lyric: 灯
+    lyric: 市
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -437,7 +496,7 @@ voice_parts:
   - position: 23777
     duration: 260
     tone: 62
-    lyric: 在
+    lyric: 孤
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -528,7 +587,7 @@ voice_parts:
   - position: 26918
     duration: 478
     tone: 66
-    lyric: 光
+    lyric: 逝
     pitch:
       data:
       - {x: -40, y: 10, shape: io}
@@ -541,7 +600,7 @@ voice_parts:
   - position: 27396
     duration: 271
     tone: 64
-    lyric: 里
+    lyric: 去
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -567,7 +626,7 @@ voice_parts:
   - position: 28353
     duration: 499
     tone: 66
-    lyric: 灰
+    lyric: 回
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -580,7 +639,7 @@ voice_parts:
   - position: 28852
     duration: 1113
     tone: 64
-    lyric: 尘
+    lyric: 声
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -632,7 +691,7 @@ voice_parts:
   - position: 32201
     duration: 479
     tone: 62
-    lyric: 人
+    lyric: 明
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -645,7 +704,7 @@ voice_parts:
   - position: 32680
     duration: 488
     tone: 64
-    lyric: 生
+    lyric: 天
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -658,7 +717,7 @@ voice_parts:
   - position: 33636
     duration: 240
     tone: 62
-    lyric: 失
+    lyric: 我
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -671,7 +730,7 @@ voice_parts:
   - position: 33876
     duration: 260
     tone: 64
-    lyric: 眠
+    lyric: 又
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -684,7 +743,7 @@ voice_parts:
   - position: 34136
     duration: 478
     tone: 66
-    lyric: 也
+    lyric: 该
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -697,7 +756,7 @@ voice_parts:
   - position: 34614
     duration: 218
     tone: 69
-    lyric: 未
+    lyric: 如
     pitch:
       data:
       - {x: -40, y: -30, shape: io}
@@ -723,7 +782,7 @@ voice_parts:
   - position: 35113
     duration: 229
     tone: 66
-    lyric: 必
+    lyric: 何
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -736,7 +795,7 @@ voice_parts:
   - position: 35342
     duration: 686
     tone: 71
-    lyric: 能
+    lyric: 来
     pitch:
       data:
       - {x: -40, y: -50, shape: io}
@@ -749,7 +808,7 @@ voice_parts:
   - position: 36028
     duration: 468
     tone: 66
-    lyric: 读
+    lyric: 回
     pitch:
       data:
       - {x: -40, y: 50, shape: io}
@@ -762,7 +821,7 @@ voice_parts:
   - position: 36496
     duration: 905
     tone: 69
-    lyric: 懂
+    lyric: 答
     pitch:
       data:
       - {x: -40, y: -30, shape: io}
@@ -788,7 +847,7 @@ voice_parts:
   - position: 38150
     duration: 302
     tone: 64
-    lyric: 问
+    lyric: 轻
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -801,7 +860,7 @@ voice_parts:
   - position: 38452
     duration: 561
     tone: 66
-    lyric: 着
+    lyric: 声
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -814,7 +873,7 @@ voice_parts:
   - position: 39842
     duration: 270
     tone: 64
-    lyric: 远
+    lyric: 寻
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -827,7 +886,7 @@ voice_parts:
   - position: 40112
     duration: 250
     tone: 62
-    lyric: 处
+    lyric: 问
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -905,7 +964,7 @@ voice_parts:
   - position: 42774
     duration: 468
     tone: 64
-    lyric: 耳
+    lyric: 寂
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -918,7 +977,7 @@ voice_parts:
   - position: 43242
     duration: 468
     tone: 62
-    lyric: 边
+    lyric: 静
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -931,7 +990,7 @@ voice_parts:
   - position: 43710
     duration: 489
     tone: 61
-    lyric: 飞
+    lyric: 宇
     pitch:
       data:
       - {x: -40, y: 10, shape: io}
@@ -944,7 +1003,7 @@ voice_parts:
   - position: 44199
     duration: 458
     tone: 62
-    lyric: 逝
+    lyric: 宙
     pitch:
       data:
       - {x: -40, y: -10, shape: io}
@@ -1009,7 +1068,7 @@ voice_parts:
   - position: 48723
     duration: 281
     tone: 57
-    lyric: 想
+    lyric: 还
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -1022,7 +1081,7 @@ voice_parts:
   - position: 49004
     duration: 229
     tone: 57
-    lyric: 起
+    lyric: 好
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -1035,7 +1094,7 @@ voice_parts:
   - position: 49233
     duration: 270
     tone: 62
-    lyric: 从
+    lyric: 身
     pitch:
       data:
       - {x: -40, y: -50, shape: io}
@@ -1048,7 +1107,7 @@ voice_parts:
   - position: 49503
     duration: 426
     tone: 62
-    lyric: 前
+    lyric: 边
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -1100,7 +1159,7 @@ voice_parts:
   - position: 51375
     duration: 239
     tone: 67
-    lyric: 不
+    lyric: 穿
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -1113,7 +1172,7 @@ voice_parts:
   - position: 51614
     duration: 250
     tone: 66
-    lyric: 知
+    lyric: 越
     pitch:
       data:
       - {x: -40, y: 10, shape: io}
@@ -1126,7 +1185,7 @@ voice_parts:
   - position: 51864
     duration: 457
     tone: 64
-    lyric: 放
+    lyric: 了
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -1139,7 +1198,7 @@ voice_parts:
   - position: 52321
     duration: 250
     tone: 66
-    lyric: 到
+    lyric: 时
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -1152,7 +1211,7 @@ voice_parts:
   - position: 52571
     duration: 728
     tone: 67
-    lyric: 哪
+    lyric: 间
     pitch:
       data:
       - {x: -40, y: -10, shape: io}
@@ -1165,7 +1224,7 @@ voice_parts:
   - position: 53299
     duration: 478
     tone: 64
-    lyric: 首
+    lyric: 分
     pitch:
       data:
       - {x: -40, y: 30, shape: io}
@@ -1178,7 +1237,7 @@ voice_parts:
   - position: 53777
     duration: 1623
     tone: 66
-    lyric: 歌
+    lyric: 隔
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -1191,7 +1250,7 @@ voice_parts:
   - position: 56422
     duration: 239
     tone: 62
-    lyric: 如
+    lyric: 就
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -1204,7 +1263,7 @@ voice_parts:
   - position: 56661
     duration: 229
     tone: 61
-    lyric: 同
+    lyric: 算
     pitch:
       data:
       - {x: -40, y: 10, shape: io}
@@ -1217,7 +1276,7 @@ voice_parts:
   - position: 56890
     duration: 229
     tone: 62
-    lyric: 目
+    lyric: 不
     pitch:
       data:
       - {x: -40, y: -10, shape: io}
@@ -1230,7 +1289,7 @@ voice_parts:
   - position: 57119
     duration: 239
     tone: 66
-    lyric: 光
+    lyric: 会
     pitch:
       data:
       - {x: -40, y: -40, shape: io}
@@ -1243,7 +1302,7 @@ voice_parts:
   - position: 57358
     duration: 19
     tone: 74
-    lyric: 与
+    lyric: 在
     pitch:
       data:
       - {x: -40, y: -80, shape: io}
@@ -1256,7 +1315,7 @@ voice_parts:
   - position: 57377
     duration: 283
     tone: 74
-    lyric: 萤
+    lyric: +
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -1269,7 +1328,7 @@ voice_parts:
   - position: 57660
     duration: 437
     tone: 73
-    lyric: +
+    lyric: 现
     pitch:
       data:
       - {x: -40, y: 10, shape: io}
@@ -1282,7 +1341,7 @@ voice_parts:
   - position: 58097
     duration: 270
     tone: 69
-    lyric: 火
+    lyric: 实
     pitch:
       data:
       - {x: -40, y: 40, shape: io}
@@ -1321,7 +1380,7 @@ voice_parts:
   - position: 59542
     duration: 489
     tone: 69
-    lyric: 未
+    lyric: 也
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -1334,7 +1393,7 @@ voice_parts:
   - position: 60031
     duration: 270
     tone: 67
-    lyric: 曾
+    lyric: 能
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -1347,7 +1406,7 @@ voice_parts:
   - position: 60301
     duration: 437
     tone: 66
-    lyric: 需
+    lyric: 与
     pitch:
       data:
       - {x: -40, y: 10, shape: io}
@@ -1360,7 +1419,7 @@ voice_parts:
   - position: 60738
     duration: 343
     tone: 62
-    lyric: 要
+    lyric: 你
     pitch:
       data:
       - {x: -40, y: 40, shape: io}
@@ -1373,7 +1432,7 @@ voice_parts:
   - position: 61467
     duration: 468
     tone: 66
-    lyric: 分
+    lyric: 随
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -1386,7 +1445,7 @@ voice_parts:
   - position: 61935
     duration: 260
     tone: 67
-    lyric: 明
+    lyric: 电
     pitch:
       data:
       - {x: -40, y: -10, shape: io}
@@ -1399,7 +1458,7 @@ voice_parts:
   - position: 62195
     duration: 697
     tone: 66
-    lyric: 的
+    lyric: 波
     pitch:
       data:
       - {x: -40, y: 10, shape: io}
@@ -1412,7 +1471,7 @@ voice_parts:
   - position: 62892
     duration: 479
     tone: 62
-    lyric: 因
+    lyric: 相
     pitch:
       data:
       - {x: -40, y: 40, shape: io}
@@ -1425,7 +1484,7 @@ voice_parts:
   - position: 63371
     duration: 478
     tone: 64
-    lyric: 果
+    lyric: 逢
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -1438,7 +1497,7 @@ voice_parts:
   - position: 64119
     duration: 240
     tone: 57
-    lyric: 多
+    lyric: 感
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -1464,7 +1523,7 @@ voice_parts:
   - position: 64577
     duration: 270
     tone: 62
-    lyric: 从
+    lyric: 身
     pitch:
       data:
       - {x: -40, y: -40, shape: io}
@@ -1477,7 +1536,7 @@ voice_parts:
   - position: 64847
     duration: 448
     tone: 62
-    lyric: 前
+    lyric: 边
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -1529,7 +1588,7 @@ voice_parts:
   - position: 66726
     duration: 188
     tone: 67
-    lyric: 不
+    lyric: 我
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -1542,7 +1601,7 @@ voice_parts:
   - position: 66914
     duration: 322
     tone: 66
-    lyric: 用
+    lyric: 可
     pitch:
       data:
       - {x: -40, y: 10, shape: io}
@@ -1551,11 +1610,15 @@ voice_parts:
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
     tuning: 0
     phoneme_expressions: []
-    phoneme_overrides: []
+    phoneme_overrides:
+    - index: 1
+      offset: 73
+    - index: 0
+      offset: 44
   - position: 67236
     duration: 458
     tone: 64
-    lyric: 去
+    lyric: 以
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -1568,7 +1631,7 @@ voice_parts:
   - position: 67694
     duration: 291
     tone: 66
-    lyric: 想
+    lyric: 期
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -1581,7 +1644,7 @@ voice_parts:
   - position: 67985
     duration: 676
     tone: 61
-    lyric: 下
+    lyric: 待
     pitch:
       data:
       - {x: -40, y: 50, shape: io}
@@ -1594,7 +1657,7 @@ voice_parts:
   - position: 68661
     duration: 478
     tone: 64
-    lyric: 一
+    lyric: 明
     pitch:
       data:
       - {x: -40, y: -30, shape: io}
@@ -1607,7 +1670,7 @@ voice_parts:
   - position: 69139
     duration: 458
     tone: 62
-    lyric: 首
+    lyric: 天
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -1620,7 +1683,7 @@ voice_parts:
   - position: 69597
     duration: 312
     tone: 64
-    lyric: 会
+    lyric: 又
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -1633,7 +1696,7 @@ voice_parts:
   - position: 69909
     duration: 665
     tone: 66
-    lyric: 是
+    lyric: 会
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -1646,7 +1709,7 @@ voice_parts:
   - position: 70574
     duration: 468
     tone: 73
-    lyric: 什
+    lyric: 如
     pitch:
       data:
       - {x: -40, y: -70, shape: io}
@@ -1659,7 +1722,7 @@ voice_parts:
   - position: 71042
     duration: 458
     tone: 71
-    lyric: 么
+    lyric: 何
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -1672,7 +1735,7 @@ voice_parts:
   - position: 71760
     duration: 239
     tone: 71
-    lyric: 能
+    lyric: 我
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -1685,7 +1748,7 @@ voice_parts:
   - position: 71999
     duration: 271
     tone: 73
-    lyric: 伴
+    lyric: 仰
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -1698,7 +1761,7 @@ voice_parts:
   - position: 72270
     duration: 686
     tone: 74
-    lyric: 着
+    lyric: 望
     pitch:
       data:
       - {x: -40, y: -10, shape: io}
@@ -1711,7 +1774,7 @@ voice_parts:
   - position: 72956
     duration: 489
     tone: 73
-    lyric: 满
+    lyric: 头
     pitch:
       data:
       - {x: -40, y: 10, shape: io}
@@ -1724,7 +1787,7 @@ voice_parts:
   - position: 73445
     duration: 260
     tone: 69
-    lyric: 天
+    lyric: 顶
     pitch:
       data:
       - {x: -40, y: 40, shape: io}
@@ -1737,7 +1800,7 @@ voice_parts:
   - position: 73705
     duration: 457
     tone: 69
-    lyric: 风
+    lyric: 星
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -1750,7 +1813,7 @@ voice_parts:
   - position: 74162
     duration: 666
     tone: 71
-    lyric: 声
+    lyric: 空
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -1763,7 +1826,7 @@ voice_parts:
   - position: 74828
     duration: 551
     tone: 69
-    lyric: 一
+    lyric: 无
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -1776,7 +1839,7 @@ voice_parts:
   - position: 75379
     duration: 250
     tone: 67
-    lyric: 路
+    lyric: 边
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -1789,7 +1852,7 @@ voice_parts:
   - position: 75629
     duration: 468
     tone: 66
-    lyric: 颠
+    lyric: 清
     pitch:
       data:
       - {x: -40, y: 10, shape: io}
@@ -1802,7 +1865,7 @@ voice_parts:
   - position: 76097
     duration: 301
     tone: 62
-    lyric: 簸
+    lyric: 澈
     pitch:
       data:
       - {x: -40, y: 40, shape: io}
@@ -1815,7 +1878,7 @@ voice_parts:
   - position: 76821
     duration: 458
     tone: 66
-    lyric: 乌
+    lyric: 繁
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -1828,7 +1891,7 @@ voice_parts:
   - position: 77279
     duration: 291
     tone: 67
-    lyric: 云
+    lyric: 星
     pitch:
       data:
       - {x: -40, y: -10, shape: io}
@@ -1841,7 +1904,7 @@ voice_parts:
   - position: 77570
     duration: 676
     tone: 66
-    lyric: 遮
+    lyric: 绽
     pitch:
       data:
       - {x: -40, y: 10, shape: io}
@@ -1854,7 +1917,7 @@ voice_parts:
   - position: 78246
     duration: 478
     tone: 62
-    lyric: 不
+    lyric: 放
     pitch:
       data:
       - {x: -40, y: 40, shape: io}
@@ -1867,7 +1930,7 @@ voice_parts:
   - position: 78724
     duration: 624
     tone: 64
-    lyric: 住
+    lyric: 在
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -1984,7 +2047,7 @@ voice_parts:
   - position: 114756
     duration: 260
     tone: 61
-    lyric: 听
+    lyric: 抬
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -1997,7 +2060,7 @@ voice_parts:
   - position: 115016
     duration: 229
     tone: 62
-    lyric: 觉
+    lyric: 眼
     pitch:
       data:
       - {x: -40, y: -10, shape: io}
@@ -2010,7 +2073,7 @@ voice_parts:
   - position: 115245
     duration: 479
     tone: 64
-    lyric: 慢
+    lyric: 便
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -2023,7 +2086,7 @@ voice_parts:
   - position: 115724
     duration: 270
     tone: 62
-    lyric: 慢
+    lyric: 只
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -2036,7 +2099,7 @@ voice_parts:
   - position: 115994
     duration: 686
     tone: 62
-    lyric: 变
+    lyric: 剩
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -2049,7 +2112,7 @@ voice_parts:
   - position: 116680
     duration: 333
     tone: 64
-    lyric: 钝
+    lyric: 荒
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -2062,7 +2125,7 @@ voice_parts:
   - position: 117013
     duration: 936
     tone: 62
-    lyric: 拙
+    lyric: 漠
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -2075,7 +2138,7 @@ voice_parts:
   - position: 119800
     duration: 250
     tone: 62
-    lyric: 再
+    lyric: 黑
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -2088,7 +2151,7 @@ voice_parts:
   - position: 120050
     duration: 478
     tone: 62
-    lyric: 不
+    lyric: 月
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -2101,7 +2164,7 @@ voice_parts:
   - position: 120528
     duration: 489
     tone: 59
-    lyric: 敢
+    lyric: 下
     pitch:
       data:
       - {x: -40, y: 30, shape: io}
@@ -2114,7 +2177,7 @@ voice_parts:
   - position: 121017
     duration: 707
     tone: 62
-    lyric: 听
+    lyric: 独
     pitch:
       data:
       - {x: -40, y: -30, shape: io}
@@ -2127,7 +2190,7 @@ voice_parts:
   - position: 121724
     duration: 375
     tone: 64
-    lyric: 歌
+    lyric: 身
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -2140,7 +2203,7 @@ voice_parts:
   - position: 122432
     duration: 228
     tone: 66
-    lyric: 怕
+    lyric: 穿
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -2153,7 +2216,7 @@ voice_parts:
   - position: 122660
     duration: 260
     tone: 67
-    lyric: 不
+    lyric: 行
     pitch:
       data:
       - {x: -40, y: -10, shape: io}
@@ -2166,7 +2229,7 @@ voice_parts:
   - position: 122920
     duration: 500
     tone: 66
-    lyric: 懂
+    lyric: 逝
     pitch:
       data:
       - {x: -40, y: 10, shape: io}
@@ -2179,7 +2242,7 @@ voice_parts:
   - position: 123420
     duration: 270
     tone: 64
-    lyric: 起
+    lyric: 去
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -2192,7 +2255,7 @@ voice_parts:
   - position: 123690
     duration: 676
     tone: 64
-    lyric: 承
+    lyric: 的
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -2205,7 +2268,7 @@ voice_parts:
   - position: 124366
     duration: 489
     tone: 66
-    lyric: 转
+    lyric: 空
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -2218,7 +2281,7 @@ voice_parts:
   - position: 124855
     duration: 925
     tone: 64
-    lyric: 合
+    lyric: 城
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -2270,7 +2333,7 @@ voice_parts:
   - position: 128193
     duration: 489
     tone: 62
-    lyric: 满
+    lyric: 时
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -2283,7 +2346,7 @@ voice_parts:
   - position: 128682
     duration: 447
     tone: 64
-    lyric: 足
+    lyric: 空
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -2374,7 +2437,7 @@ voice_parts:
   - position: 132041
     duration: 468
     tone: 66
-    lyric: 选
+    lyric: 读
     pitch:
       data:
       - {x: -40, y: 50, shape: io}
@@ -2387,7 +2450,7 @@ voice_parts:
   - position: 132509
     duration: 895
     tone: 69
-    lyric: 择
+    lyric: 懂
     pitch:
       data:
       - {x: -40, y: -30, shape: io}
@@ -2465,7 +2528,7 @@ voice_parts:
   - position: 136390
     duration: 718
     tone: 61
-    lyric: 俘
+    lyric: 找
     pitch:
       data:
       - {x: -40, y: 10, shape: io}
@@ -2478,7 +2541,7 @@ voice_parts:
   - position: 137108
     duration: 343
     tone: 64
-    lyric: 获
+    lyric: 回
     pitch:
       data:
       - {x: -40, y: -30, shape: io}
@@ -2491,7 +2554,7 @@ voice_parts:
   - position: 137805
     duration: 228
     tone: 62
-    lyric: 挚
+    lyric: 这
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -2504,7 +2567,7 @@ voice_parts:
   - position: 138033
     duration: 240
     tone: 64
-    lyric: 爱
+    lyric: 世
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -2517,7 +2580,7 @@ voice_parts:
   - position: 138273
     duration: 488
     tone: 66
-    lyric: 都
+    lyric: 间
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -2530,7 +2593,7 @@ voice_parts:
   - position: 138761
     duration: 479
     tone: 64
-    lyric: 会
+    lyric: 的
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -2543,7 +2606,7 @@ voice_parts:
   - position: 139240
     duration: 489
     tone: 62
-    lyric: 廉
+    lyric: 一
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -2556,7 +2619,7 @@ voice_parts:
   - position: 139729
     duration: 468
     tone: 61
-    lyric: 价
+    lyric: 切
     pitch:
       data:
       - {x: -40, y: 10, shape: io}
@@ -2569,7 +2632,7 @@ voice_parts:
   - position: 140197
     duration: 478
     tone: 62
-    lyric: 到
+    lyric: 繁
     pitch:
       data:
       - {x: -40, y: -10, shape: io}
@@ -2582,7 +2645,7 @@ voice_parts:
   - position: 140675
     duration: 489
     tone: 64
-    lyric: 不
+    lyric: 华
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -2595,7 +2658,7 @@ voice_parts:
   - position: 141164
     duration: 468
     tone: 66
-    lyric: 配
+    lyric: 与
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -2608,7 +2671,7 @@ voice_parts:
   - position: 141632
     duration: 478
     tone: 67
-    lyric: 重[ch ong]
+    lyric: 灯
     pitch:
       data:
       - {x: -40, y: -10, shape: io}
@@ -2621,7 +2684,7 @@ voice_parts:
   - position: 142110
     duration: 1987
     tone: 69
-    lyric: 播
+    lyric: 火
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -2725,7 +2788,7 @@ voice_parts:
   - position: 147385
     duration: 239
     tone: 67
-    lyric: 不
+    lyric: 串
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -2738,7 +2801,7 @@ voice_parts:
   - position: 147624
     duration: 239
     tone: 66
-    lyric: 知
+    lyric: 联
     pitch:
       data:
       - {x: -40, y: 10, shape: io}
@@ -2751,7 +2814,7 @@ voice_parts:
   - position: 147863
     duration: 479
     tone: 64
-    lyric: 放
+    lyric: 了
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -2764,7 +2827,7 @@ voice_parts:
   - position: 148342
     duration: 239
     tone: 66
-    lyric: 着
+    lyric: 时
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -2777,7 +2840,7 @@ voice_parts:
   - position: 148581
     duration: 717
     tone: 67
-    lyric: 哪
+    lyric: 间
     pitch:
       data:
       - {x: -40, y: -10, shape: io}
@@ -2790,7 +2853,7 @@ voice_parts:
   - position: 149298
     duration: 468
     tone: 64
-    lyric: 首
+    lyric: 分
     pitch:
       data:
       - {x: -40, y: 30, shape: io}
@@ -2803,7 +2866,7 @@ voice_parts:
   - position: 149766
     duration: 1675
     tone: 66
-    lyric: 歌
+    lyric: 隔
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -2816,7 +2879,7 @@ voice_parts:
   - position: 152411
     duration: 219
     tone: 62
-    lyric: 唱
+    lyric: 正
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -2829,7 +2892,7 @@ voice_parts:
   - position: 152630
     duration: 249
     tone: 61
-    lyric: 完
+    lyric: 因
     pitch:
       data:
       - {x: -40, y: 10, shape: io}
@@ -2842,7 +2905,7 @@ voice_parts:
   - position: 152879
     duration: 239
     tone: 62
-    lyric: 了
+    lyric: 目
     pitch:
       data:
       - {x: -40, y: -10, shape: io}
@@ -2855,7 +2918,7 @@ voice_parts:
   - position: 153118
     duration: 250
     tone: 66
-    lyric: 半
+    lyric: 光
     pitch:
       data:
       - {x: -40, y: -40, shape: io}
@@ -2868,7 +2931,7 @@ voice_parts:
   - position: 153368
     duration: 260
     tone: 74
-    lyric: 生
+    lyric: 与
     pitch:
       data:
       - {x: -40, y: -80, shape: io}
@@ -2881,7 +2944,7 @@ voice_parts:
   - position: 153628
     duration: 468
     tone: 73
-    lyric: 喜
+    lyric: 恐
     pitch:
       data:
       - {x: -40, y: 10, shape: io}
@@ -2894,7 +2957,7 @@ voice_parts:
   - position: 154096
     duration: 302
     tone: 69
-    lyric: 怒
+    lyric: 惧
     pitch:
       data:
       - {x: -40, y: 40, shape: io}
@@ -2907,7 +2970,7 @@ voice_parts:
   - position: 154398
     duration: 468
     tone: 69
-    lyric: 哀
+    lyric: 相
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -2920,7 +2983,7 @@ voice_parts:
   - position: 154866
     duration: 665
     tone: 71
-    lyric: 乐
+    lyric: 遇
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -2933,7 +2996,7 @@ voice_parts:
   - position: 155531
     duration: 489
     tone: 69
-    lyric: 仿
+    lyric: 才
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -2946,7 +3009,7 @@ voice_parts:
   - position: 156020
     duration: 281
     tone: 67
-    lyric: 佛
+    lyric: 要
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -2959,7 +3022,7 @@ voice_parts:
   - position: 156301
     duration: 457
     tone: 66
-    lyric: 世
+    lyric: 与
     pitch:
       data:
       - {x: -40, y: 10, shape: io}
@@ -2972,7 +3035,7 @@ voice_parts:
   - position: 156758
     duration: 333
     tone: 62
-    lyric: 界
+    lyric: 你
     pitch:
       data:
       - {x: -40, y: 40, shape: io}
@@ -2985,7 +3048,7 @@ voice_parts:
   - position: 157460
     duration: 479
     tone: 66
-    lyric: 从
+    lyric: 随
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -2998,7 +3061,7 @@ voice_parts:
   - position: 157939
     duration: 260
     tone: 67
-    lyric: 枕
+    lyric: 电
     pitch:
       data:
       - {x: -40, y: -10, shape: io}
@@ -3011,7 +3074,7 @@ voice_parts:
   - position: 158199
     duration: 696
     tone: 66
-    lyric: 边
+    lyric: 波
     pitch:
       data:
       - {x: -40, y: 10, shape: io}
@@ -3024,7 +3087,7 @@ voice_parts:
   - position: 158895
     duration: 479
     tone: 62
-    lyric: 走
+    lyric: 相
     pitch:
       data:
       - {x: -40, y: 40, shape: io}
@@ -3037,7 +3100,7 @@ voice_parts:
   - position: 159374
     duration: 385
     tone: 64
-    lyric: 过
+    lyric: 逢
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -3076,7 +3139,7 @@ voice_parts:
   - position: 160580
     duration: 250
     tone: 62
-    lyric: 从
+    lyric: 身
     pitch:
       data:
       - {x: -40, y: -50, shape: io}
@@ -3089,7 +3152,7 @@ voice_parts:
   - position: 160830
     duration: 468
     tone: 62
-    lyric: 前
+    lyric: 边
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -3141,7 +3204,7 @@ voice_parts:
   - position: 162731
     duration: 260
     tone: 67
-    lyric: 不
+    lyric: 我
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -3154,7 +3217,7 @@ voice_parts:
   - position: 162991
     duration: 229
     tone: 66
-    lyric: 需
+    lyric: 可
     pitch:
       data:
       - {x: -40, y: 10, shape: io}
@@ -3167,7 +3230,7 @@ voice_parts:
   - position: 163220
     duration: 489
     tone: 64
-    lyric: 要
+    lyric: 以
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -3180,7 +3243,7 @@ voice_parts:
   - position: 163709
     duration: 270
     tone: 66
-    lyric: 顾
+    lyric: 期
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -3193,7 +3256,7 @@ voice_parts:
   - position: 163979
     duration: 655
     tone: 61
-    lyric: 虑
+    lyric: 待
     pitch:
       data:
       - {x: -40, y: 50, shape: io}
@@ -3427,7 +3490,7 @@ voice_parts:
   - position: 172824
     duration: 468
     tone: 66
-    lyric: 屋
+    lyric: 只
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -3440,7 +3503,7 @@ voice_parts:
   - position: 173292
     duration: 291
     tone: 67
-    lyric: 顶
+    lyric: 身
     pitch:
       data:
       - {x: -40, y: -10, shape: io}
@@ -3453,7 +3516,7 @@ voice_parts:
   - position: 173583
     duration: 676
     tone: 66
-    lyric: 遮
+    lyric: 跨
     pitch:
       data:
       - {x: -40, y: 10, shape: io}
@@ -3466,7 +3529,7 @@ voice_parts:
   - position: 174259
     duration: 489
     tone: 62
-    lyric: 不
+    lyric: 时
     pitch:
       data:
       - {x: -40, y: 40, shape: io}
@@ -3479,7 +3542,7 @@ voice_parts:
   - position: 174748
     duration: 468
     tone: 64
-    lyric: 住
+    lyric: 间
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -3492,7 +3555,7 @@ voice_parts:
   - position: 175695
     duration: 488
     tone: 61
-    lyric: 那
+    lyric: 的
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -3505,7 +3568,7 @@ voice_parts:
   - position: 176183
     duration: 489
     tone: 62
-    lyric: 星
+    lyric: 长
     pitch:
       data:
       - {x: -40, y: -10, shape: io}
@@ -3622,7 +3685,7 @@ voice_parts:
   - position: 208814
     duration: 239
     tone: 67
-    lyric: 不
+    lyric: 斩
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -3635,7 +3698,7 @@ voice_parts:
   - position: 209053
     duration: 250
     tone: 66
-    lyric: 知
+    lyric: 断
     pitch:
       data:
       - {x: -40, y: 10, shape: io}
@@ -3648,7 +3711,7 @@ voice_parts:
   - position: 209303
     duration: 468
     tone: 64
-    lyric: 放
+    lyric: 了
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -3661,7 +3724,7 @@ voice_parts:
   - position: 209771
     duration: 229
     tone: 66
-    lyric: 着
+    lyric: 时
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -3674,7 +3737,7 @@ voice_parts:
   - position: 210000
     duration: 728
     tone: 67
-    lyric: 哪
+    lyric: 间
     pitch:
       data:
       - {x: -40, y: -10, shape: io}
@@ -3687,7 +3750,7 @@ voice_parts:
   - position: 210728
     duration: 457
     tone: 64
-    lyric: 首
+    lyric: 分
     pitch:
       data:
       - {x: -40, y: 30, shape: io}
@@ -3700,7 +3763,7 @@ voice_parts:
   - position: 211185
     duration: 1643
     tone: 66
-    lyric: 歌
+    lyric: 隔
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -3713,7 +3776,7 @@ voice_parts:
   - position: 213858
     duration: 229
     tone: 62
-    lyric: 唱
+    lyric: 就
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -3726,7 +3789,7 @@ voice_parts:
   - position: 214087
     duration: 260
     tone: 61
-    lyric: 完
+    lyric: 算
     pitch:
       data:
       - {x: -40, y: 10, shape: io}
@@ -3739,7 +3802,7 @@ voice_parts:
   - position: 214347
     duration: 218
     tone: 62
-    lyric: 了
+    lyric: 目
     pitch:
       data:
       - {x: -40, y: -10, shape: io}
@@ -3752,7 +3815,7 @@ voice_parts:
   - position: 214565
     duration: 250
     tone: 66
-    lyric: 半
+    lyric: 光
     pitch:
       data:
       - {x: -40, y: -40, shape: io}
@@ -3765,7 +3828,7 @@ voice_parts:
   - position: 214815
     duration: 249
     tone: 74
-    lyric: 生
+    lyric: 与
     pitch:
       data:
       - {x: -40, y: -80, shape: io}
@@ -3778,7 +3841,7 @@ voice_parts:
   - position: 215064
     duration: 468
     tone: 73
-    lyric: 喜
+    lyric: 恐
     pitch:
       data:
       - {x: -40, y: 10, shape: io}
@@ -3791,7 +3854,7 @@ voice_parts:
   - position: 215532
     duration: 260
     tone: 69
-    lyric: 怒
+    lyric: 惧
     pitch:
       data:
       - {x: -40, y: 40, shape: io}
@@ -3804,7 +3867,7 @@ voice_parts:
   - position: 215792
     duration: 479
     tone: 69
-    lyric: 哀
+    lyric: 相
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -3817,7 +3880,7 @@ voice_parts:
   - position: 216271
     duration: 697
     tone: 71
-    lyric: 乐
+    lyric: 遇
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -3830,7 +3893,7 @@ voice_parts:
   - position: 216968
     duration: 488
     tone: 69
-    lyric: 仿
+    lyric: 也
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -3843,7 +3906,7 @@ voice_parts:
   - position: 217456
     duration: 292
     tone: 67
-    lyric: 佛
+    lyric: 要
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -3856,7 +3919,7 @@ voice_parts:
   - position: 217748
     duration: 457
     tone: 66
-    lyric: 世
+    lyric: 就
     pitch:
       data:
       - {x: -40, y: 10, shape: io}
@@ -3869,7 +3932,7 @@ voice_parts:
   - position: 218205
     duration: 281
     tone: 62
-    lyric: 界
+    lyric: 回
     pitch:
       data:
       - {x: -40, y: 40, shape: io}
@@ -3882,7 +3945,7 @@ voice_parts:
   - position: 218902
     duration: 478
     tone: 66
-    lyric: 从
+    lyric: 这
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -3895,7 +3958,7 @@ voice_parts:
   - position: 219380
     duration: 260
     tone: 67
-    lyric: 枕
+    lyric: 将
     pitch:
       data:
       - {x: -40, y: -10, shape: io}
@@ -3908,7 +3971,7 @@ voice_parts:
   - position: 219640
     duration: 687
     tone: 66
-    lyric: 边
+    lyric: 尽
     pitch:
       data:
       - {x: -40, y: 10, shape: io}
@@ -3921,7 +3984,7 @@ voice_parts:
   - position: 220327
     duration: 489
     tone: 62
-    lyric: 走
+    lyric: 山
     pitch:
       data:
       - {x: -40, y: 40, shape: io}
@@ -3934,7 +3997,7 @@ voice_parts:
   - position: 220816
     duration: 395
     tone: 64
-    lyric: 过
+    lyric: 河
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -3973,7 +4036,7 @@ voice_parts:
   - position: 222022
     duration: 260
     tone: 62
-    lyric: 从
+    lyric: 身
     pitch:
       data:
       - {x: -40, y: -50, shape: io}
@@ -3986,7 +4049,7 @@ voice_parts:
   - position: 222282
     duration: 447
     tone: 62
-    lyric: 前
+    lyric: 边
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -4038,7 +4101,7 @@ voice_parts:
   - position: 224170
     duration: 249
     tone: 67
-    lyric: 不
+    lyric: 我
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -4051,7 +4114,7 @@ voice_parts:
   - position: 224419
     duration: 240
     tone: 66
-    lyric: 需
+    lyric: 想
     pitch:
       data:
       - {x: -40, y: 10, shape: io}
@@ -4064,7 +4127,7 @@ voice_parts:
   - position: 224659
     duration: 478
     tone: 64
-    lyric: 要
+    lyric: 可
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -4077,7 +4140,7 @@ voice_parts:
   - position: 225137
     duration: 270
     tone: 66
-    lyric: 顾
+    lyric: 以
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -4090,7 +4153,7 @@ voice_parts:
   - position: 225407
     duration: 697
     tone: 61
-    lyric: 虑
+    lyric: 再
     pitch:
       data:
       - {x: -40, y: 50, shape: io}
@@ -4103,7 +4166,7 @@ voice_parts:
   - position: 226104
     duration: 489
     tone: 64
-    lyric: 明
+    lyric: 与
     pitch:
       data:
       - {x: -40, y: -30, shape: io}
@@ -4116,7 +4179,7 @@ voice_parts:
   - position: 226593
     duration: 458
     tone: 62
-    lyric: 天
+    lyric: 你
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -4129,7 +4192,7 @@ voice_parts:
   - position: 227051
     duration: 270
     tone: 64
-    lyric: 又
+    lyric: 说
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -4142,7 +4205,7 @@ voice_parts:
   - position: 227321
     duration: 686
     tone: 66
-    lyric: 会
+    lyric: 些
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -4155,7 +4218,7 @@ voice_parts:
   - position: 228007
     duration: 489
     tone: 73
-    lyric: 如
+    lyric: 什
     pitch:
       data:
       - {x: -40, y: -70, shape: io}
@@ -4168,7 +4231,7 @@ voice_parts:
   - position: 228496
     duration: 354
     tone: 71
-    lyric: 何
+    lyric: 么
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -4181,7 +4244,7 @@ voice_parts:
   - position: 229203
     duration: 229
     tone: 71
-    lyric: 任
+    lyric: 我
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -4194,7 +4257,7 @@ voice_parts:
   - position: 229432
     duration: 260
     tone: 73
-    lyric: 电
+    lyric: 仰
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -4207,7 +4270,7 @@ voice_parts:
   - position: 229692
     duration: 728
     tone: 74
-    lyric: 波
+    lyric: 望
     pitch:
       data:
       - {x: -40, y: -10, shape: io}
@@ -4220,7 +4283,7 @@ voice_parts:
   - position: 230420
     duration: 479
     tone: 73
-    lyric: 随
+    lyric: 头
     pitch:
       data:
       - {x: -40, y: 10, shape: io}
@@ -4233,7 +4296,7 @@ voice_parts:
   - position: 230899
     duration: 270
     tone: 69
-    lyric: 着
+    lyric: 顶
     pitch:
       data:
       - {x: -40, y: 40, shape: io}
@@ -4246,7 +4309,7 @@ voice_parts:
   - position: 231169
     duration: 468
     tone: 69
-    lyric: 风
+    lyric: 星
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -4259,7 +4322,7 @@ voice_parts:
   - position: 231637
     duration: 624
     tone: 71
-    lyric: 声
+    lyric: 空
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
@@ -4272,7 +4335,7 @@ voice_parts:
   - position: 232261
     duration: 551
     tone: 69
-    lyric: 一
+    lyric: 赤
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -4285,7 +4348,7 @@ voice_parts:
   - position: 232812
     duration: 291
     tone: 67
-    lyric: 路
+    lyric: 色
     pitch:
       data:
       - {x: -40, y: 20, shape: io}
@@ -4298,7 +4361,7 @@ voice_parts:
   - position: 233103
     duration: 458
     tone: 66
-    lyric: 穿
+    lyric: 如
     pitch:
       data:
       - {x: -40, y: 10, shape: io}
@@ -6299,15 +6362,16 @@ voice_parts:
     - 63670
     - 63675
     - 63690
-    - 63700
     - 63705
     - 63745
     - 63750
     - 63755
     - 63770
     - 63795
+    - 63930
+    - 63935
+    - 63940
     - 64150
-    - 64160
     - 64175
     - 64185
     - 64190
@@ -6508,9 +6572,6 @@ voice_parts:
     - 68785
     - 68805
     - 68820
-    - 68850
-    - 68855
-    - 68865
     - 68885
     - 68925
     - 68935
@@ -6537,7 +6598,6 @@ voice_parts:
     - 69465
     - 69475
     - 69485
-    - 69495
     - 69530
     - 69540
     - 69550
@@ -6641,7 +6701,6 @@ voice_parts:
     - 71440
     - 71470
     - 71800
-    - 71810
     - 71835
     - 71840
     - 71855
@@ -7389,6 +7448,7 @@ voice_parts:
     - 117910
     - 117915
     - 117920
+    - 119825
     - 119830
     - 119835
     - 119850
@@ -9942,6 +10002,9 @@ voice_parts:
     - 203895
     - 203925
     - 203935
+    - 205990
+    - 205995
+    - 206000
     - 206225
     - 206230
     - 206255
@@ -10078,7 +10141,6 @@ voice_parts:
     - 209110
     - 209115
     - 209120
-    - 209125
     - 209135
     - 209170
     - 209180
@@ -10106,9 +10168,6 @@ voice_parts:
     - 209525
     - 209540
     - 209565
-    - 209575
-    - 209600
-    - 209610
     - 209615
     - 209625
     - 209635
@@ -10229,7 +10288,6 @@ voice_parts:
     - 212295
     - 212305
     - 212340
-    - 212350
     - 212400
     - 212405
     - 212415
@@ -10243,14 +10301,12 @@ voice_parts:
     - 212530
     - 212535
     - 212550
-    - 212555
     - 212585
     - 212590
     - 212600
     - 212610
     - 212615
     - 212625
-    - 212630
     - 212640
     - 212670
     - 212675
@@ -11130,37 +11186,39 @@ voice_parts:
     - 232765
     - 232775
     - 232785
-    - 232850
-    - 232900
-    - 232910
-    - 232950
-    - 232955
-    - 232965
-    - 232970
-    - 233030
-    - 233040
-    - 233045
-    - 233060
+    - 232845
+    - 233015
+    - 233055
     - 233065
-    - 233070
     - 233075
-    - 233140
-    - 233175
+    - 233080
+    - 233090
+    - 233095
+    - 233100
+    - 233115
+    - 233120
+    - 233170
+    - 233185
     - 233190
-    - 233205
-    - 233215
-    - 233230
-    - 233235
+    - 233210
+    - 233250
     - 233265
+    - 233275
     - 233280
-    - 233310
-    - 233325
-    - 233350
-    - 233360
+    - 233355
     - 233365
+    - 233395
+    - 233400
+    - 233405
+    - 233415
+    - 233420
+    - 233425
+    - 233430
+    - 233435
+    - 233440
+    - 233445
     - 233470
     - 233525
-    - 233530
     - 233535
     - 233595
     - 233620
@@ -13337,15 +13395,16 @@ voice_parts:
     - -8
     - -10
     - -10
-    - -7
     - -5
     - 33
     - 36
     - 38
     - 38
     - 24
+    - 12
+    - 1200
+    - 11
     - -7
-    - -5
     - 1
     - 1
     - 0
@@ -13546,9 +13605,6 @@ voice_parts:
     - -4
     - -2
     - 0
-    - 6
-    - 6
-    - 8
     - 12
     - 24
     - 25
@@ -13575,7 +13631,6 @@ voice_parts:
     - 5
     - 5
     - 4
-    - 0
     - -26
     - -26
     - -18
@@ -13679,7 +13734,6 @@ voice_parts:
     - 7
     - 7
     - 6
-    - 2
     - -11
     - -12
     - -12
@@ -14428,6 +14482,7 @@ voice_parts:
     - 96
     - 96
     - 0
+    - 23
     - 0
     - -11
     - -11
@@ -16980,6 +17035,9 @@ voice_parts:
     - 54
     - -232
     - -232
+    - -11
+    - 1200
+    - -10
     - 14
     - 14
     - 0
@@ -17116,7 +17174,6 @@ voice_parts:
     - 2
     - 1
     - -2
-    - -6
     - -17
     - -68
     - -86
@@ -17144,9 +17201,6 @@ voice_parts:
     - -14
     - -14
     - -8
-    - -4
-    - 12
-    - 16
     - 19
     - 19
     - 17
@@ -17267,7 +17321,6 @@ voice_parts:
     - 8
     - 10
     - 10
-    - 8
     - -10
     - -11
     - -13
@@ -17281,14 +17334,12 @@ voice_parts:
     - 49
     - 48
     - 36
-    - 30
     - -32
     - -45
     - -61
     - -73
     - -76
     - -76
-    - -73
     - -61
     - 34
     - 46
@@ -18168,36 +18219,38 @@ voice_parts:
     - -221
     - -267
     - -271
-    - 10
-    - 4
-    - 0
-    - -25
-    - -26
-    - -27
-    - -30
-    - -70
-    - -78
-    - -81
-    - -90
-    - -94
-    - -94
-    - -98
-    - 4
-    - 0
-    - -4
-    - -4
-    - -2
+    - -12
+    - -15
+    - -12
+    - -11
     - 2
-    - 4
-    - 16
-    - 22
-    - 34
-    - 41
-    - 55
-    - 55
-    - 52
+    - 12
+    - 38
+    - -28
+    - -16
+    - -4
+    - -3
+    - -3
+    - 5
+    - 5
+    - 15
+    - 15
+    - 23
+    - 23
+    - 26
+    - 26
+    - 23
+    - 5
+    - 5
+    - 1
+    - 1
+    - -6
+    - -6
+    - -10
+    - -17
+    - -25
+    - -172
     - -241
-    - -381
     - -381
     - -395
     - 2
@@ -18506,8 +18559,32 @@ voice_parts:
   - xs: []
     ys: []
     abbr: brec
-  - xs: []
-    ys: []
+  - xs:
+    - 48445
+    - 48450
+    - 86635
+    - 86640
+    - 144690
+    - 144695
+    - 179680
+    - 179685
+    - 206190
+    - 206195
+    - 245170
+    - 245175
+    ys:
+    - 150
+    - 193
+    - 193
+    - 150
+    - 150
+    - 184
+    - 184
+    - 150
+    - 150
+    - 186
+    - 186
+    - 150
     abbr: voic
   - xs: []
     ys: []
@@ -18534,31 +18611,55 @@ voice_parts:
     - 17250
     - 17265
     - 17270
-    - 17330
-    - 17335
-    - 17385
-    - 17395
+    - 17285
+    - 17290
+    - 17350
     - 17430
-    - 17490
-    - 17500
-    - 17515
+    - 17510
     - 17520
-    - 17550
-    - 17560
+    - 17555
     - 17580
-    - 17595
-    - 17680
-    - 17685
-    - 17920
-    - 17925
+    - 17610
+    - 17630
+    - 17650
+    - 17770
+    - 17775
+    - 17795
+    - 17800
+    - 17890
+    - 17895
+    - 17955
+    - 17960
+    - 17965
+    - 17970
+    - 18030
+    - 18105
+    - 18130
+    - 18145
+    - 18170
+    - 18180
+    - 18195
+    - 18205
+    - 18210
+    - 18215
+    - 18230
+    - 18235
+    - 18245
+    - 18250
     - 18650
     - 18655
     - 18870
-    - 18955
-    - 19020
-    - 19090
-    - 19175
-    - 19195
+    - 18910
+    - 18915
+    - 18920
+    - 19115
+    - 19135
+    - 19185
+    - 19205
+    - 19230
+    - 19235
+    - 19610
+    - 19615
     - 20645
     - 20650
     - 20655
@@ -18680,16 +18781,20 @@ voice_parts:
     - 31820
     - 31850
     - 31860
-    - 32535
-    - 32675
-    - 32805
-    - 32830
-    - 32920
-    - 32935
-    - 32950
-    - 32960
-    - 33025
-    - 33030
+    - 32145
+    - 32150
+    - 32160
+    - 32165
+    - 32205
+    - 32220
+    - 32285
+    - 32330
+    - 32400
+    - 32415
+    - 32585
+    - 32590
+    - 33140
+    - 33145
     - 33430
     - 33435
     - 33440
@@ -18724,19 +18829,11 @@ voice_parts:
     - 35215
     - 35250
     - 35255
-    - 36150
-    - 36190
-    - 36225
-    - 36240
-    - 36250
-    - 36255
-    - 36290
-    - 36310
-    - 36355
-    - 36405
+    - 36075
+    - 36080
+    - 36445
+    - 36450
     - 36465
-    - 36580
-    - 36610
     - 36650
     - 36675
     - 36700
@@ -18759,291 +18856,1064 @@ voice_parts:
     - 38485
     - 38505
     - 38510
-    - 41690
-    - 41695
-    - 41760
-    - 41850
-    - 41995
-    - 42190
-    - 42195
-    - 42245
-    - 42255
-    - 42265
-    - 42270
-    - 42275
-    - 42280
-    - 42285
-    - 42325
-    - 42330
-    - 42345
-    - 42350
-    - 42355
-    - 42370
-    - 42375
-    - 42390
-    - 42395
-    - 42400
-    - 42420
-    - 42425
-    - 42430
-    - 42445
-    - 42450
-    - 42460
-    - 42810
-    - 42830
-    - 42855
-    - 42875
-    - 43380
-    - 43385
-    - 43430
-    - 43500
-    - 43890
-    - 43925
-    - 43975
-    - 44030
-    - 44075
-    - 44580
-    - 44585
-    - 44705
-    - 44750
-    - 44755
-    - 44780
-    - 44795
-    - 44825
-    - 44880
-    - 44900
-    - 45210
-    - 45255
-    - 45270
-    - 45285
-    - 45365
-    - 45390
-    - 45410
-    - 45485
-    - 45490
-    - 45495
-    - 45500
-    - 45510
-    - 45515
-    - 46145
-    - 46150
+    - 39535
+    - 39540
+    - 40335
+    - 40385
+    - 40630
+    - 40690
+    - 40760
+    - 41665
+    - 41670
+    - 44100
+    - 44105
+    - 45575
+    - 45580
+    - 45600
+    - 45605
+    - 46015
+    - 46020
+    - 46820
+    - 46825
+    - 47135
+    - 47140
+    - 47205
+    - 47210
+    - 47830
+    - 47835
+    - 47955
+    - 47960
     - 48540
     - 48545
-    - 48725
-    - 48750
-    - 48755
-    - 48770
-    - 48775
-    - 48845
+    - 48605
+    - 48610
+    - 48655
+    - 48720
+    - 48760
     - 48860
-    - 48890
-    - 48900
-    - 48945
-    - 48965
-    - 49005
-    - 49070
     - 49085
-    - 49105
-    - 49125
-    - 49170
-    - 49190
-    - 49255
-    - 49275
+    - 49310
+    - 49315
+    - 49335
+    - 49340
+    - 49465
+    - 49480
+    - 49555
+    - 49560
     - 49595
     - 49610
     - 51085
     - 51135
+    - 51325
+    - 51330
+    - 51335
     - 51345
-    - 51350
-    - 52605
-    - 52665
-    - 52760
-    - 52825
-    - 53225
-    - 53360
-    - 53435
-    - 53510
-    - 53545
-    - 53660
-    - 53700
-    - 53775
-    - 54885
-    - 54930
-    - 54935
-    - 54955
-    - 54965
-    - 54970
-    - 54990
-    - 54995
-    - 55000
-    - 56370
-    - 56375
-    - 57220
-    - 57225
+    - 51380
+    - 51385
+    - 54925
+    - 54945
+    - 55100
+    - 55105
+    - 56305
+    - 56310
+    - 57335
+    - 57340
+    - 57345
+    - 57350
+    - 57765
+    - 57770
+    - 57970
+    - 57975
+    - 58035
+    - 58040
+    - 58105
+    - 58110
+    - 58820
+    - 58825
+    - 58830
+    - 59635
+    - 59640
+    - 59945
+    - 59950
+    - 60995
+    - 61000
+    - 61030
+    - 61035
     - 61290
-    - 61295
     - 61300
-    - 61310
-    - 61325
-    - 61345
-    - 61365
-    - 61370
-    - 61460
-    - 61490
-    - 61525
-    - 61650
-    - 62050
-    - 62075
-    - 62910
-    - 62915
-    - 62975
-    - 63005
-    - 63070
-    - 63155
-    - 63190
-    - 63425
-    - 63430
-    - 63815
-    - 63820
-    - 63825
-    - 63835
+    - 62190
+    - 62195
+    - 62895
+    - 62900
     - 63840
     - 63845
     - 63850
-    - 65220
-    - 65225
-    - 65230
-    - 65235
-    - 65270
-    - 65285
-    - 65305
-    - 65320
-    - 65335
-    - 65345
-    - 65935
-    - 65945
-    - 65970
-    - 65985
+    - 64035
+    - 64040
+    - 64045
+    - 64050
+    - 64065
+    - 64070
+    - 64075
+    - 64080
+    - 64085
+    - 64090
+    - 64095
+    - 64100
+    - 64140
+    - 64225
+    - 64530
+    - 64535
+    - 64540
+    - 64550
+    - 64555
+    - 64565
+    - 64570
+    - 64575
+    - 64580
+    - 64645
+    - 64650
+    - 65775
+    - 65780
+    - 66045
+    - 66050
+    - 66365
+    - 66370
+    - 66380
+    - 66385
+    - 66420
+    - 66425
     - 66535
     - 66540
-    - 67220
-    - 67250
-    - 67610
-    - 67795
-    - 67820
-    - 67870
-    - 67895
-    - 67975
-    - 68000
-    - 68120
-    - 68135
-    - 68225
-    - 68240
-    - 69750
-    - 69785
-    - 69860
-    - 69920
-    - 70315
-    - 70335
-    - 70390
-    - 70400
-    - 70405
-    - 70410
-    - 70425
-    - 70430
-    - 70450
+    - 66610
+    - 66615
+    - 68020
+    - 68025
+    - 69025
+    - 69030
+    - 69090
+    - 69095
+    - 69100
+    - 69105
+    - 69110
+    - 69555
+    - 69560
+    - 70035
+    - 70040
     - 70455
     - 70460
-    - 70465
-    - 70470
-    - 70475
-    - 70480
-    - 70490
-    - 70540
-    - 70545
-    - 70550
     - 70555
     - 70560
-    - 70565
     - 70570
-    - 70635
-    - 70640
-    - 70675
-    - 70680
-    - 70755
-    - 70760
+    - 70575
+    - 71030
+    - 71035
+    - 71045
+    - 71050
+    - 71505
+    - 71510
+    - 71540
     - 71545
     - 71550
-    - 73380
-    - 73385
-    - 73925
-    - 73945
-    - 74020
-    - 74065
-    - 74105
-    - 74110
-    - 74115
-    - 75640
-    - 75645
-    - 75650
-    - 75660
-    - 75675
-    - 75685
-    - 75695
-    - 75730
-    - 75760
-    - 75780
-    - 75830
-    - 75845
-    - 75885
-    - 75895
-    - 75900
-    - 75940
-    - 75955
-    - 75965
-    - 76000
-    - 76025
-    - 76030
-    - 76420
+    - 71695
+    - 71700
+    - 71710
+    - 72190
+    - 72265
+    - 72440
+    - 72465
+    - 72530
+    - 72560
+    - 72805
+    - 72895
+    - 72900
+    - 73425
+    - 73430
+    - 74050
+    - 74055
+    - 76425
     - 76430
     - 76445
     - 76450
+    - 76700
     - 76705
-    - 76710
-    - 76745
-    - 76760
-    - 77320
-    - 77400
-    - 78870
-    - 78925
-    - 78975
-    - 79010
-    - 79155
-    - 79170
-    - 79290
-    - 79320
-    - 79345
+    - 78210
+    - 78215
+    - 79240
+    - 79245
+    - 79355
+    - 79360
     - 79370
     - 79375
     - 79665
     - 79670
-    - 81635
-    - 81665
-    - 81705
-    - 81735
-    - 81770
-    - 81795
-    - 81910
-    - 81915
-    - 81975
-    - 81985
-    - 81990
+    - 79680
+    - 79685
+    - 79725
+    - 79875
+    - 79965
+    - 79975
+    - 79995
+    - 80000
+    - 80010
+    - 80015
+    - 80020
+    - 80050
+    - 80070
+    - 80095
+    - 80105
+    - 80115
+    - 80125
+    - 80140
+    - 80160
+    - 80170
+    - 80185
+    - 80190
+    - 80200
+    - 80205
+    - 80210
+    - 80220
+    - 80225
+    - 80240
+    - 80430
+    - 80440
+    - 80445
+    - 80610
+    - 80615
+    - 80650
+    - 80680
+    - 80720
+    - 80860
+    - 80960
+    - 81030
+    - 81140
+    - 81145
+    - 81300
+    - 81320
+    - 81340
+    - 81350
+    - 81365
+    - 81380
+    - 81395
+    - 81405
+    - 81410
+    - 81420
+    - 81440
+    - 81460
+    - 81580
+    - 81590
+    - 81610
+    - 81650
+    - 81675
+    - 81720
+    - 81750
+    - 81895
+    - 81930
+    - 81950
+    - 81980
     - 81995
+    - 82010
+    - 82025
     - 82060
-    - 82065
     - 82070
+    - 82085
+    - 82095
+    - 82125
+    - 82130
+    - 82370
+    - 82500
+    - 82535
+    - 82570
+    - 82610
+    - 82720
+    - 82760
+    - 82840
+    - 82855
+    - 82870
+    - 82960
+    - 82975
+    - 82995
+    - 83000
+    - 83020
+    - 83030
+    - 83035
+    - 83040
+    - 83150
+    - 83155
     - 83190
     - 83195
+    - 112015
+    - 112020
+    - 112060
+    - 112065
+    - 112440
+    - 112445
+    - 113305
+    - 113310
+    - 113880
+    - 113885
+    - 116785
+    - 116790
+    - 117995
+    - 118000
+    - 119620
+    - 119630
+    - 119665
+    - 119670
+    - 120345
+    - 120350
+    - 120405
+    - 120410
+    - 120485
+    - 120490
+    - 120615
+    - 120620
+    - 120645
+    - 120665
+    - 120680
+    - 120695
+    - 120705
+    - 120845
+    - 120855
+    - 121000
+    - 121005
+    - 121010
+    - 121555
+    - 121560
+    - 121585
+    - 121590
+    - 121655
+    - 121660
+    - 121720
+    - 121725
+    - 122185
+    - 122190
+    - 122220
+    - 122225
+    - 122340
+    - 122345
+    - 122375
+    - 122380
+    - 122525
+    - 122530
+    - 122535
+    - 122540
+    - 122560
+    - 122570
+    - 122585
+    - 122650
+    - 122655
+    - 122780
+    - 122785
+    - 122830
+    - 122840
+    - 122870
+    - 122885
+    - 122935
+    - 122940
+    - 125930
+    - 125935
+    - 126120
+    - 126125
+    - 127185
+    - 127190
+    - 127310
+    - 127315
+    - 128045
+    - 128050
+    - 128055
+    - 128100
+    - 128135
+    - 128155
+    - 128180
+    - 128185
+    - 128190
+    - 128195
+    - 128200
+    - 128230
+    - 128290
+    - 128400
+    - 128595
+    - 128600
+    - 129085
+    - 129090
+    - 129140
+    - 129145
+    - 129430
+    - 129435
+    - 129440
+    - 129450
+    - 129455
+    - 129575
+    - 129580
+    - 129605
+    - 129610
+    - 129620
+    - 129625
+    - 129750
+    - 129765
+    - 129770
+    - 129810
+    - 129830
+    - 129870
+    - 129875
+    - 129880
+    - 129885
+    - 129915
+    - 129920
+    - 130010
+    - 130015
+    - 130020
+    - 130095
+    - 130100
+    - 130150
+    - 130155
+    - 130210
+    - 130215
+    - 130655
+    - 130660
+    - 130665
+    - 130670
+    - 130965
+    - 130970
+    - 131365
+    - 131370
+    - 131420
+    - 131425
+    - 131785
+    - 131790
+    - 131970
+    - 131975
+    - 132315
+    - 132320
+    - 133395
+    - 133400
+    - 133815
+    - 133820
+    - 133825
+    - 133840
+    - 133845
+    - 133855
+    - 133860
+    - 133875
+    - 133885
+    - 133910
+    - 133915
+    - 133935
+    - 133940
+    - 133985
+    - 133990
+    - 134040
+    - 134045
+    - 134060
+    - 134065
+    - 134090
+    - 134095
+    - 134120
+    - 134130
+    - 134160
+    - 134165
+    - 134170
+    - 134185
+    - 134235
+    - 134240
+    - 134245
+    - 134250
+    - 134335
+    - 134340
+    - 134455
+    - 134460
+    - 134900
+    - 134945
+    - 135115
+    - 135120
+    - 135150
+    - 135155
+    - 135535
+    - 135540
+    - 136335
+    - 136385
+    - 136630
+    - 136690
+    - 136760
+    - 137665
+    - 137670
+    - 140055
+    - 140060
+    - 141890
+    - 141895
+    - 141970
+    - 141975
+    - 144020
+    - 144025
+    - 144540
+    - 144545
+    - 144550
+    - 144555
+    - 144560
+    - 144575
+    - 144670
+    - 144675
+    - 144690
+    - 144700
+    - 144715
+    - 144745
+    - 144755
+    - 144790
+    - 144800
+    - 144820
+    - 144865
+    - 144895
+    - 144935
+    - 144995
+    - 145040
+    - 145085
+    - 145180
+    - 145185
+    - 145620
+    - 145715
+    - 145800
+    - 145945
+    - 146675
+    - 146680
+    - 146775
+    - 146805
+    - 146950
+    - 147075
+    - 147130
+    - 147135
+    - 147325
+    - 147330
+    - 147335
+    - 147345
+    - 147380
+    - 147385
+    - 150925
+    - 150945
+    - 151100
+    - 151105
+    - 152305
+    - 152310
+    - 152335
+    - 152340
+    - 153320
+    - 153325
+    - 153330
+    - 153350
+    - 153355
+    - 153375
+    - 153385
+    - 153390
+    - 153410
+    - 153430
+    - 153435
+    - 153525
+    - 153530
+    - 153630
+    - 153635
+    - 153695
+    - 153700
+    - 153775
+    - 153800
+    - 153880
+    - 153895
+    - 153930
+    - 153940
+    - 154010
+    - 154015
+    - 154375
+    - 154380
+    - 154385
+    - 154390
+    - 154455
+    - 154490
+    - 154495
+    - 155370
+    - 155375
+    - 155520
+    - 155525
+    - 155540
+    - 155600
+    - 155615
+    - 155945
+    - 156005
+    - 156740
+    - 156745
+    - 156780
+    - 156800
+    - 156930
+    - 156955
+    - 156980
+    - 157070
+    - 157075
+    - 159885
+    - 159890
+    - 160035
+    - 160040
+    - 160045
+    - 160050
+    - 160065
+    - 160070
+    - 160075
+    - 160080
+    - 160095
+    - 160105
+    - 160110
+    - 160115
+    - 160140
+    - 160160
+    - 160210
+    - 160260
+    - 160265
+    - 160270
+    - 160485
+    - 160490
+    - 160565
+    - 160570
+    - 160575
+    - 160580
+    - 161140
+    - 161145
+    - 162015
+    - 162020
+    - 162415
+    - 162420
+    - 162565
+    - 162570
+    - 162610
+    - 162615
+    - 162700
+    - 162705
+    - 163965
+    - 163970
+    - 164620
+    - 164625
+    - 165030
+    - 165035
+    - 165145
+    - 165150
+    - 165565
+    - 165570
+    - 166540
+    - 166545
+    - 166555
+    - 166595
+    - 166605
+    - 166830
+    - 166835
+    - 166845
+    - 166850
+    - 166860
+    - 166870
+    - 166890
+    - 166895
+    - 167120
+    - 167125
+    - 167540
+    - 167545
+    - 167550
+    - 167680
+    - 167685
+    - 168270
+    - 168275
+    - 168455
+    - 168515
+    - 168765
+    - 168770
+    - 169730
+    - 169735
+    - 169740
+    - 169845
+    - 169850
+    - 169860
+    - 169865
+    - 170045
+    - 170050
+    - 172475
+    - 172480
+    - 172700
+    - 172705
+    - 172740
+    - 172745
+    - 173100
+    - 173105
+    - 173300
+    - 173305
+    - 173675
+    - 173710
+    - 173755
+    - 173775
+    - 174035
+    - 174040
+    - 174075
+    - 174085
+    - 174100
+    - 174210
+    - 174215
+    - 174275
+    - 174280
+    - 174385
+    - 174410
+    - 174565
+    - 174580
+    - 174660
+    - 174665
+    - 174815
+    - 174820
+    - 174930
+    - 174975
+    - 175040
+    - 175060
+    - 175100
+    - 175110
+    - 175170
+    - 175180
+    - 175230
+    - 175235
+    - 175240
+    - 175245
+    - 175355
+    - 175360
+    - 175370
+    - 175375
+    - 175665
+    - 175670
+    - 175680
+    - 175685
+    - 175725
+    - 175875
+    - 175965
+    - 175975
+    - 175995
+    - 176000
+    - 176010
+    - 176015
+    - 176020
+    - 176050
+    - 176070
+    - 176095
+    - 176105
+    - 176115
+    - 176125
+    - 176140
+    - 176160
+    - 176170
+    - 176185
+    - 176190
+    - 176200
+    - 176205
+    - 176210
+    - 176220
+    - 176225
+    - 176240
+    - 176430
+    - 176440
+    - 176445
+    - 176610
+    - 176615
+    - 176650
+    - 176680
+    - 176720
+    - 176860
+    - 176960
+    - 177030
+    - 177140
+    - 177145
+    - 177300
+    - 177320
+    - 177340
+    - 177350
+    - 177365
+    - 177380
+    - 177395
+    - 177405
+    - 177410
+    - 177420
+    - 177440
+    - 177460
+    - 177580
+    - 177590
+    - 177610
+    - 177650
+    - 177675
+    - 177720
+    - 177750
+    - 177895
+    - 177930
+    - 177950
+    - 177980
+    - 177995
+    - 178010
+    - 178025
+    - 178060
+    - 178070
+    - 178085
+    - 178095
+    - 178125
+    - 178130
+    - 178370
+    - 178500
+    - 178535
+    - 178570
+    - 178610
+    - 178720
+    - 178760
+    - 178840
+    - 178855
+    - 178870
+    - 178960
+    - 178975
+    - 178995
+    - 179000
+    - 179020
+    - 179030
+    - 179035
+    - 179040
+    - 179150
+    - 179155
+    - 179190
+    - 179195
+    - 206160
+    - 206165
+    - 206505
+    - 206510
+    - 206610
+    - 206620
+    - 206625
+    - 206655
+    - 206660
+    - 206695
+    - 206700
+    - 206750
+    - 206755
+    - 206885
+    - 206890
+    - 207260
+    - 207265
+    - 207645
+    - 207655
+    - 208695
+    - 208700
+    - 208750
+    - 208755
+    - 209535
+    - 209540
+    - 209555
+    - 209565
+    - 209690
+    - 209695
+    - 209715
+    - 209720
+    - 209930
+    - 209935
+    - 210005
+    - 210010
+    - 215005
+    - 215010
+    - 215155
+    - 215175
+    - 215425
+    - 215430
+    - 216505
+    - 216510
+    - 216550
+    - 216555
+    - 216575
+    - 216580
+    - 216600
+    - 216605
+    - 216610
+    - 216625
+    - 216670
+    - 216690
+    - 216705
+    - 216720
+    - 216745
+    - 216760
+    - 216890
+    - 216895
+    - 216900
+    - 216915
+    - 216925
+    - 216990
+    - 217035
+    - 217065
+    - 217095
+    - 217125
+    - 217145
+    - 217205
+    - 217220
+    - 217455
+    - 217475
+    - 217565
+    - 217570
+    - 217685
+    - 217690
+    - 217840
+    - 218000
+    - 218005
+    - 218085
+    - 218090
+    - 218560
+    - 218565
+    - 218655
+    - 218660
+    - 218715
+    - 218740
+    - 218865
+    - 218870
+    - 218970
+    - 218975
+    - 219085
+    - 219090
+    - 219505
+    - 219510
+    - 220830
+    - 220835
+    - 221060
+    - 221065
+    - 221460
+    - 221465
+    - 221600
+    - 221670
+    - 222050
+    - 222075
+    - 228035
+    - 228040
+    - 228215
+    - 228220
+    - 229065
+    - 229070
+    - 229250
+    - 229255
+    - 229295
+    - 229300
+    - 229760
+    - 229765
+    - 230565
+    - 230570
+    - 230915
+    - 230920
+    - 230970
+    - 231080
+    - 231085
+    - 231185
+    - 231190
+    - 231285
+    - 231290
+    - 231520
+    - 231525
+    - 231550
+    - 231555
+    - 231590
+    - 231615
+    - 231660
+    - 231690
+    - 231835
+    - 231870
+    - 231890
+    - 231920
+    - 231935
+    - 231950
+    - 231965
+    - 232000
+    - 232010
+    - 232025
+    - 232035
+    - 232065
+    - 232070
+    - 232310
+    - 232440
+    - 232475
+    - 232510
+    - 232550
+    - 232660
+    - 232700
+    - 232780
+    - 232795
+    - 232810
+    - 232900
+    - 232915
+    - 232935
+    - 232940
+    - 232960
+    - 232970
+    - 232975
+    - 232980
+    - 233080
+    - 233085
+    - 233560
+    - 233565
+    - 233570
+    - 233605
+    - 233645
+    - 233740
+    - 233815
+    - 233820
+    - 234155
+    - 234160
+    - 235710
+    - 235715
+    - 235725
+    - 235795
+    - 236035
+    - 236040
+    - 236165
+    - 236170
+    - 236175
+    - 236200
+    - 237750
+    - 237755
+    - 237830
+    - 237835
+    - 240840
+    - 240845
+    - 241175
+    - 241190
+    - 241245
+    - 241250
+    - 241265
+    - 241275
+    - 241285
+    - 241300
+    - 241305
+    - 241320
+    - 241325
+    - 241375
+    - 241390
+    - 241395
+    - 241405
+    - 241410
+    - 241415
+    - 241475
+    - 241480
+    - 241735
+    - 241745
+    - 241785
+    - 241790
+    - 241800
+    - 241815
+    - 241820
+    - 241840
+    - 241845
+    - 241905
+    - 241925
+    - 241930
+    - 241945
+    - 241950
+    - 241960
+    - 241975
+    - 241980
+    - 242000
+    - 242005
+    - 242105
+    - 242110
+    - 243815
+    - 243835
+    - 244060
+    - 244065
+    - 244210
+    - 244215
     ys:
     - 0
     - 30
@@ -19067,29 +19937,53 @@ voice_parts:
     - 36
     - 0
     - 0
-    - 13
-    - 17
-    - 17
+    - 38
+    - 40
+    - 40
+    - 43
+    - 43
+    - 45
+    - 45
+    - 47
+    - 47
+    - 49
+    - 49
+    - 36
+    - 36
     - 22
+    - 22
+    - 24
+    - 24
+    - 26
+    - 26
+    - 40
+    - 41
+    - 47
+    - 47
+    - 49
+    - 49
+    - 51
+    - 51
+    - 53
+    - 53
+    - 55
+    - 55
+    - 74
+    - 70
+    - 0
+    - 0
+    - 20
+    - 20
+    - 19
+    - 45
+    - 24
+    - 24
+    - 26
     - 26
     - 28
     - 28
-    - 30
-    - 30
-    - 32
-    - 32
+    - 35
     - 34
-    - 34
-    - 36
-    - 36
-    - 0
-    - 0
-    - 20
-    - 20
-    - 17
-    - 17
-    - 13
-    - 13
     - 11
     - 11
     - 17
@@ -19213,14 +20107,18 @@ voice_parts:
     - 36
     - 34
     - 34
-    - 30
-    - 30
-    - 28
-    - 28
-    - 26
-    - 26
-    - 24
-    - 24
+    - 55
+    - 57
+    - 61
+    - 64
+    - 66
+    - 70
+    - 72
+    - 72
+    - 74
+    - 74
+    - 66
+    - 66
     - 0
     - 0
     - 51
@@ -19257,18 +20155,10 @@ voice_parts:
     - 17
     - 9
     - 9
-    - 11
-    - 15
-    - 15
-    - 17
-    - 28
-    - 28
-    - 26
-    - 26
+    - 49
+    - 49
     - 22
     - 20
-    - 20
-    - 19
     - 19
     - 17
     - 17
@@ -19292,291 +20182,1642 @@ voice_parts:
     - 40
     - 0
     - 0
-    - 30
-    - 30
-    - 36
-    - 47
-    - 47
-    - 45
-    - 45
-    - 43
-    - 43
-    - 41
-    - 28
-    - 28
-    - 15
-    - 15
-    - 13
-    - 15
-    - 15
-    - 13
-    - 15
-    - 13
-    - 14
-    - 15
-    - 13
-    - 13
-    - 15
-    - 11
-    - 15
-    - 9
-    - 13
-    - 13
-    - 11
-    - 11
-    - 9
-    - 9
-    - 20
-    - 20
-    - 26
-    - 26
-    - 24
-    - 24
-    - 20
-    - 19
-    - 19
-    - 7
-    - 7
-    - 11
-    - 17
-    - 17
-    - 19
-    - 20
-    - 20
-    - 22
-    - 22
-    - 26
-    - 26
-    - 28
-    - 32
-    - 32
-    - 34
-    - 34
-    - 0
-    - 26
-    - 0
-    - 0
-    - 34
-    - 34
-    - 0
-    - 0
-    - 20
-    - 20
-    - 22
-    - 24
-    - 24
-    - 26
-    - 26
-    - 28
-    - 28
-    - 30
-    - 30
-    - 32
-    - 32
-    - 36
-    - 36
+    - 53
+    - 53
+    - 55
+    - 55
+    - 59
+    - 61
+    - 61
+    - 66
+    - 66
     - 40
-    - 41
-    - 41
-    - 43
-    - 43
+    - 40
+    - 11
+    - 11
+    - 28
+    - 28
+    - 22
+    - 22
+    - 1
+    - 1
+    - 11
+    - 11
+    - 26
+    - 26
+    - 11
+    - 11
+    - 0
+    - 0
+    - 20
+    - 20
+    - 5
+    - -3
+    - -10
+    - -12
+    - -14
+    - -18
+    - -18
+    - 36
+    - 36
+    - 34
+    - 34
+    - 36
+    - 36
     - 45
     - 45
     - 47
     - 47
     - 49
     - 49
-    - 24
-    - 24
+    - 45
+    - 45
+    - 47
+    - 47
+    - 49
+    - 49
+    - 19
+    - 19
+    - 0
+    - 0
+    - 53
+    - 53
+    - 55
+    - 55
+    - 9
+    - 9
+    - -10
+    - -10
+    - 9
+    - 9
+    - 17
+    - 17
+    - 36
+    - 36
+    - -3
     - 22
-    - 15
-    - 13
-    - 13
-    - 17
-    - 17
-    - 20
-    - 20
+    - 22
     - 24
-    - 26
-    - 30
-    - 30
-    - 33
-    - 34
-    - 34
-    - 36
-    - 36
-    - 39
+    - 24
+    - 45
+    - 45
+    - 24
+    - 24
+    - 0
+    - 0
+    - 51
+    - 51
     - 40
+    - 40
+    - 70
+    - 70
     - 0
-    - 0
-    - 32
-    - 32
-    - 0
-    - 0
+    - 41
+    - 41
+    - 45
+    - 45
+    - 47
+    - 47
+    - 49
+    - 49
+    - 51
+    - 51
+    - 28
+    - 28
+    - 26
+    - 24
     - 20
     - 20
+    - 36
+    - 32
+    - 30
+    - 26
+    - 22
+    - 61
+    - 61
+    - 41
+    - 41
+    - 30
+    - 30
+    - 49
+    - 49
+    - 61
+    - 61
+    - 70
+    - 70
+    - 30
+    - 30
+    - 7
+    - 7
     - 17
     - 17
+    - 51
+    - 51
+    - 86
+    - 86
+    - 22
+    - 22
+    - 86
+    - 51
+    - 51
+    - 78
+    - 78
+    - 51
+    - 51
+    - 26
+    - 26
+    - 0
+    - 0
+    - 28
+    - 28
     - 13
     - 13
     - 28
-    - 30
-    - 30
+    - 28
+    - 49
+    - 49
+    - 19
+    - 19
+    - 22
+    - 0
+    - 0
+    - 38
+    - 36
+    - 36
     - 34
+    - 34
+    - 32
+    - 32
+    - 30
+    - 30
+    - 27
+    - 34
+    - 34
+    - 93
+    - 93
+    - 59
+    - 59
+    - 51
+    - 51
+    - 0
+    - 0
+    - 55
+    - 55
+    - 84
+    - 84
+    - 55
+    - 55
     - 38
     - 38
-    - 40
-    - 40
+    - 0
+    - 0
+    - 38
+    - 38
+    - 82
+    - 84
+    - 87
+    - 91
+    - 93
+    - 93
+    - 84
+    - 80
+    - 76
+    - 76
+    - 58
+    - 53
     - 53
     - 57
-    - 63
+    - 57
+    - 61
+    - 64
+    - 68
+    - 74
+    - 76
+    - 80
+    - 82
+    - 85
+    - 86
+    - 91
+    - 100
+    - 101
+    - 101
+    - 97
+    - 64
+    - 64
+    - 76
+    - 78
+    - 82
+    - 84
+    - 89
+    - 91
+    - 95
+    - 95
+    - 87
+    - 87
+    - 86
+    - 86
+    - 84
+    - 84
+    - 82
+    - 82
+    - 80
+    - 80
+    - 78
+    - 78
+    - 76
+    - 76
+    - 74
+    - 74
+    - 68
     - 66
+    - 64
+    - 63
+    - 63
+    - 64
+    - 66
+    - 66
+    - 68
+    - 68
+    - 70
+    - 70
+    - 72
+    - 72
+    - 74
+    - 74
+    - 95
+    - 95
+    - 91
+    - 91
+    - 89
+    - 89
+    - 84
+    - 84
+    - 78
+    - 76
+    - 76
+    - 66
+    - 64
+    - 63
+    - 61
+    - 61
+    - 57
+    - 57
+    - 64
+    - 64
+    - 30
+    - 30
+    - 0
+    - 0
+    - 36
+    - 36
+    - 57
+    - 57
+    - 78
+    - 78
+    - 101
+    - 101
+    - 57
+    - 57
+    - 82
+    - 82
+    - 0
+    - 0
+    - 49
+    - 49
+    - 84
+    - 84
+    - 34
+    - 34
+    - 24
+    - 24
+    - 84
+    - 84
+    - 74
+    - 74
+    - 72
+    - 70
+    - 70
+    - 68
+    - 68
+    - 66
+    - 66
+    - 64
+    - 72
+    - 72
+    - 38
+    - 38
+    - 13
+    - 13
+    - 38
+    - 38
+    - 72
+    - 72
+    - 49
+    - 49
+    - 72
+    - 72
+    - 49
+    - 49
+    - 70
+    - 70
+    - 45
+    - 45
+    - 43
+    - 41
+    - 41
+    - 38
+    - 38
+    - 70
+    - 70
+    - 36
+    - 36
+    - 34
+    - 34
+    - 32
+    - 32
+    - 70
+    - 70
+    - 49
+    - 49
+    - 0
+    - 0
+    - 51
+    - 51
+    - 57
+    - 57
+    - 63
+    - 26
+    - 26
+    - 30
+    - 34
+    - 34
+    - 36
+    - 36
+    - 38
+    - 78
+    - 78
+    - 74
+    - 70
+    - 70
+    - 57
+    - 57
+    - 66
+    - 66
+    - 0
+    - 0
+    - 51
+    - 53
+    - 53
+    - 76
+    - 76
+    - 93
+    - 95
+    - 97
+    - 97
+    - 99
+    - 99
+    - 93
+    - 57
+    - 57
+    - 49
+    - 49
+    - 47
+    - 43
+    - 95
+    - 95
+    - 86
+    - 86
+    - 84
+    - 32
+    - 32
+    - 57
+    - 57
+    - 95
+    - 95
+    - 97
+    - 97
+    - 57
+    - 57
+    - 49
+    - 49
+    - 57
+    - 57
+    - 26
+    - 26
+    - 45
+    - 45
+    - 43
+    - 43
+    - 61
+    - 61
+    - 57
+    - 57
+    - 0
+    - 0
+    - 9
+    - 7
+    - 7
+    - 5
+    - 5
+    - 3
+    - 3
+    - 1
+    - 1
+    - -3
+    - -3
+    - 91
+    - 91
+    - 105
+    - 105
+    - 103
+    - 103
+    - 91
+    - 91
+    - 32
+    - 32
+    - 30
+    - 30
+    - 93
+    - 68
+    - 70
+    - 70
+    - 114
+    - 114
+    - 112
+    - 112
+    - 70
+    - 70
+    - 103
+    - 103
+    - 101
+    - 101
+    - 70
+    - 70
+    - 0
+    - 0
+    - 53
+    - 53
+    - 55
+    - 55
+    - 59
+    - 61
+    - 61
+    - 66
+    - 66
+    - 68
+    - 68
+    - 59
+    - 59
+    - 53
+    - 53
+    - 0
+    - 0
+    - 20
+    - 17
+    - 17
+    - 15
+    - 13
+    - 13
+    - 15
+    - 15
+    - 19
+    - 19
+    - 24
+    - 24
+    - 30
+    - 32
+    - 34
+    - 34
+    - 36
+    - 40
+    - 43
+    - 47
+    - 53
+    - 53
+    - 63
+    - 64
+    - 70
+    - 72
+    - 74
+    - 74
+    - 76
+    - 76
+    - 78
+    - 78
+    - 84
+    - 84
+    - 49
+    - 49
+    - 45
+    - 45
+    - 47
+    - 47
+    - 49
+    - 49
+    - 19
+    - 19
+    - 0
+    - 0
+    - 53
+    - 53
+    - 66
+    - 66
+    - 26
+    - 24
+    - 19
+    - 19
+    - 13
+    - 11
+    - 9
+    - 5
+    - 5
+    - 3
+    - 3
+    - 66
+    - 66
+    - 49
+    - 49
+    - 38
+    - 38
+    - 36
+    - 36
+    - 34
+    - 34
+    - 32
+    - 32
+    - 66
+    - 66
+    - 49
+    - 49
+    - 53
+    - 57
+    - 58
+    - 45
+    - 45
+    - 66
+    - 66
+    - 55
+    - 53
+    - 53
+    - 51
+    - 51
+    - 49
+    - 49
+    - 72
+    - 72
     - 74
     - 78
     - 78
-    - 40
-    - 40
+    - 80
+    - 80
+    - 66
+    - 66
     - 41
-    - 43
+    - 41
+    - 45
+    - 45
+    - 47
+    - 47
+    - 49
+    - 49
+    - 51
+    - 51
+    - 53
+    - 53
+    - 55
+    - 55
+    - 59
+    - 59
     - 63
-    - 0
-    - 0
-    - 41
-    - 41
-    - 20
-    - 20
-    - 9
-    - 9
-    - 7
-    - 7
-    - 5
-    - 5
-    - 3
-    - 3
-    - 5
-    - 5
-    - 7
-    - 7
-    - 17
-    - 17
-    - 19
-    - 19
-    - 20
-    - 22
-    - 22
-    - 24
-    - 24
     - 26
-    - 26
-    - 30
-    - 30
-    - 32
-    - 32
-    - 36
-    - 36
-    - 38
-    - 38
-    - 40
-    - 40
-    - 41
-    - 40
-    - 36
-    - 32
-    - 26
-    - 17
-    - 15
+    - 68
+    - 68
     - 11
-    - 9
-    - 9
-    - 5
-    - 5
-    - 1
-    - 1
-    - 3
-    - 3
-    - 30
-    - 30
-    - 28
-    - 5
-    - 5
-    - 15
-    - 15
-    - 13
-    - 13
-    - 22
-    - 22
-    - 0
-    - 0
-    - 28
-    - 28
-    - 26
-    - 26
-    - 22
-    - 18
-    - 17
-    - 0
-    - 0
-    - 13
-    - 13
-    - 17
+    - 11
     - 19
+    - 19
+    - 68
+    - 68
+    - 66
+    - 66
+    - 95
+    - 95
+    - 66
+    - 66
+    - 17
+    - 17
+    - 51
+    - 51
+    - 76
+    - 76
+    - 105
+    - 105
+    - 120
+    - 120
+    - 61
+    - 61
+    - 91
+    - 91
+    - 76
+    - 76
+    - 57
+    - 53
+    - 51
+    - 49
+    - 49
+    - 51
+    - 51
+    - 53
+    - 53
+    - 55
+    - 55
+    - 70
+    - 70
+    - 107
+    - 107
     - 22
-    - 24
+    - 0
+    - 0
+    - 89
+    - 89
+    - 45
+    - 45
+    - 47
+    - 47
+    - 89
+    - 89
+    - 66
+    - 64
+    - 64
+    - 87
+    - 87
+    - 112
+    - 112
+    - 89
+    - 89
+    - 0
+    - 0
+    - 55
+    - 55
+    - 74
+    - 74
+    - 55
+    - 55
+    - 101
+    - 101
+    - 103
+    - 103
+    - 105
+    - 105
+    - 59
+    - 57
+    - 57
+    - 55
+    - 55
+    - 84
+    - 84
+    - 109
+    - 109
+    - 107
+    - 107
+    - 105
+    - 105
+    - 84
+    - 84
+    - 116
+    - 116
+    - 114
+    - 114
+    - 112
+    - 112
+    - 110
+    - 110
+    - 109
+    - 109
+    - 84
+    - 84
+    - 55
+    - 55
+    - 38
+    - 38
+    - 0
+    - 0
+    - 38
+    - 38
+    - 82
+    - 84
+    - 87
+    - 91
+    - 93
+    - 93
+    - 84
+    - 80
+    - 76
+    - 76
+    - 58
+    - 53
+    - 53
+    - 57
+    - 57
+    - 61
+    - 64
+    - 68
+    - 74
+    - 76
+    - 80
+    - 82
+    - 85
+    - 86
+    - 91
+    - 100
+    - 101
+    - 101
+    - 97
+    - 64
+    - 64
+    - 76
+    - 78
+    - 82
+    - 84
+    - 89
+    - 91
+    - 95
+    - 95
+    - 87
+    - 87
+    - 86
+    - 86
+    - 84
+    - 84
+    - 82
+    - 82
+    - 80
+    - 80
+    - 78
+    - 78
+    - 76
+    - 76
+    - 74
+    - 74
+    - 68
+    - 66
+    - 64
+    - 63
+    - 63
+    - 64
+    - 66
+    - 66
+    - 68
+    - 68
+    - 70
+    - 70
+    - 72
+    - 72
+    - 74
+    - 74
+    - 95
+    - 95
+    - 91
+    - 91
+    - 89
+    - 89
+    - 84
+    - 84
+    - 78
+    - 76
+    - 76
+    - 66
+    - 64
+    - 63
+    - 61
+    - 61
+    - 57
+    - 57
+    - 64
+    - 64
     - 30
+    - 30
+    - 0
+    - 0
+    - 76
+    - 76
+    - 28
+    - 28
+    - 24
     - 34
+    - 34
+    - 86
+    - 86
+    - 87
+    - 87
+    - 114
+    - 114
+    - 66
+    - 66
+    - 68
+    - 68
+    - 66
+    - 66
+    - 30
+    - 30
+    - 66
+    - 66
+    - 30
+    - 30
+    - 28
+    - 28
+    - 30
+    - 30
+    - 66
+    - 66
+    - 43
+    - 43
+    - 66
+    - 66
+    - 41
+    - 41
+    - 40
+    - 40
+    - 66
+    - 66
+    - 17
+    - 17
+    - 51
+    - 51
+    - 55
+    - 55
+    - 49
+    - 49
+    - 51
+    - 51
+    - 53
+    - 53
+    - 55
+    - 55
+    - 57
+    - 57
+    - 70
+    - 68
+    - 68
+    - 66
+    - 66
+    - 63
+    - 63
+    - 61
+    - 61
+    - 59
+    - 59
+    - 57
+    - 57
+    - 59
+    - 59
+    - 76
+    - 76
+    - 63
+    - 63
+    - 64
+    - 66
+    - 66
+    - 105
+    - 105
+    - 120
+    - 120
+    - 59
+    - 59
+    - 57
+    - 57
+    - 120
+    - 120
+    - 61
+    - 61
+    - 91
+    - 91
+    - 76
+    - 76
+    - 70
+    - 70
+    - 107
+    - 107
+    - 78
+    - 78
+    - 82
+    - 82
+    - 80
+    - 80
+    - 66
+    - 66
+    - 74
+    - 74
+    - 72
+    - 72
+    - 55
+    - 55
+    - 57
+    - 57
+    - 66
+    - 66
+    - 49
+    - 49
+    - 91
+    - 95
+    - 95
+    - 87
+    - 87
+    - 93
+    - 93
+    - 101
+    - 101
+    - 93
+    - 93
+    - 73
+    - 68
+    - 66
+    - 64
+    - 63
+    - 63
+    - 64
+    - 66
+    - 66
+    - 68
+    - 68
+    - 70
+    - 70
+    - 72
+    - 72
+    - 74
+    - 74
+    - 95
+    - 95
+    - 91
+    - 91
+    - 89
+    - 89
+    - 84
+    - 84
+    - 78
+    - 76
+    - 76
+    - 66
+    - 64
+    - 63
+    - 61
+    - 61
+    - 57
+    - 57
+    - 64
+    - 64
+    - 36
+    - 36
+    - 82
+    - 82
+    - 78
+    - 76
+    - 72
+    - 72
+    - 36
+    - 36
+    - 74
+    - 74
+    - 107
+    - 107
+    - 101
+    - 101
+    - 74
+    - 74
+    - 95
+    - 95
+    - 93
+    - 93
+    - 74
+    - 74
+    - 36
+    - 36
+    - 82
+    - 82
+    - 84
+    - 84
+    - 46
+    - 41
+    - 40
+    - 36
+    - 35
+    - 32
+    - 32
+    - 38
+    - 47
+    - 49
+    - 53
+    - 53
+    - 57
+    - 80
+    - 80
+    - 101
+    - 101
+    - 99
+    - 99
+    - 47
+    - 43
+    - 40
+    - 38
+    - 38
+    - 36
     - 36
     - 40
-    - 41
-    - 43
     - 43
     - 45
+    - 47
+    - 49
+    - 49
+    - 82
+    - 82
+    - 63
+    - 63
+    - 82
+    - 82
+    - 80
+    - 80
     - 45
-    - 47
-    - 47
-    - 51
-    - 51
-    - 53
-    - 53
-    - 51
-    - 51
-    - 0
-    - 0
-    - 24
-    - 24
-    - 26
-    - 26
-    - 22
-    - 22
-    - 24
-    - 24
-    - 26
-    - 26
-    - 30
-    - 34
-    - 36
-    - 38
-    - 38
-    - 0
-    - 0
-    - 38
-    - 38
-    - 36
-    - 36
-    - 34
-    - 34
-    - 32
-    - 32
-    - 26
-    - 26
-    - 24
-    - 24
-    - 35
-    - 31
-    - 26
-    - 30
-    - 30
+    - 45
     - 0
     abbr: dyn
+  - xs: []
+    ys: []
+    abbr: ene
+  - xs:
+    - 48570
+    - 48575
+    - 48620
+    - 48630
+    - 48645
+    - 48650
+    - 48810
+    - 48830
+    - 48850
+    - 48870
+    - 48885
+    - 48915
+    - 48940
+    - 48970
+    - 48995
+    - 49020
+    - 49045
+    - 49095
+    - 49105
+    - 49130
+    - 49175
+    - 49200
+    - 49240
+    - 49270
+    - 49330
+    - 49355
+    - 49370
+    - 49385
+    - 49400
+    - 49425
+    - 49455
+    - 49475
+    - 49480
+    - 49485
+    - 49495
+    - 49500
+    - 64030
+    - 64035
+    - 64170
+    - 64305
+    - 64335
+    - 64350
+    - 64380
+    - 64400
+    - 64425
+    - 64435
+    - 64450
+    - 64460
+    - 64470
+    - 64480
+    - 64495
+    - 64540
+    - 64575
+    - 64580
+    - 64590
+    - 64600
+    - 64605
+    - 64615
+    - 64635
+    - 64650
+    - 64680
+    - 64705
+    - 64715
+    - 64735
+    - 64750
+    - 64755
+    - 64770
+    - 64780
+    - 64795
+    - 64805
+    - 64825
+    - 64845
+    - 64850
+    - 64855
+    - 64860
+    - 64865
+    - 64870
+    - 64875
+    - 70550
+    - 70555
+    - 71160
+    - 71165
+    - 76040
+    - 76045
+    - 76075
+    - 76080
+    - 144650
+    - 144655
+    - 144715
+    - 144725
+    - 144735
+    - 144760
+    - 144770
+    - 144795
+    - 144810
+    - 144820
+    - 144840
+    - 144855
+    - 144875
+    - 144880
+    - 144895
+    - 144905
+    - 144935
+    - 144945
+    - 144950
+    - 144960
+    - 144975
+    - 145005
+    - 145025
+    - 145040
+    - 145065
+    - 145070
+    - 145085
+    - 145090
+    - 145125
+    - 145140
+    - 145170
+    - 145350
+    - 145355
+    - 145360
+    - 145365
+    - 145370
+    - 160075
+    - 160080
+    - 160085
+    - 160090
+    - 160110
+    - 160175
+    - 160265
+    - 160295
+    - 160305
+    - 160330
+    - 160350
+    - 160360
+    - 160365
+    - 160370
+    - 160375
+    - 160385
+    - 160395
+    - 160430
+    - 160455
+    - 160465
+    - 160500
+    - 160505
+    - 160510
+    - 160550
+    - 160560
+    - 160570
+    - 160585
+    - 160605
+    - 160620
+    - 160640
+    - 160650
+    - 160660
+    - 160675
+    - 160685
+    - 160690
+    - 160695
+    - 166585
+    - 166590
+    - 171565
+    - 171570
+    - 206100
+    - 206105
+    - 206110
+    - 206130
+    - 206145
+    - 206170
+    - 206175
+    - 206195
+    - 206220
+    - 206240
+    - 206245
+    - 206280
+    - 206320
+    - 206350
+    - 206380
+    - 206400
+    - 206435
+    - 206495
+    - 206515
+    - 206525
+    - 206545
+    - 206590
+    - 206655
+    - 206660
+    - 221450
+    - 221455
+    - 221530
+    - 221560
+    - 221580
+    - 221615
+    - 221870
+    - 221875
+    - 227135
+    - 227140
+    - 227145
+    - 227155
+    - 227170
+    - 227190
+    - 227205
+    - 227220
+    - 227230
+    - 227240
+    - 227310
+    - 227335
+    - 227355
+    - 227375
+    - 227385
+    - 227400
+    - 227410
+    - 227425
+    - 227465
+    - 227485
+    - 227510
+    - 227540
+    - 227555
+    - 227570
+    - 227595
+    - 227605
+    - 227615
+    - 227655
+    - 227665
+    - 227685
+    - 227695
+    - 227710
+    - 227740
+    - 227760
+    - 227770
+    - 227780
+    - 227815
+    - 227825
+    - 227845
+    - 227865
+    - 227875
+    - 227885
+    - 227975
+    - 227985
+    - 227990
+    - 227995
+    - 228005
+    - 228010
+    - 228040
+    - 228050
+    - 228070
+    - 228075
+    - 228080
+    - 229215
+    - 229220
+    - 232470
+    - 232475
+    - 232485
+    - 232495
+    - 232560
+    - 232580
+    - 232595
+    - 232600
+    - 232610
+    - 232620
+    - 232635
+    - 232655
+    - 232685
+    - 232690
+    - 232715
+    - 232730
+    - 232745
+    - 232755
+    - 232760
+    - 232775
+    - 232780
+    - 232785
+    - 232790
+    - 232795
+    - 232810
+    - 232815
+    - 232820
+    - 232830
+    - 232840
+    - 232845
+    - 232855
+    - 232870
+    - 232875
+    - 232880
+    - 232885
+    - 232890
+    - 232975
+    ys:
+    - 0
+    - 740
+    - 485
+    - 460
+    - 460
+    - 447
+    - 447
+    - 434
+    - 434
+    - 421
+    - 421
+    - 409
+    - 409
+    - 396
+    - 383
+    - 383
+    - 357
+    - 357
+    - 345
+    - 332
+    - 319
+    - 294
+    - 268
+    - 243
+    - 217
+    - 191
+    - 191
+    - 166
+    - 153
+    - 153
+    - 128
+    - 102
+    - 102
+    - 51
+    - 51
+    - 0
+    - 0
+    - 626
+    - 626
+    - 587
+    - 562
+    - 562
+    - 536
+    - 523
+    - 498
+    - 498
+    - 485
+    - 460
+    - 447
+    - 447
+    - 421
+    - 332
+    - 243
+    - 230
+    - 217
+    - 191
+    - 191
+    - 153
+    - 140
+    - 102
+    - 51
+    - 0
+    - -26
+    - -38
+    - -64
+    - -77
+    - -89
+    - -115
+    - -128
+    - -153
+    - -179
+    - -204
+    - -204
+    - -217
+    - -217
+    - -230
+    - -230
+    - 0
+    - 0
+    - -434
+    - -434
+    - -421
+    - -421
+    - -396
+    - -396
+    - 0
+    - 0
+    - 472
+    - 472
+    - 460
+    - 460
+    - 434
+    - 421
+    - 383
+    - 370
+    - 370
+    - 357
+    - 332
+    - 319
+    - 306
+    - 306
+    - 281
+    - 255
+    - 247
+    - 230
+    - 217
+    - 217
+    - 179
+    - 153
+    - 128
+    - 128
+    - 115
+    - 102
+    - 89
+    - 89
+    - 64
+    - 51
+    - 51
+    - 38
+    - 38
+    - 26
+    - 0
+    - 0
+    - 574
+    - 574
+    - 523
+    - 523
+    - 498
+    - 447
+    - 421
+    - 421
+    - 396
+    - 396
+    - 387
+    - 370
+    - 370
+    - 357
+    - 357
+    - 332
+    - 294
+    - 243
+    - 230
+    - 191
+    - 191
+    - 179
+    - 140
+    - 128
+    - 115
+    - 89
+    - 77
+    - 51
+    - 38
+    - 26
+    - 13
+    - 13
+    - -13
+    - -13
+    - 0
+    - 0
+    - -562
+    - -562
+    - 0
+    - 0
+    - 600
+    - 485
+    - 485
+    - 472
+    - 447
+    - 421
+    - 409
+    - 383
+    - 370
+    - 357
+    - 319
+    - 281
+    - 243
+    - 204
+    - 166
+    - 115
+    - 38
+    - 26
+    - 13
+    - 0
+    - -26
+    - -26
+    - 0
+    - 0
+    - 498
+    - 498
+    - 511
+    - 511
+    - 523
+    - 523
+    - 0
+    - 0
+    - 26
+    - 26
+    - 13
+    - 13
+    - -13
+    - -26
+    - -26
+    - -38
+    - -51
+    - -89
+    - -102
+    - -102
+    - -128
+    - -128
+    - -140
+    - -153
+    - -153
+    - -191
+    - -204
+    - -217
+    - -230
+    - -230
+    - -243
+    - -268
+    - -281
+    - -281
+    - -319
+    - -332
+    - -345
+    - -345
+    - -370
+    - -396
+    - -409
+    - -409
+    - -421
+    - -421
+    - -434
+    - -434
+    - -447
+    - -447
+    - -460
+    - -460
+    - -472
+    - -472
+    - -485
+    - -485
+    - -498
+    - -498
+    - -523
+    - -523
+    - -536
+    - -587
+    - -587
+    - -600
+    - -600
+    - -613
+    - -613
+    - -587
+    - -498
+    - -472
+    - -460
+    - -447
+    - -447
+    - -421
+    - -409
+    - -370
+    - -332
+    - -306
+    - -294
+    - -268
+    - -230
+    - -217
+    - -204
+    - -191
+    - -179
+    - -179
+    - -166
+    - -166
+    - -140
+    - -128
+    - -128
+    - -102
+    - -102
+    - -77
+    - -77
+    - -38
+    - -38
+    - -26
+    - -26
+    - 0
+    - 0
+    abbr: shfc
 wave_parts:
 - name: 2_旧电台_UVR-MDX-NET-Inst_Main_(Instrumental).wav
   comment: ""
