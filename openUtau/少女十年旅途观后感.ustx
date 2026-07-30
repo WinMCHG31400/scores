@@ -244,7 +244,7 @@ exp_selectors:
 - bre
 exp_primary: 0
 exp_secondary: 1
-key: 0
+key: 3
 time_signatures:
 - bar_position: 0
   beat_per_bar: 4
@@ -261,7 +261,7 @@ tracks:
   track_color: Blue
   mute: false
   solo: false
-  volume: 0
+  volume: 10.524590163934427
   pan: 0
   track_expressions: []
   voice_color_names:
@@ -1511,7 +1511,7 @@ voice_parts:
   - position: 86200
     duration: 1200
     tone: 65
-    lyric: 地
+    lyric: 地[d i]
     pitch:
       data:
       - {x: -1, y: 0, shape: io}
@@ -2322,6 +2322,84 @@ voice_parts:
       data:
       - {x: -1, y: 0, shape: io}
       - {x: 1, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    tuning: 0
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 128640
+    duration: 240
+    tone: 62
+    lyric: en/I
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    tuning: 0
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 128880
+    duration: 240
+    tone: 63
+    lyric: en/just
+    pitch:
+      data:
+      - {x: -40, y: -10, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    tuning: 0
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 129120
+    duration: 480
+    tone: 62
+    lyric: en/wanna
+    pitch:
+      data:
+      - {x: -40, y: 10, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    tuning: 0
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 129600
+    duration: 240
+    tone: 62
+    lyric: en/find
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    tuning: 0
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 129840
+    duration: 240
+    tone: 60
+    lyric: en/myself
+    pitch:
+      data:
+      - {x: -40, y: 20, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    tuning: 0
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 130080
+    duration: 480
+    tone: 60
+    lyric: +
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
     tuning: 0
@@ -3970,22 +4048,14 @@ voice_parts:
     - 15217
     - 15220
     - 15232
-    - 15292
-    - 15295
+    - 15235
+    - 15240
     - 15302
     - 15305
     - 15312
     - 15315
-    - 15327
-    - 15330
-    - 15337
-    - 15340
-    - 15352
-    - 15355
     - 15362
     - 15365
-    - 15377
-    - 15412
     - 15432
     - 15445
     - 15447
@@ -4082,14 +4152,6 @@ voice_parts:
     - 16277
     - 16290
     - 16292
-    - 16295
-    - 16297
-    - 16300
-    - 16302
-    - 16305
-    - 16307
-    - 16310
-    - 16312
     - 16315
     - 16317
     - 16320
@@ -4099,16 +4161,9 @@ voice_parts:
     - 16332
     - 16335
     - 16337
-    - 16340
     - 16342
-    - 16345
-    - 16347
     - 16350
     - 16352
-    - 16355
-    - 16357
-    - 16360
-    - 16362
     - 16365
     - 16367
     - 16370
@@ -7018,16 +7073,7 @@ voice_parts:
     - 45340
     - 45432
     - 45435
-    - 45527
-    - 45530
-    - 45622
-    - 45625
-    - 45712
-    - 45715
-    - 45807
-    - 45810
-    - 45902
-    - 45905
+    - 45440
     - 45992
     - 45995
     - 46087
@@ -7097,10 +7143,6 @@ voice_parts:
     - 47692
     - 47705
     - 47707
-    - 47710
-    - 47712
-    - 47715
-    - 47717
     - 47720
     - 47722
     - 47725
@@ -7180,12 +7222,6 @@ voice_parts:
     - 48080
     - 48090
     - 48092
-    - 48095
-    - 48097
-    - 48100
-    - 48102
-    - 48105
-    - 48107
     - 48110
     - 48120
     - 48130
@@ -7193,12 +7229,10 @@ voice_parts:
     - 48150
     - 48165
     - 48167
-    - 48170
     - 48175
     - 48177
     - 48180
     - 48185
-    - 48190
     - 48192
     - 48195
     - 48200
@@ -7222,25 +7256,16 @@ voice_parts:
     - 48325
     - 48330
     - 48335
-    - 48340
-    - 48344
     - 48356
     - 48362
     - 48372
     - 48390
     - 48392
-    - 48395
-    - 48397
-    - 48400
-    - 48402
-    - 48405
-    - 48407
     - 48410
     - 48412
     - 48415
     - 48417
     - 48420
-    - 48422
     - 48425
     - 48435
     - 48440
@@ -9117,16 +9142,8 @@ voice_parts:
     - 60400
     - 60407
     - 60410
+    - 60415
     - 60417
-    - 60420
-    - 60422
-    - 60425
-    - 60432
-    - 60435
-    - 60442
-    - 60445
-    - 60447
-    - 60450
     - 60457
     - 60460
     - 60467
@@ -9434,14 +9451,8 @@ voice_parts:
     - 62572
     - 62580
     - 62582
-    - 62585
-    - 62587
     - 62590
     - 62592
-    - 62595
-    - 62597
-    - 62600
-    - 62602
     - 62605
     - 62607
     - 62610
@@ -9453,9 +9464,6 @@ voice_parts:
     - 62625
     - 62627
     - 62630
-    - 62632
-    - 62635
-    - 62637
     - 62640
     - 62650
     - 62655
@@ -9469,7 +9477,6 @@ voice_parts:
     - 62755
     - 62763
     - 62770
-    - 62778
     - 62822
     - 62830
     - 62838
@@ -9512,7 +9519,6 @@ voice_parts:
     - 63220
     - 63227
     - 63230
-    - 63235
     - 63275
     - 63280
     - 63282
@@ -9578,8 +9584,6 @@ voice_parts:
     - 63623
     - 63627
     - 63632
-    - 63637
-    - 63640
     - 63647
     - 63650
     - 63652
@@ -13485,6 +13489,9 @@ voice_parts:
     - 86507
     - 86514
     - 86522
+    - 86540
+    - 86545
+    - 86555
     - 86576
     - 86582
     - 86589
@@ -26358,22 +26365,14 @@ voice_parts:
     - -99
     - -100
     - -100
-    - -105
-    - -106
+    - 525
+    - -101
     - -106
     - -107
     - -107
     - -108
-    - -108
-    - -109
-    - -109
-    - -110
-    - -110
-    - -111
     - -111
     - -112
-    - -112
-    - -115
     - -117
     - -104
     - -104
@@ -26470,14 +26469,6 @@ voice_parts:
     - -6
     - -12
     - -12
-    - -17
-    - -17
-    - -22
-    - -22
-    - -27
-    - -27
-    - -32
-    - -32
     - -36
     - -36
     - -41
@@ -26488,15 +26479,8 @@ voice_parts:
     - -52
     - -52
     - -57
-    - -57
-    - -64
-    - -64
     - -71
     - -71
-    - -84
-    - -84
-    - -97
-    - -97
     - -109
     - -109
     - -121
@@ -29405,17 +29389,8 @@ voice_parts:
     - 9
     - 10
     - 10
+    - 961
     - 11
-    - 11
-    - 12
-    - 12
-    - 13
-    - 13
-    - 14
-    - 14
-    - 15
-    - 15
-    - 16
     - 16
     - 17
     - 17
@@ -29485,10 +29460,6 @@ voice_parts:
     - 219
     - 152
     - 152
-    - 129
-    - 129
-    - 106
-    - 106
     - 84
     - 84
     - 62
@@ -29568,12 +29539,6 @@ voice_parts:
     - 28
     - 20
     - 20
-    - 15
-    - 15
-    - 10
-    - 10
-    - 6
-    - 6
     - 2
     - -4
     - -8
@@ -29581,12 +29546,10 @@ voice_parts:
     - -3
     - 9
     - 8
-    - 12
     - 14
     - 13
     - 16
     - 16
-    - 15
     - 13
     - 15
     - 13
@@ -29610,24 +29573,15 @@ voice_parts:
     - 58
     - 60
     - 59
-    - 57
-    - 53
     - 38
     - 29
     - 12
     - -24
     - -25
-    - -35
-    - -37
-    - -45
-    - -46
-    - -55
-    - -55
     - -64
     - -64
     - -77
     - -76
-    - -87
     - -87
     - -95
     - -108
@@ -31505,16 +31459,8 @@ voice_parts:
     - -82
     - -82
     - -81
+    - 1200
     - -81
-    - -80
-    - -80
-    - -79
-    - -79
-    - -78
-    - -78
-    - -77
-    - -77
-    - -76
     - -76
     - -75
     - -75
@@ -31822,14 +31768,8 @@ voice_parts:
     - -133
     - -126
     - -126
-    - -118
-    - -118
     - -110
     - -110
-    - -100
-    - -100
-    - -89
-    - -89
     - -78
     - -78
     - -68
@@ -31841,9 +31781,6 @@ voice_parts:
     - -34
     - -34
     - -23
-    - -23
-    - -15
-    - -15
     - -7
     - 4
     - 8
@@ -31857,7 +31794,6 @@ voice_parts:
     - 13
     - 13
     - 12
-    - 8
     - -26
     - -30
     - -32
@@ -31900,7 +31836,6 @@ voice_parts:
     - -43
     - -35
     - -34
-    - -29
     - 34
     - 40
     - 41
@@ -31966,8 +31901,6 @@ voice_parts:
     - 40
     - 45
     - 50
-    - 51
-    - 49
     - 44
     - 37
     - 37
@@ -35873,6 +35806,9 @@ voice_parts:
     - 17
     - 16
     - 14
+    - 0
+    - 6
+    - -12
     - -29
     - -32
     - -33
