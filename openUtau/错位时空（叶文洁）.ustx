@@ -245,7 +245,7 @@ time_signatures:
   beat_unit: 4
 tempos:
 - position: 0
-  bpm: 120
+  bpm: 67
 tracks:
 - singer: Aikie_ML_v201
   phonemizer: OpenUtau.Core.DiffSinger.DiffSingerChinesePhonemizer
@@ -261,14 +261,14 @@ tracks:
   voice_color_names:
   - ""
 voice_parts:
-- duration: 175680
+- duration: 176640
   name: 2_cwsk_UVR-MDX-NET-Inst_Main_(Vocals)
   comment: ""
   track_no: 0
   position: 0
   notes:
-  - position: 14774
-    duration: 164
+  - position: 8249
+    duration: 91
     tone: 62
     lyric: 红
     pitch:
@@ -280,8 +280,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 14938
-    duration: 288
+  - position: 8340
+    duration: 161
     tone: 64
     lyric: 岸
     pitch:
@@ -293,8 +293,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 15226
-    duration: 480
+  - position: 8501
+    duration: 268
     tone: 65
     lyric: 间
     pitch:
@@ -306,8 +306,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 16128
-    duration: 192
+  - position: 9005
+    duration: 107
     tone: 65
     lyric: 执
     pitch:
@@ -319,8 +319,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 16320
-    duration: 221
+  - position: 9112
+    duration: 123
     tone: 64
     lyric: 著
     pitch:
@@ -332,8 +332,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 16541
-    duration: 192
+  - position: 9235
+    duration: 108
     tone: 62
     lyric: 回
     pitch:
@@ -345,8 +345,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 16733
-    duration: 249
+  - position: 9343
+    duration: 139
     tone: 57
     lyric: 应
     pitch:
@@ -358,8 +358,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 16982
-    duration: 442
+  - position: 9482
+    duration: 246
     tone: 60
     lyric: 的
     pitch:
@@ -371,8 +371,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 17424
-    duration: 211
+  - position: 9728
+    duration: 118
     tone: 60
     lyric: 孤
     pitch:
@@ -384,8 +384,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 17635
-    duration: 423
+  - position: 9846
+    duration: 236
     tone: 60
     lyric: 灯
     pitch:
@@ -397,8 +397,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 18317
-    duration: 182
+  - position: 10227
+    duration: 102
     tone: 60
     lyric: 日
     pitch:
@@ -410,8 +410,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 18499
-    duration: 211
+  - position: 10329
+    duration: 117
     tone: 53
     lyric: 落
     pitch:
@@ -423,8 +423,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 18710
-    duration: 538
+  - position: 10446
+    duration: 301
     tone: 62
     lyric: 后
     pitch:
@@ -436,8 +436,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 19574
-    duration: 212
+  - position: 10929
+    duration: 118
     tone: 62
     lyric: 是
     pitch:
@@ -449,8 +449,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 19786
-    duration: 192
+  - position: 11047
+    duration: 107
     tone: 60
     lyric: 否
     pitch:
@@ -462,8 +462,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 19978
-    duration: 230
+  - position: 11154
+    duration: 129
     tone: 58
     lyric: 还
     pitch:
@@ -475,8 +475,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 20208
-    duration: 221
+  - position: 11283
+    duration: 123
     tone: 57
     lyric: 会
     pitch:
@@ -488,8 +488,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 20429
-    duration: 413
+  - position: 11406
+    duration: 231
     tone: 57
     lyric: 有
     pitch:
@@ -501,8 +501,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 20842
-    duration: 249
+  - position: 11637
+    duration: 139
     tone: 57
     lyric: 日
     pitch:
@@ -514,8 +514,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 21091
-    duration: 471
+  - position: 11776
+    duration: 263
     tone: 57
     lyric: 升
     pitch:
@@ -527,8 +527,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 21960
-    duration: 183
+  - position: 12261
+    duration: 102
     tone: 57
     lyric: 伶
     pitch:
@@ -540,8 +540,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 22143
-    duration: 201
+  - position: 12363
+    duration: 112
     tone: 58
     lyric: 仃
     pitch:
@@ -553,8 +553,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 22344
-    duration: 202
+  - position: 12475
+    duration: 113
     tone: 57
     lyric: 的
     pitch:
@@ -566,8 +566,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 22546
-    duration: 211
+  - position: 12588
+    duration: 118
     tone: 55
     lyric: 电
     pitch:
@@ -579,8 +579,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 22757
-    duration: 221
+  - position: 12706
+    duration: 123
     tone: 57
     lyric: 波
     pitch:
@@ -592,8 +592,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 22978
-    duration: 221
+  - position: 12829
+    duration: 124
     tone: 58
     lyric: 跨
     pitch:
@@ -605,8 +605,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 23199
-    duration: 201
+  - position: 12953
+    duration: 112
     tone: 57
     lyric: 越
     pitch:
@@ -618,8 +618,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 23400
-    duration: 221
+  - position: 13065
+    duration: 123
     tone: 58
     lyric: 光
     pitch:
@@ -631,8 +631,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 23621
-    duration: 250
+  - position: 13188
+    duration: 140
     tone: 67
     lyric: 年
     pitch:
@@ -644,8 +644,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 23871
-    duration: 393
+  - position: 13328
+    duration: 219
     tone: 64
     lyric: 的
     pitch:
@@ -657,8 +657,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 24264
-    duration: 269
+  - position: 13547
+    duration: 151
     tone: 65
     lyric: 旅
     pitch:
@@ -670,8 +670,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 24533
-    duration: 269
+  - position: 13698
+    duration: 150
     tone: 64
     lyric: 程
     pitch:
@@ -683,8 +683,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 25167
-    duration: 182
+  - position: 14052
+    duration: 101
     tone: 62
     lyric: 最
     pitch:
@@ -696,8 +696,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 25349
-    duration: 230
+  - position: 14153
+    duration: 129
     tone: 64
     lyric: 后
     pitch:
@@ -709,8 +709,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 25579
-    duration: 423
+  - position: 14282
+    duration: 236
     tone: 65
     lyric: 荒
     pitch:
@@ -722,8 +722,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 26002
-    duration: 221
+  - position: 14518
+    duration: 123
     tone: 62
     lyric: 芜
     pitch:
@@ -735,8 +735,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 26223
-    duration: 230
+  - position: 14641
+    duration: 129
     tone: 64
     lyric: 间
     pitch:
@@ -748,8 +748,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 26453
-    duration: 288
+  - position: 14770
+    duration: 160
     tone: 65
     lyric: 谁
     pitch:
@@ -761,8 +761,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 26741
-    duration: 326
+  - position: 14930
+    duration: 182
     tone: 64
     lyric: 能
     pitch:
@@ -774,8 +774,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 27067
-    duration: 240
+  - position: 15112
+    duration: 134
     tone: 62
     lyric: 见
     pitch:
@@ -787,8 +787,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 27307
-    duration: 221
+  - position: 15246
+    duration: 124
     tone: 62
     lyric: 证
     pitch:
@@ -800,8 +800,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 27528
-    duration: 595
+  - position: 15370
+    duration: 332
     tone: 64
     lyric: +
     pitch:
@@ -813,8 +813,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 28560
-    duration: 211
+  - position: 15946
+    duration: 118
     tone: 62
     lyric: 愈
     pitch:
@@ -826,8 +826,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 28771
-    duration: 250
+  - position: 16064
+    duration: 139
     tone: 64
     lyric: 疯
     pitch:
@@ -839,8 +839,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 29021
-    duration: 470
+  - position: 16203
+    duration: 263
     tone: 65
     lyric: 狂
     pitch:
@@ -852,8 +852,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 29846
-    duration: 221
+  - position: 16664
+    duration: 123
     tone: 65
     lyric: 愈
     pitch:
@@ -865,8 +865,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 30067
-    duration: 221
+  - position: 16787
+    duration: 124
     tone: 64
     lyric: 发
     pitch:
@@ -878,8 +878,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 30288
-    duration: 192
+  - position: 16911
+    duration: 107
     tone: 62
     lyric: 沉
     pitch:
@@ -891,8 +891,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 30480
-    duration: 250
+  - position: 17018
+    duration: 140
     tone: 57
     lyric: 凝
     pitch:
@@ -904,8 +904,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 30730
-    duration: 432
+  - position: 17158
+    duration: 241
     tone: 60
     lyric: 在
     pitch:
@@ -917,8 +917,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 31162
-    duration: 268
+  - position: 17399
+    duration: 149
     tone: 60
     lyric: 曾
     pitch:
@@ -930,8 +930,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 31430
-    duration: 250
+  - position: 17548
+    duration: 140
     tone: 60
     lyric: 经
     pitch:
@@ -943,8 +943,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 32016
-    duration: 211
+  - position: 17876
+    duration: 117
     tone: 60
     lyric: 绝
     pitch:
@@ -956,8 +956,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 32227
-    duration: 240
+  - position: 17993
+    duration: 134
     tone: 52
     lyric: 决
     pitch:
@@ -969,8 +969,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 32467
-    duration: 519
+  - position: 18127
+    duration: 290
     tone: 62
     lyric: 着
     pitch:
@@ -982,8 +982,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 33302
-    duration: 221
+  - position: 18594
+    duration: 123
     tone: 62
     lyric: 孤
     pitch:
@@ -995,8 +995,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 33523
-    duration: 192
+  - position: 18717
+    duration: 107
     tone: 60
     lyric: 注
     pitch:
@@ -1008,8 +1008,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 33715
-    duration: 211
+  - position: 18824
+    duration: 118
     tone: 58
     lyric: 一
     pitch:
@@ -1021,8 +1021,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 33926
-    duration: 231
+  - position: 18942
+    duration: 129
     tone: 57
     lyric: 郑[zh i]
     pitch:
@@ -1034,8 +1034,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 34157
-    duration: 441
+  - position: 19071
+    duration: 246
     tone: 57
     lyric: 等
     pitch:
@@ -1047,8 +1047,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 34598
-    duration: 260
+  - position: 19317
+    duration: 145
     tone: 57
     lyric: 回
     pitch:
@@ -1060,8 +1060,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 34858
-    duration: 451
+  - position: 19462
+    duration: 252
     tone: 57
     lyric: 音
     pitch:
@@ -1073,8 +1073,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 35670
-    duration: 220
+  - position: 19916
+    duration: 123
     tone: 57
     lyric: 寂
     pitch:
@@ -1086,8 +1086,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 35890
-    duration: 202
+  - position: 20039
+    duration: 112
     tone: 58
     lyric: 静
     pitch:
@@ -1099,8 +1099,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 36092
-    duration: 230
+  - position: 20151
+    duration: 129
     tone: 57
     lyric: 的
     pitch:
@@ -1112,8 +1112,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 36322
-    duration: 192
+  - position: 20280
+    duration: 107
     tone: 58
     lyric: 春
     pitch:
@@ -1125,8 +1125,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 36514
-    duration: 240
+  - position: 20387
+    duration: 134
     tone: 57
     lyric: 天
     pitch:
@@ -1138,8 +1138,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 36754
-    duration: 212
+  - position: 20521
+    duration: 118
     tone: 58
     lyric: 是
     pitch:
@@ -1151,8 +1151,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 36966
-    duration: 182
+  - position: 20639
+    duration: 102
     tone: 57
     lyric: 否
     pitch:
@@ -1164,8 +1164,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 37148
-    duration: 240
+  - position: 20741
+    duration: 134
     tone: 58
     lyric: 还
     pitch:
@@ -1177,8 +1177,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 37388
-    duration: 240
+  - position: 20875
+    duration: 134
     tone: 67
     lyric: 会
     pitch:
@@ -1190,8 +1190,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 37628
-    duration: 442
+  - position: 21009
+    duration: 247
     tone: 64
     lyric: 有
     pitch:
@@ -1203,8 +1203,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 38070
-    duration: 268
+  - position: 21256
+    duration: 149
     tone: 65
     lyric: 谛[t i]
     pitch:
@@ -1216,8 +1216,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 38338
-    duration: 567
+  - position: 21405
+    duration: 317
     tone: 64
     lyric: 鸣
     pitch:
@@ -1229,8 +1229,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 39318
-    duration: 873
+  - position: 21953
+    duration: 487
     tone: 62
     lyric: 天
     pitch:
@@ -1242,8 +1242,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 40191
-    duration: 461
+  - position: 22440
+    duration: 257
     tone: 67
     lyric: 外
     pitch:
@@ -1255,8 +1255,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 40652
-    duration: 413
+  - position: 22697
+    duration: 231
     tone: 62
     lyric: 降
     pitch:
@@ -1268,8 +1268,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 41065
-    duration: 1238
+  - position: 22928
+    duration: 691
     tone: 64
     lyric: 临
     pitch:
@@ -1281,8 +1281,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 42746
-    duration: 432
+  - position: 23867
+    duration: 241
     tone: 57
     lyric: 悬
     pitch:
@@ -1294,8 +1294,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 43178
-    duration: 441
+  - position: 24108
+    duration: 246
     tone: 69
     lyric: 崖
     pitch:
@@ -1307,8 +1307,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 43619
-    duration: 211
+  - position: 24354
+    duration: 118
     tone: 69
     lyric: 千
     pitch:
@@ -1320,8 +1320,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 43830
-    duration: 192
+  - position: 24472
+    duration: 107
     tone: 67
     lyric: 钧
     pitch:
@@ -1333,8 +1333,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 44022
-    duration: 240
+  - position: 24579
+    duration: 134
     tone: 69
     lyric: 一
     pitch:
@@ -1346,8 +1346,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 44262
-    duration: 250
+  - position: 24713
+    duration: 140
     tone: 74
     lyric: 发
     pitch:
@@ -1359,8 +1359,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 44512
-    duration: 182
+  - position: 24853
+    duration: 101
     tone: 72
     lyric: 的
     pitch:
@@ -1372,8 +1372,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 44694
-    duration: 269
+  - position: 24954
+    duration: 150
     tone: 69
     lyric: +
     pitch:
@@ -1385,8 +1385,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 44963
-    duration: 384
+  - position: 25104
+    duration: 215
     tone: 69
     lyric: 前
     pitch:
@@ -1398,8 +1398,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 45347
-    duration: 528
+  - position: 25319
+    duration: 295
     tone: 72
     lyric: 程
     pitch:
@@ -1411,8 +1411,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 46202
-    duration: 451
+  - position: 25796
+    duration: 252
     tone: 74
     lyric: 染
     pitch:
@@ -1424,8 +1424,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 46653
-    duration: 422
+  - position: 26048
+    duration: 236
     tone: 65
     lyric: 过
     pitch:
@@ -1437,8 +1437,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 47075
-    duration: 192
+  - position: 26284
+    duration: 107
     tone: 62
     lyric: 血
     pitch:
@@ -1450,8 +1450,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 47267
-    duration: 221
+  - position: 26391
+    duration: 123
     tone: 64
     lyric: 色
     pitch:
@@ -1463,8 +1463,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 47488
-    duration: 413
+  - position: 26514
+    duration: 231
     tone: 70
     lyric: 沉
     pitch:
@@ -1476,8 +1476,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 47901
-    duration: 441
+  - position: 26745
+    duration: 246
     tone: 69
     lyric: 默
     pitch:
@@ -1489,8 +1489,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 48342
-    duration: 221
+  - position: 26991
+    duration: 123
     tone: 67
     lyric: 的
     pitch:
@@ -1502,8 +1502,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 48563
-    duration: 240
+  - position: 27114
+    duration: 134
     tone: 65
     lyric: +
     pitch:
@@ -1515,8 +1515,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 48803
-    duration: 509
+  - position: 27248
+    duration: 285
     tone: 64
     lyric: 红
     pitch:
@@ -1528,8 +1528,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 49645
-    duration: 403
+  - position: 27718
+    duration: 225
     tone: 65
     lyric: 万
     pitch:
@@ -1541,8 +1541,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 50048
-    duration: 221
+  - position: 27943
+    duration: 124
     tone: 63
     lyric: 念
     pitch:
@@ -1554,8 +1554,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 50269
-    duration: 211
+  - position: 28067
+    duration: 118
     tone: 64
     lyric: 俱
     pitch:
@@ -1567,8 +1567,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 50480
-    duration: 201
+  - position: 28185
+    duration: 112
     tone: 65
     lyric: 灰
     pitch:
@@ -1580,8 +1580,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 50681
-    duration: 221
+  - position: 28297
+    duration: 123
     tone: 65
     lyric: 奔
     pitch:
@@ -1593,8 +1593,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 50902
-    duration: 202
+  - position: 28420
+    duration: 113
     tone: 65
     lyric: 赴
     pitch:
@@ -1606,8 +1606,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 51104
-    duration: 249
+  - position: 28533
+    duration: 139
     tone: 70
     lyric: 这
     pitch:
@@ -1619,8 +1619,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 51353
-    duration: 298
+  - position: 28672
+    duration: 166
     tone: 69
     lyric: 一
     pitch:
@@ -1632,8 +1632,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 51651
-    duration: 326
+  - position: 28838
+    duration: 182
     tone: 69
     lyric: 念
     pitch:
@@ -1645,8 +1645,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 51977
-    duration: 231
+  - position: 29020
+    duration: 129
     tone: 65
     lyric: 成
     pitch:
@@ -1658,8 +1658,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 52208
-    duration: 509
+  - position: 29149
+    duration: 285
     tone: 67
     lyric: 空
     pitch:
@@ -1671,8 +1671,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 53081
-    duration: 615
+  - position: 29637
+    duration: 343
     tone: 69
     lyric: 心
     pitch:
@@ -1684,8 +1684,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 53696
-    duration: 230
+  - position: 29980
+    duration: 129
     tone: 62
     lyric: +
     pitch:
@@ -1697,8 +1697,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 53926
-    duration: 413
+  - position: 30109
+    duration: 230
     tone: 62
     lyric: 也
     pitch:
@@ -1710,8 +1710,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 54339
-    duration: 883
+  - position: 30339
+    duration: 493
     tone: 64
     lyric: 空
     pitch:
@@ -1723,8 +1723,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 55222
-    duration: 451
+  - position: 30832
+    duration: 252
     tone: 62
     lyric: +
     pitch:
@@ -1736,8 +1736,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 55673
-    duration: 567
+  - position: 31084
+    duration: 317
     tone: 64
     lyric: +
     pitch:
@@ -1749,8 +1749,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 56515
-    duration: 413
+  - position: 31554
+    duration: 231
     tone: 57
     lyric: 残
     pitch:
@@ -1762,8 +1762,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 56928
-    duration: 221
+  - position: 31785
+    duration: 123
     tone: 67
     lyric: 碑
     pitch:
@@ -1775,8 +1775,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 57149
-    duration: 220
+  - position: 31908
+    duration: 123
     tone: 69
     lyric: +
     pitch:
@@ -1788,8 +1788,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 57369
-    duration: 202
+  - position: 32031
+    duration: 113
     tone: 69
     lyric: 蔓
     pitch:
@@ -1801,8 +1801,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 57571
-    duration: 221
+  - position: 32144
+    duration: 123
     tone: 67
     lyric: 延
     pitch:
@@ -1814,8 +1814,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 57792
-    duration: 240
+  - position: 32267
+    duration: 134
     tone: 69
     lyric: 着
     pitch:
@@ -1827,8 +1827,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 58032
-    duration: 211
+  - position: 32401
+    duration: 118
     tone: 74
     lyric: 霜
     pitch:
@@ -1840,8 +1840,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 58243
-    duration: 163
+  - position: 32519
+    duration: 91
     tone: 72
     lyric: 苔
     pitch:
@@ -1853,8 +1853,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 58406
-    duration: 288
+  - position: 32610
+    duration: 161
     tone: 69
     lyric: +
     pitch:
@@ -1866,8 +1866,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 58694
-    duration: 413
+  - position: 32771
+    duration: 230
     tone: 69
     lyric: 青
     pitch:
@@ -1879,8 +1879,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 59107
-    duration: 422
+  - position: 33001
+    duration: 236
     tone: 72
     lyric: 葱
     pitch:
@@ -1892,8 +1892,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 59990
-    duration: 413
+  - position: 33494
+    duration: 231
     tone: 74
     lyric: 如
     pitch:
@@ -1905,8 +1905,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 60403
-    duration: 422
+  - position: 33725
+    duration: 236
     tone: 65
     lyric: 昨
     pitch:
@@ -1918,8 +1918,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 60825
-    duration: 212
+  - position: 33961
+    duration: 118
     tone: 62
     lyric: 非
     pitch:
@@ -1931,8 +1931,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 61037
-    duration: 201
+  - position: 34079
+    duration: 112
     tone: 64
     lyric: 昨
     pitch:
@@ -1944,8 +1944,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 61238
-    duration: 192
+  - position: 34191
+    duration: 107
     tone: 65
     lyric: 温
     pitch:
@@ -1957,8 +1957,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 61430
-    duration: 221
+  - position: 34298
+    duration: 124
     tone: 70
     lyric: +
     pitch:
@@ -1970,8 +1970,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 61651
-    duration: 451
+  - position: 34422
+    duration: 252
     tone: 69
     lyric: 柔
     pitch:
@@ -1983,8 +1983,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 62102
-    duration: 173
+  - position: 34674
+    duration: 96
     tone: 67
     lyric: 牺
     pitch:
@@ -1996,8 +1996,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 62275
-    duration: 269
+  - position: 34770
+    duration: 150
     tone: 65
     lyric: +
     pitch:
@@ -2009,8 +2009,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 62544
-    duration: 403
+  - position: 34920
+    duration: 225
     tone: 64
     lyric: 牲
     pitch:
@@ -2022,8 +2022,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 63409
-    duration: 153
+  - position: 35403
+    duration: 86
     tone: 64
     lyric: 牵
     pitch:
@@ -2035,8 +2035,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 63562
-    duration: 250
+  - position: 35489
+    duration: 139
     tone: 65
     lyric: +
     pitch:
@@ -2048,8 +2048,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 63812
-    duration: 211
+  - position: 35628
+    duration: 118
     tone: 62
     lyric: 念
     pitch:
@@ -2061,8 +2061,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 64023
-    duration: 202
+  - position: 35746
+    duration: 113
     tone: 64
     lyric: 沦
     pitch:
@@ -2074,8 +2074,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 64225
-    duration: 240
+  - position: 35859
+    duration: 134
     tone: 65
     lyric: 亡
     pitch:
@@ -2087,8 +2087,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 64465
-    duration: 192
+  - position: 35993
+    duration: 107
     tone: 65
     lyric: 这
     pitch:
@@ -2100,8 +2100,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 64657
-    duration: 220
+  - position: 36100
+    duration: 123
     tone: 65
     lyric: 一
     pitch:
@@ -2113,8 +2113,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 64877
-    duration: 240
+  - position: 36223
+    duration: 134
     tone: 70
     lyric: 次
     pitch:
@@ -2126,8 +2126,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 65117
-    duration: 317
+  - position: 36357
+    duration: 177
     tone: 69
     lyric: 所
     pitch:
@@ -2139,8 +2139,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 65434
-    duration: 327
+  - position: 36534
+    duration: 183
     tone: 69
     lyric: 念
     pitch:
@@ -2152,8 +2152,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 65761
-    duration: 240
+  - position: 36717
+    duration: 134
     tone: 65
     lyric: 是
     pitch:
@@ -2165,8 +2165,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 66001
-    duration: 470
+  - position: 36851
+    duration: 262
     tone: 67
     lyric: 空
     pitch:
@@ -2178,8 +2178,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 66845
-    duration: 212
+  - position: 37322
+    duration: 118
     tone: 67
     lyric: 都
     pitch:
@@ -2191,8 +2191,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 67057
-    duration: 403
+  - position: 37440
+    duration: 225
     tone: 69
     lyric: +
     pitch:
@@ -2204,8 +2204,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 67460
-    duration: 278
+  - position: 37665
+    duration: 155
     tone: 62
     lyric: +
     pitch:
@@ -2217,8 +2217,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 67738
-    duration: 403
+  - position: 37820
+    duration: 225
     tone: 62
     lyric: 是
     pitch:
@@ -2230,8 +2230,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 68141
-    duration: 269
+  - position: 38045
+    duration: 151
     tone: 62
     lyric: 空
     pitch:
@@ -2243,8 +2243,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 68410
-    duration: 528
+  - position: 38196
+    duration: 294
     tone: 64
     lyric: +
     pitch:
@@ -2256,8 +2256,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 69437
-    duration: 413
+  - position: 38769
+    duration: 231
     tone: 61
     lyric: 是
     pitch:
@@ -2269,8 +2269,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 69850
-    duration: 413
+  - position: 39000
+    duration: 230
     tone: 61
     lyric: 空
     pitch:
@@ -2282,8 +2282,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 70263
-    duration: 2131
+  - position: 39230
+    duration: 1190
     tone: 62
     lyric: +
     pitch:
@@ -2295,8 +2295,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 87053
-    duration: 201
+  - position: 48605
+    duration: 112
     tone: 62
     lyric: 平
     pitch:
@@ -2308,8 +2308,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 87254
-    duration: 212
+  - position: 48717
+    duration: 118
     tone: 64
     lyric: 静
     pitch:
@@ -2321,8 +2321,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 87466
-    duration: 844
+  - position: 48835
+    duration: 471
     tone: 65
     lyric: 着
     pitch:
@@ -2334,8 +2334,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 88310
-    duration: 202
+  - position: 49306
+    duration: 113
     tone: 65
     lyric: 礼
     pitch:
@@ -2347,8 +2347,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 88512
-    duration: 221
+  - position: 49419
+    duration: 124
     tone: 64
     lyric: 崩
     pitch:
@@ -2360,8 +2360,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 88733
-    duration: 249
+  - position: 49543
+    duration: 139
     tone: 62
     lyric: 乐
     pitch:
@@ -2373,8 +2373,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 88982
-    duration: 231
+  - position: 49682
+    duration: 129
     tone: 57
     lyric: 坏
     pitch:
@@ -2386,8 +2386,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 89213
-    duration: 413
+  - position: 49811
+    duration: 230
     tone: 60
     lyric: 的
     pitch:
@@ -2399,8 +2399,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 89626
-    duration: 240
+  - position: 50041
+    duration: 134
     tone: 62
     lyric: 荒
     pitch:
@@ -2412,8 +2412,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 89866
-    duration: 259
+  - position: 50175
+    duration: 145
     tone: 60
     lyric: 诞
     pitch:
@@ -2425,8 +2425,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 90470
-    duration: 192
+  - position: 50512
+    duration: 108
     tone: 60
     lyric: 模
     pitch:
@@ -2438,8 +2438,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 90662
-    duration: 231
+  - position: 50620
+    duration: 129
     tone: 53
     lyric: 糊
     pitch:
@@ -2451,8 +2451,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 90893
-    duration: 499
+  - position: 50749
+    duration: 278
     tone: 62
     lyric: 着
     pitch:
@@ -2464,8 +2464,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 91747
-    duration: 250
+  - position: 51225
+    duration: 140
     tone: 62
     lyric: 人
     pitch:
@@ -2477,8 +2477,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 91997
-    duration: 192
+  - position: 51365
+    duration: 107
     tone: 60
     lyric: 心
     pitch:
@@ -2490,8 +2490,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 92189
-    duration: 240
+  - position: 51472
+    duration: 134
     tone: 58
     lyric: 难
     pitch:
@@ -2503,8 +2503,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 92429
-    duration: 221
+  - position: 51606
+    duration: 124
     tone: 57
     lyric: 测
     pitch:
@@ -2516,8 +2516,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 92650
-    duration: 432
+  - position: 51730
+    duration: 241
     tone: 57
     lyric: 的
     pitch:
@@ -2529,8 +2529,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 93082
-    duration: 297
+  - position: 51971
+    duration: 166
     tone: 57
     lyric: 背
     pitch:
@@ -2542,8 +2542,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 93379
-    duration: 451
+  - position: 52137
+    duration: 251
     tone: 57
     lyric: 叛
     pitch:
@@ -2555,8 +2555,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 94143
-    duration: 240
+  - position: 52563
+    duration: 134
     tone: 57
     lyric: 当
     pitch:
@@ -2568,8 +2568,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 94383
-    duration: 192
+  - position: 52697
+    duration: 107
     tone: 58
     lyric: 信
     pitch:
@@ -2581,8 +2581,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 94575
-    duration: 221
+  - position: 52804
+    duration: 124
     tone: 57
     lyric: 仰
     pitch:
@@ -2594,8 +2594,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 94796
-    duration: 201
+  - position: 52928
+    duration: 112
     tone: 58
     lyric: 化
     pitch:
@@ -2607,8 +2607,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 94997
-    duration: 231
+  - position: 53040
+    duration: 129
     tone: 57
     lyric: 作
     pitch:
@@ -2620,8 +2620,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 95228
-    duration: 221
+  - position: 53169
+    duration: 123
     tone: 58
     lyric: 唯
     pitch:
@@ -2633,8 +2633,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 95449
-    duration: 201
+  - position: 53292
+    duration: 113
     tone: 57
     lyric: 物
     pitch:
@@ -2646,8 +2646,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 95650
-    duration: 192
+  - position: 53405
+    duration: 107
     tone: 58
     lyric: 主
     pitch:
@@ -2659,8 +2659,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 95842
-    duration: 240
+  - position: 53512
+    duration: 134
     tone: 67
     lyric: 义
     pitch:
@@ -2672,8 +2672,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 96082
-    duration: 163
+  - position: 53646
+    duration: 91
     tone: 62
     lyric: 的
     pitch:
@@ -2685,8 +2685,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 96245
-    duration: 308
+  - position: 53737
+    duration: 172
     tone: 64
     lyric: +
     pitch:
@@ -2698,8 +2698,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 96553
-    duration: 249
+  - position: 53909
+    duration: 139
     tone: 65
     lyric: 审
     pitch:
@@ -2711,8 +2711,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 96802
-    duration: 346
+  - position: 54048
+    duration: 193
     tone: 64
     lyric: 判
     pitch:
@@ -2724,8 +2724,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 97378
-    duration: 192
+  - position: 54369
+    duration: 108
     tone: 62
     lyric: 明
     pitch:
@@ -2737,8 +2737,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 97570
-    duration: 211
+  - position: 54477
+    duration: 117
     tone: 64
     lyric: 日
     pitch:
@@ -2750,8 +2750,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 97781
-    duration: 432
+  - position: 54594
+    duration: 242
     tone: 64
     lyric: 渺
     pitch:
@@ -2763,8 +2763,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 98213
-    duration: 221
+  - position: 54836
+    duration: 123
     tone: 62
     lyric: 茫
     pitch:
@@ -2776,8 +2776,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 98434
-    duration: 259
+  - position: 54959
+    duration: 145
     tone: 64
     lyric: 中
     pitch:
@@ -2789,8 +2789,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 98693
-    duration: 346
+  - position: 55104
+    duration: 193
     tone: 65
     lyric: 是
     pitch:
@@ -2802,8 +2802,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 99039
-    duration: 317
+  - position: 55297
+    duration: 177
     tone: 64
     lyric: 否
     pitch:
@@ -2815,8 +2815,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 99356
-    duration: 240
+  - position: 55474
+    duration: 134
     tone: 62
     lyric: 灿
     pitch:
@@ -2828,8 +2828,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 99596
-    duration: 1190
+  - position: 55608
+    duration: 664
     tone: 64
     lyric: 烂
     pitch:
@@ -2841,8 +2841,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 100786
-    duration: 231
+  - position: 56272
+    duration: 129
     tone: 62
     lyric: 那
     pitch:
@@ -2854,8 +2854,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 101017
-    duration: 211
+  - position: 56401
+    duration: 118
     tone: 64
     lyric: 真
     pitch:
@@ -2867,8 +2867,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 101228
-    duration: 557
+  - position: 56519
+    duration: 311
     tone: 65
     lyric: 相
     pitch:
@@ -2880,8 +2880,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 102095
-    duration: 201
+  - position: 57003
+    duration: 112
     tone: 65
     lyric: 拨
     pitch:
@@ -2893,8 +2893,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 102296
-    duration: 240
+  - position: 57115
+    duration: 134
     tone: 64
     lyric: 开
     pitch:
@@ -2906,8 +2906,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 102536
-    duration: 183
+  - position: 57249
+    duration: 102
     tone: 62
     lyric: 星
     pitch:
@@ -2919,8 +2919,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 102719
-    duration: 230
+  - position: 57351
+    duration: 129
     tone: 57
     lyric: 云
     pitch:
@@ -2932,8 +2932,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 102949
-    duration: 413
+  - position: 57480
+    duration: 230
     tone: 60
     lyric: 的
     pitch:
@@ -2945,8 +2945,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 103362
-    duration: 230
+  - position: 57710
+    duration: 129
     tone: 60
     lyric: 朦
     pitch:
@@ -2958,8 +2958,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 103592
-    duration: 653
+  - position: 57839
+    duration: 364
     tone: 60
     lyric: 胧
     pitch:
@@ -2971,8 +2971,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 104245
-    duration: 221
+  - position: 58203
+    duration: 124
     tone: 60
     lyric: 点
     pitch:
@@ -2984,8 +2984,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 104466
-    duration: 221
+  - position: 58327
+    duration: 123
     tone: 53
     lyric: 燃
     pitch:
@@ -2997,8 +2997,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 104687
-    duration: 499
+  - position: 58450
+    duration: 279
     tone: 62
     lyric: 的
     pitch:
@@ -3010,8 +3010,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 105560
-    duration: 183
+  - position: 58938
+    duration: 102
     tone: 62
     lyric: 火
     pitch:
@@ -3023,8 +3023,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 105743
-    duration: 230
+  - position: 59040
+    duration: 128
     tone: 60
     lyric: 苗
     pitch:
@@ -3036,8 +3036,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 105973
-    duration: 211
+  - position: 59168
+    duration: 118
     tone: 58
     lyric: 却
     pitch:
@@ -3049,8 +3049,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 106184
-    duration: 211
+  - position: 59286
+    duration: 118
     tone: 57
     lyric: 无
     pitch:
@@ -3062,8 +3062,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 106395
-    duration: 432
+  - position: 59404
+    duration: 241
     tone: 57
     lyric: 法
     pitch:
@@ -3075,8 +3075,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 106827
-    duration: 260
+  - position: 59645
+    duration: 145
     tone: 57
     lyric: 掌
     pitch:
@@ -3088,8 +3088,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 107087
-    duration: 508
+  - position: 59790
+    duration: 284
     tone: 57
     lyric: 控
     pitch:
@@ -3101,8 +3101,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 107931
-    duration: 192
+  - position: 60261
+    duration: 108
     tone: 57
     lyric: 错
     pitch:
@@ -3114,8 +3114,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 108123
-    duration: 212
+  - position: 60369
+    duration: 118
     tone: 58
     lyric: 综
     pitch:
@@ -3127,8 +3127,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 108335
-    duration: 182
+  - position: 60487
+    duration: 102
     tone: 57
     lyric: 的
     pitch:
@@ -3140,8 +3140,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 108517
-    duration: 211
+  - position: 60589
+    duration: 117
     tone: 55
     lyric: 文
     pitch:
@@ -3153,8 +3153,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 108728
-    duration: 221
+  - position: 60706
+    duration: 124
     tone: 57
     lyric: 明
     pitch:
@@ -3166,8 +3166,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 108949
-    duration: 211
+  - position: 60830
+    duration: 118
     tone: 58
     lyric: 和
     pitch:
@@ -3179,8 +3179,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 109160
-    duration: 211
+  - position: 60948
+    duration: 117
     tone: 57
     lyric: 灵
     pitch:
@@ -3192,8 +3192,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 109371
-    duration: 212
+  - position: 61065
+    duration: 119
     tone: 58
     lyric: 魂
     pitch:
@@ -3205,8 +3205,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 109583
-    duration: 230
+  - position: 61184
+    duration: 128
     tone: 67
     lyric: 辗
     pitch:
@@ -3218,8 +3218,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 109813
-    duration: 422
+  - position: 61312
+    duration: 236
     tone: 64
     lyric: 转
     pitch:
@@ -3231,8 +3231,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 110235
-    duration: 231
+  - position: 61548
+    duration: 129
     tone: 65
     lyric: 悲
     pitch:
@@ -3244,8 +3244,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 110466
-    duration: 547
+  - position: 61677
+    duration: 305
     tone: 64
     lyric: 痛
     pitch:
@@ -3257,8 +3257,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 111555
-    duration: 221
+  - position: 62285
+    duration: 123
     tone: 60
     lyric: 不
     pitch:
@@ -3270,8 +3270,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 111776
-    duration: 624
+  - position: 62408
+    duration: 349
     tone: 62
     lyric: +
     pitch:
@@ -3283,8 +3283,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 112400
-    duration: 192
+  - position: 62757
+    duration: 107
     tone: 67
     lyric: 过
     pitch:
@@ -3296,8 +3296,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 112592
-    duration: 259
+  - position: 62864
+    duration: 144
     tone: 62
     lyric: +
     pitch:
@@ -3309,8 +3309,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 112851
-    duration: 413
+  - position: 63008
+    duration: 231
     tone: 62
     lyric: 一
     pitch:
@@ -3322,8 +3322,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 113264
-    duration: 288
+  - position: 63239
+    duration: 161
     tone: 62
     lyric: 梦
     pitch:
@@ -3335,8 +3335,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 113552
-    duration: 1036
+  - position: 63400
+    duration: 578
     tone: 64
     lyric: +
     pitch:
@@ -3348,8 +3348,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 114953
-    duration: 451
+  - position: 64182
+    duration: 252
     tone: 57
     lyric: 大
     pitch:
@@ -3361,8 +3361,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 115404
-    duration: 394
+  - position: 64434
+    duration: 220
     tone: 69
     lyric: 兴
     pitch:
@@ -3374,8 +3374,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 115798
-    duration: 230
+  - position: 64654
+    duration: 128
     tone: 69
     lyric: 安
     pitch:
@@ -3387,8 +3387,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 116028
-    duration: 212
+  - position: 64782
+    duration: 119
     tone: 67
     lyric: 岭
     pitch:
@@ -3400,8 +3400,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 116240
-    duration: 220
+  - position: 64901
+    duration: 123
     tone: 69
     lyric: 深
     pitch:
@@ -3413,8 +3413,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 116460
-    duration: 231
+  - position: 65024
+    duration: 128
     tone: 74
     lyric: 处
     pitch:
@@ -3426,8 +3426,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 116691
-    duration: 201
+  - position: 65152
+    duration: 113
     tone: 72
     lyric: 的
     pitch:
@@ -3439,8 +3439,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 116892
-    duration: 221
+  - position: 65265
+    duration: 123
     tone: 69
     lyric: +
     pitch:
@@ -3452,8 +3452,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 117113
-    duration: 432
+  - position: 65388
+    duration: 241
     tone: 69
     lyric: 寒
     pitch:
@@ -3465,8 +3465,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 117545
-    duration: 451
+  - position: 65629
+    duration: 252
     tone: 72
     lyric: 风
     pitch:
@@ -3478,8 +3478,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 118423
-    duration: 461
+  - position: 66120
+    duration: 257
     tone: 74
     lyric: 吹
     pitch:
@@ -3491,8 +3491,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 118884
-    duration: 365
+  - position: 66377
+    duration: 204
     tone: 65
     lyric: 着
     pitch:
@@ -3504,8 +3504,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 119249
-    duration: 230
+  - position: 66581
+    duration: 128
     tone: 62
     lyric: 孩
     pitch:
@@ -3517,8 +3517,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 119479
-    duration: 183
+  - position: 66709
+    duration: 102
     tone: 64
     lyric: 子
     pitch:
@@ -3530,8 +3530,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 119662
-    duration: 163
+  - position: 66811
+    duration: 91
     tone: 65
     lyric: 的
     pitch:
@@ -3543,8 +3543,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 119825
-    duration: 288
+  - position: 66902
+    duration: 161
     tone: 70
     lyric: +
     pitch:
@@ -3556,8 +3556,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 120113
-    duration: 441
+  - position: 67063
+    duration: 246
     tone: 69
     lyric: 脸
     pitch:
@@ -3569,8 +3569,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 120554
-    duration: 202
+  - position: 67309
+    duration: 113
     tone: 67
     lyric: 通
     pitch:
@@ -3582,8 +3582,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 120756
-    duration: 230
+  - position: 67422
+    duration: 129
     tone: 65
     lyric: +
     pitch:
@@ -3595,8 +3595,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 120986
-    duration: 461
+  - position: 67551
+    duration: 257
     tone: 64
     lyric: 红
     pitch:
@@ -3608,8 +3608,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 121860
-    duration: 394
+  - position: 68039
+    duration: 219
     tone: 65
     lyric: 一
     pitch:
@@ -3621,8 +3621,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 122254
-    duration: 220
+  - position: 68258
+    duration: 123
     tone: 62
     lyric: 碗
     pitch:
@@ -3634,8 +3634,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 122474
-    duration: 202
+  - position: 68381
+    duration: 113
     tone: 64
     lyric: 热
     pitch:
@@ -3647,8 +3647,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 122676
-    duration: 202
+  - position: 68494
+    duration: 113
     tone: 65
     lyric: 腾
     pitch:
@@ -3660,8 +3660,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 122878
-    duration: 220
+  - position: 68607
+    duration: 123
     tone: 65
     lyric: 腾
     pitch:
@@ -3673,8 +3673,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 123098
-    duration: 240
+  - position: 68730
+    duration: 134
     tone: 65
     lyric: 饺
     pitch:
@@ -3686,8 +3686,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 123338
-    duration: 212
+  - position: 68864
+    duration: 118
     tone: 70
     lyric: 子
     pitch:
@@ -3699,8 +3699,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 123550
-    duration: 345
+  - position: 68982
+    duration: 193
     tone: 69
     lyric: 融
     pitch:
@@ -3712,8 +3712,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 123895
-    duration: 298
+  - position: 69175
+    duration: 166
     tone: 69
     lyric: 化
     pitch:
@@ -3725,8 +3725,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 124193
-    duration: 211
+  - position: 69341
+    duration: 118
     tone: 65
     lyric: 冰
     pitch:
@@ -3738,8 +3738,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 124404
-    duration: 470
+  - position: 69459
+    duration: 262
     tone: 67
     lyric: 冷
     pitch:
@@ -3751,8 +3751,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 125295
-    duration: 605
+  - position: 69956
+    duration: 338
     tone: 69
     lyric: 在
     pitch:
@@ -3764,8 +3764,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 125900
-    duration: 269
+  - position: 70294
+    duration: 150
     tone: 62
     lyric: +
     pitch:
@@ -3777,8 +3777,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 126169
-    duration: 393
+  - position: 70444
+    duration: 220
     tone: 62
     lyric: 怀
     pitch:
@@ -3790,8 +3790,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 126562
-    duration: 164
+  - position: 70664
+    duration: 91
     tone: 62
     lyric: 中
     pitch:
@@ -3803,8 +3803,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 126726
-    duration: 595
+  - position: 70755
+    duration: 333
     tone: 64
     lyric: +
     pitch:
@@ -3816,8 +3816,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 127321
-    duration: 153
+  - position: 71088
+    duration: 85
     tone: 64
     lyric: +
     pitch:
@@ -3829,8 +3829,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 127474
-    duration: 442
+  - position: 71173
+    duration: 247
     tone: 62
     lyric: +
     pitch:
@@ -3842,8 +3842,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 127916
-    duration: 826
+  - position: 71420
+    duration: 461
     tone: 64
     lyric: +
     pitch:
@@ -3855,8 +3855,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 128742
-    duration: 422
+  - position: 71881
+    duration: 236
     tone: 57
     lyric: 遥
     pitch:
@@ -3868,8 +3868,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 129164
-    duration: 432
+  - position: 72117
+    duration: 241
     tone: 69
     lyric: 远
     pitch:
@@ -3881,8 +3881,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 129596
-    duration: 192
+  - position: 72358
+    duration: 107
     tone: 69
     lyric: 光
     pitch:
@@ -3894,8 +3894,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 129788
-    duration: 230
+  - position: 72465
+    duration: 128
     tone: 67
     lyric: 年
     pitch:
@@ -3907,8 +3907,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 130018
-    duration: 202
+  - position: 72593
+    duration: 113
     tone: 69
     lyric: 之
     pitch:
@@ -3920,8 +3920,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 130220
-    duration: 230
+  - position: 72706
+    duration: 129
     tone: 74
     lyric: 外
     pitch:
@@ -3933,8 +3933,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 130450
-    duration: 164
+  - position: 72835
+    duration: 91
     tone: 72
     lyric: 的
     pitch:
@@ -3946,8 +3946,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 130614
-    duration: 192
+  - position: 72926
+    duration: 107
     tone: 69
     lyric: +
     pitch:
@@ -3959,7 +3959,7 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 130806
+  - position: 73033
     duration: 10
     tone: 69
     lyric: 星
@@ -3972,8 +3972,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 130891
-    duration: 423
+  - position: 73081
+    duration: 236
     tone: 69
     lyric: 星
     pitch:
@@ -3985,8 +3985,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 131314
-    duration: 412
+  - position: 73317
+    duration: 230
     tone: 72
     lyric: 空
     pitch:
@@ -3998,8 +3998,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 132178
-    duration: 393
+  - position: 73799
+    duration: 220
     tone: 74
     lyric: 指
     pitch:
@@ -4011,8 +4011,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 132571
-    duration: 211
+  - position: 74019
+    duration: 118
     tone: 65
     lyric: 引
     pitch:
@@ -4024,8 +4024,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 132782
-    duration: 221
+  - position: 74137
+    duration: 123
     tone: 62
     lyric: +
     pitch:
@@ -4037,8 +4037,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 133003
-    duration: 231
+  - position: 74260
+    duration: 129
     tone: 62
     lyric: 我
     pitch:
@@ -4050,8 +4050,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 133234
-    duration: 230
+  - position: 74389
+    duration: 128
     tone: 64
     lyric: 前
     pitch:
@@ -4063,8 +4063,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 133464
-    duration: 211
+  - position: 74517
+    duration: 118
     tone: 65
     lyric: 行
     pitch:
@@ -4076,8 +4076,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 133675
-    duration: 211
+  - position: 74635
+    duration: 118
     tone: 70
     lyric: +
     pitch:
@@ -4089,8 +4089,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 133886
-    duration: 442
+  - position: 74753
+    duration: 247
     tone: 69
     lyric: 的
     pitch:
@@ -4102,8 +4102,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 134328
-    duration: 211
+  - position: 75000
+    duration: 118
     tone: 67
     lyric: 孤
     pitch:
@@ -4115,8 +4115,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 134539
-    duration: 231
+  - position: 75118
+    duration: 129
     tone: 65
     lyric: +
     pitch:
@@ -4128,8 +4128,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 134770
-    duration: 451
+  - position: 75247
+    duration: 251
     tone: 64
     lyric: 灯
     pitch:
@@ -4141,8 +4141,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 135634
-    duration: 422
+  - position: 75729
+    duration: 236
     tone: 65
     lyric: 那
     pitch:
@@ -4154,8 +4154,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 136056
-    duration: 202
+  - position: 75965
+    duration: 112
     tone: 62
     lyric: 最
     pitch:
@@ -4167,8 +4167,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 136258
-    duration: 211
+  - position: 76077
+    duration: 118
     tone: 64
     lyric: 后
     pitch:
@@ -4180,8 +4180,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 136469
-    duration: 221
+  - position: 76195
+    duration: 124
     tone: 65
     lyric: 一
     pitch:
@@ -4193,8 +4193,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 136690
-    duration: 211
+  - position: 76319
+    duration: 117
     tone: 65
     lyric: 抹
     pitch:
@@ -4206,8 +4206,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 136901
-    duration: 192
+  - position: 76436
+    duration: 108
     tone: 65
     lyric: 柔
     pitch:
@@ -4219,8 +4219,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 137093
-    duration: 221
+  - position: 76544
+    duration: 123
     tone: 70
     lyric: 软
     pitch:
@@ -4232,8 +4232,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 137314
-    duration: 345
+  - position: 76667
+    duration: 193
     tone: 69
     lyric: 留
     pitch:
@@ -4245,8 +4245,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 137659
-    duration: 317
+  - position: 76860
+    duration: 177
     tone: 69
     lyric: 在
     pitch:
@@ -4258,8 +4258,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 137976
-    duration: 221
+  - position: 77037
+    duration: 123
     tone: 65
     lyric: 心
     pitch:
@@ -4271,8 +4271,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 138197
-    duration: 201
+  - position: 77160
+    duration: 112
     tone: 65
     lyric: 中
     pitch:
@@ -4284,8 +4284,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 138398
-    duration: 336
+  - position: 77272
+    duration: 188
     tone: 67
     lyric: +
     pitch:
@@ -4297,8 +4297,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 139052
-    duration: 201
+  - position: 77637
+    duration: 113
     tone: 67
     lyric: 在
     pitch:
@@ -4310,8 +4310,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 139253
-    duration: 394
+  - position: 77750
+    duration: 220
     tone: 69
     lyric: +
     pitch:
@@ -4323,8 +4323,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 139954
-    duration: 403
+  - position: 78141
+    duration: 225
     tone: 62
     lyric: 心
     pitch:
@@ -4336,8 +4336,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 140357
-    duration: 250
+  - position: 78366
+    duration: 140
     tone: 62
     lyric: 中
     pitch:
@@ -4349,8 +4349,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 140607
-    duration: 586
+  - position: 78506
+    duration: 327
     tone: 64
     lyric: +
     pitch:
@@ -4362,8 +4362,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 141673
-    duration: 403
+  - position: 79101
+    duration: 225
     tone: 61
     lyric: 心
     pitch:
@@ -4375,8 +4375,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 142076
-    duration: 297
+  - position: 79326
+    duration: 166
     tone: 61
     lyric: 中
     pitch:
@@ -4388,8 +4388,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 142373
-    duration: 2314
+  - position: 79492
+    duration: 1292
     tone: 62
     lyric: +
     pitch:
@@ -4401,8 +4401,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 145882
-    duration: 441
+  - position: 81451
+    duration: 246
     tone: 57
     lyric: 我
     pitch:
@@ -4414,8 +4414,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 146323
-    duration: 413
+  - position: 81697
+    duration: 231
     tone: 69
     lyric: 仰
     pitch:
@@ -4427,8 +4427,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 146736
-    duration: 250
+  - position: 81928
+    duration: 139
     tone: 69
     lyric: 望
     pitch:
@@ -4440,8 +4440,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 146986
-    duration: 192
+  - position: 82067
+    duration: 107
     tone: 67
     lyric: 你
     pitch:
@@ -4453,8 +4453,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 147178
-    duration: 220
+  - position: 82174
+    duration: 123
     tone: 69
     lyric: 仰
     pitch:
@@ -4466,8 +4466,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 147398
-    duration: 250
+  - position: 82297
+    duration: 140
     tone: 74
     lyric: 望
     pitch:
@@ -4479,8 +4479,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 147648
-    duration: 182
+  - position: 82437
+    duration: 101
     tone: 72
     lyric: 的
     pitch:
@@ -4492,8 +4492,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 147830
-    duration: 279
+  - position: 82538
+    duration: 156
     tone: 69
     lyric: +
     pitch:
@@ -4505,8 +4505,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 148109
-    duration: 393
+  - position: 82694
+    duration: 220
     tone: 69
     lyric: 星
     pitch:
@@ -4518,8 +4518,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 148502
-    duration: 404
+  - position: 82914
+    duration: 225
     tone: 72
     lyric: 空
     pitch:
@@ -4531,8 +4531,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 149338
-    duration: 451
+  - position: 83380
+    duration: 252
     tone: 74
     lyric: 看
     pitch:
@@ -4544,8 +4544,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 149789
-    duration: 422
+  - position: 83632
+    duration: 236
     tone: 65
     lyric: 到
     pitch:
@@ -4557,8 +4557,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 150211
-    duration: 202
+  - position: 83868
+    duration: 113
     tone: 62
     lyric: 的
     pitch:
@@ -4570,8 +4570,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 150413
-    duration: 240
+  - position: 83981
+    duration: 134
     tone: 64
     lyric: 纷
     pitch:
@@ -4583,8 +4583,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 150653
-    duration: 317
+  - position: 84115
+    duration: 177
     tone: 70
     lyric: 繁
     pitch:
@@ -4596,8 +4596,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 151085
-    duration: 403
+  - position: 84356
+    duration: 225
     tone: 69
     lyric: 却
     pitch:
@@ -4609,8 +4609,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 151488
-    duration: 211
+  - position: 84581
+    duration: 118
     tone: 67
     lyric: 不
     pitch:
@@ -4622,8 +4622,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 151699
-    duration: 231
+  - position: 84699
+    duration: 129
     tone: 65
     lyric: +
     pitch:
@@ -4635,8 +4635,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 151930
-    duration: 441
+  - position: 84828
+    duration: 246
     tone: 64
     lyric: 同
     pitch:
@@ -4648,8 +4648,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 152795
-    duration: 442
+  - position: 85311
+    duration: 246
     tone: 65
     lyric: 而
     pitch:
@@ -4661,8 +4661,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 153237
-    duration: 182
+  - position: 85557
+    duration: 102
     tone: 62
     lyric: 期
     pitch:
@@ -4674,8 +4674,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 153419
-    duration: 231
+  - position: 85659
+    duration: 129
     tone: 64
     lyric: 待
     pitch:
@@ -4687,8 +4687,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 153650
-    duration: 201
+  - position: 85788
+    duration: 112
     tone: 65
     lyric: 的
     pitch:
@@ -4700,8 +4700,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 153851
-    duration: 221
+  - position: 85900
+    duration: 124
     tone: 65
     lyric: 拯
     pitch:
@@ -4713,8 +4713,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 154072
-    duration: 192
+  - position: 86024
+    duration: 107
     tone: 65
     lyric: 救
     pitch:
@@ -4726,8 +4726,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 154264
-    duration: 250
+  - position: 86131
+    duration: 139
     tone: 70
     lyric: 于
     pitch:
@@ -4739,8 +4739,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 154514
-    duration: 336
+  - position: 86270
+    duration: 188
     tone: 69
     lyric: 水
     pitch:
@@ -4752,8 +4752,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 154850
-    duration: 316
+  - position: 86458
+    duration: 176
     tone: 69
     lyric: 火
     pitch:
@@ -4765,8 +4765,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 155166
-    duration: 221
+  - position: 86634
+    duration: 124
     tone: 65
     lyric: 之
     pitch:
@@ -4778,8 +4778,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 155387
-    duration: 461
+  - position: 86758
+    duration: 257
     tone: 67
     lyric: 中
     pitch:
@@ -4791,8 +4791,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 156232
-    duration: 490
+  - position: 87230
+    duration: 273
     tone: 69
     lyric: 一
     pitch:
@@ -4804,8 +4804,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 156722
-    duration: 134
+  - position: 87503
+    duration: 75
     tone: 69
     lyric: +
     pitch:
@@ -4817,8 +4817,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 156856
-    duration: 230
+  - position: 87578
+    duration: 128
     tone: 62
     lyric: +
     pitch:
@@ -4830,8 +4830,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 157086
-    duration: 413
+  - position: 87706
+    duration: 231
     tone: 62
     lyric: 场
     pitch:
@@ -4843,8 +4843,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 157499
-    duration: 864
+  - position: 87937
+    duration: 482
     tone: 64
     lyric: 梦
     pitch:
@@ -4856,8 +4856,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 158363
-    duration: 451
+  - position: 88419
+    duration: 252
     tone: 62
     lyric: +
     pitch:
@@ -4869,8 +4869,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 158814
-    duration: 461
+  - position: 88671
+    duration: 258
     tone: 64
     lyric: +
     pitch:
@@ -4882,8 +4882,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 159698
-    duration: 412
+  - position: 89165
+    duration: 230
     tone: 57
     lyric: 文
     pitch:
@@ -4895,8 +4895,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 160110
-    duration: 413
+  - position: 89395
+    duration: 230
     tone: 69
     lyric: 明
     pitch:
@@ -4908,8 +4908,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 160523
-    duration: 211
+  - position: 89625
+    duration: 118
     tone: 69
     lyric: 将
     pitch:
@@ -4921,8 +4921,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 160734
-    duration: 173
+  - position: 89743
+    duration: 97
     tone: 67
     lyric: 迎
     pitch:
@@ -4934,8 +4934,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 160907
-    duration: 250
+  - position: 89840
+    duration: 139
     tone: 69
     lyric: 来
     pitch:
@@ -4947,8 +4947,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 161157
-    duration: 240
+  - position: 89979
+    duration: 134
     tone: 74
     lyric: 它
     pitch:
@@ -4960,8 +4960,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 161397
-    duration: 201
+  - position: 90113
+    duration: 113
     tone: 72
     lyric: 的
     pitch:
@@ -4973,8 +4973,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 161598
-    duration: 212
+  - position: 90226
+    duration: 118
     tone: 69
     lyric: +
     pitch:
@@ -4986,8 +4986,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 161849
-    duration: 404
+  - position: 90366
+    duration: 225
     tone: 69
     lyric: 剧
     pitch:
@@ -4999,8 +4999,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 162253
-    duration: 480
+  - position: 90591
+    duration: 268
     tone: 72
     lyric: 终
     pitch:
@@ -5012,8 +5012,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 163088
-    duration: 461
+  - position: 91057
+    duration: 258
     tone: 74
     lyric: 把
     pitch:
@@ -5025,8 +5025,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 163549
-    duration: 422
+  - position: 91315
+    duration: 235
     tone: 65
     lyric: 希
     pitch:
@@ -5038,8 +5038,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 163971
-    duration: 403
+  - position: 91550
+    duration: 225
     tone: 64
     lyric: 望
     pitch:
@@ -5051,8 +5051,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 164374
-    duration: 211
+  - position: 91775
+    duration: 118
     tone: 65
     lyric: 留
     pitch:
@@ -5064,8 +5064,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 164585
-    duration: 231
+  - position: 91893
+    duration: 129
     tone: 70
     lyric: 在
     pitch:
@@ -5077,8 +5077,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 164816
-    duration: 422
+  - position: 92022
+    duration: 236
     tone: 69
     lyric: 了
     pitch:
@@ -5090,8 +5090,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 165238
-    duration: 202
+  - position: 92258
+    duration: 113
     tone: 67
     lyric: 星
     pitch:
@@ -5103,8 +5103,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 165440
-    duration: 230
+  - position: 92371
+    duration: 128
     tone: 65
     lyric: +
     pitch:
@@ -5116,8 +5116,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 165670
-    duration: 519
+  - position: 92499
+    duration: 290
     tone: 64
     lyric: 空
     pitch:
@@ -5129,8 +5129,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 166534
-    duration: 432
+  - position: 92981
+    duration: 242
     tone: 65
     lyric: 攀
     pitch:
@@ -5142,8 +5142,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 166966
-    duration: 211
+  - position: 93223
+    duration: 117
     tone: 62
     lyric: 登
     pitch:
@@ -5155,8 +5155,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 167177
-    duration: 231
+  - position: 93340
+    duration: 129
     tone: 64
     lyric: 的
     pitch:
@@ -5168,8 +5168,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 167408
-    duration: 201
+  - position: 93469
+    duration: 113
     tone: 65
     lyric: 褐
     pitch:
@@ -5181,8 +5181,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 167609
-    duration: 212
+  - position: 93582
+    duration: 118
     tone: 65
     lyric: 蚁
     pitch:
@@ -5194,8 +5194,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 167821
-    duration: 211
+  - position: 93700
+    duration: 118
     tone: 65
     lyric: 却
     pitch:
@@ -5207,8 +5207,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 168032
-    duration: 221
+  - position: 93818
+    duration: 123
     tone: 70
     lyric: 是
     pitch:
@@ -5220,8 +5220,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 168253
-    duration: 297
+  - position: 93941
+    duration: 166
     tone: 69
     lyric: 唯
     pitch:
@@ -5233,8 +5233,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 168550
-    duration: 336
+  - position: 94107
+    duration: 188
     tone: 69
     lyric: 一
     pitch:
@@ -5246,8 +5246,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 168886
-    duration: 231
+  - position: 94295
+    duration: 129
     tone: 65
     lyric: 见
     pitch:
@@ -5259,8 +5259,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 169117
-    duration: 451
+  - position: 94424
+    duration: 251
     tone: 67
     lyric: 证
     pitch:
@@ -5272,8 +5272,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 169980
-    duration: 624
+  - position: 94906
+    duration: 348
     tone: 69
     lyric: 再
     pitch:
@@ -5285,8 +5285,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 170604
-    duration: 202
+  - position: 95254
+    duration: 113
     tone: 62
     lyric: +
     pitch:
@@ -5298,8 +5298,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 170806
-    duration: 451
+  - position: 95367
+    duration: 251
     tone: 62
     lyric: 日
     pitch:
@@ -5311,8 +5311,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 171257
-    duration: 797
+  - position: 95618
+    duration: 445
     tone: 64
     lyric: 升
     pitch:
@@ -5324,8 +5324,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 172524
-    duration: 471
+  - position: 96326
+    duration: 263
     tone: 61
     lyric: 日
     pitch:
@@ -5337,8 +5337,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 172995
-    duration: 201
+  - position: 96589
+    duration: 112
     tone: 62
     lyric: 升
     pitch:
@@ -5350,8 +5350,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 173196
-    duration: 221
+  - position: 96701
+    duration: 123
     tone: 64
     lyric: +
     pitch:
@@ -5363,8 +5363,8 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 173417
-    duration: 2198
+  - position: 96824
+    duration: 1228
     tone: 62
     lyric: +
     pitch:
