@@ -2,7 +2,7 @@
 comment: ""
 output_dir: Vocal
 cache_dir: UCache
-ustx_version: "0.9"
+ustx_version: "0.1"
 bpm: 130
 beat_per_bar: 4
 beat_unit: 4

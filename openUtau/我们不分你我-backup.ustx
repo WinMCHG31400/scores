@@ -272,6 +272,26 @@ expressions:
     is_flag: false
     flag: ""
     skip_output_if_default: false
+  clry:
+    name: voice color y
+    abbr: clry
+    type: Options
+    min: 0
+    max: -1
+    default_value: 0
+    is_flag: false
+    options: []
+    skip_output_if_default: false
+  xsy:
+    name: cross synthesis (curve)
+    abbr: xsy
+    type: Curve
+    min: 0
+    max: 100
+    default_value: 0
+    is_flag: false
+    flag: ""
+    skip_output_if_default: false
 exp_selectors:
 - dyn
 - pitd
@@ -284,7 +304,7 @@ exp_selectors:
 - gen
 - bre
 exp_primary: 0
-exp_secondary: 5
+exp_secondary: 7
 key: 7
 time_signatures:
 - bar_position: 0
@@ -318,7 +338,7 @@ tracks:
     reverb_damp: 0.7
     reverb_wet: 1
     reverb_pre_delay_ms: 12
-  volume: 7.573770491803277
+  volume: -2.4590163934426172
   pan: 0
   track_expressions: []
   voice_color_names:
@@ -25598,3 +25618,4 @@ voice_parts:
     - 0
     - 0
     abbr: genc
+wave_parts: []
