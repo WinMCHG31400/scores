@@ -9,3 +9,4 @@
 !src/*
 !package.json
 !SynthV/**/*.svp
+!DaVinciResolve/**/*.drp
