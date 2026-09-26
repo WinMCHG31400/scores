@@ -287,12 +287,12 @@ exp_selectors:
 - dyn
 - pitd
 - shfc
-- velc
+- xsy
+- clry
+- voic
+- tenc
 - genc
-- dir
 - brec
-- shft
-- gen
 - bre
 exp_primary: 0
 exp_secondary: 2
@@ -385,7 +385,7 @@ voice_parts:
     phoneme_expressions: []
     phoneme_overrides: []
   - position: 1920
-    duration: 480
+    duration: 240
     tone: 63
     lyric: 扬
     pitch:
@@ -399,13 +399,26 @@ voice_parts:
     phoneme_overrides:
     - index: 0
       offset: -23
+  - position: 2160
+    duration: 240
+    tone: 61
+    lyric: +
+    pitch:
+      data:
+      - {x: -40, y: 20, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    tuning: 0
+    phoneme_expressions: []
+    phoneme_overrides: []
   - position: 2400
     duration: 480
     tone: 61
     lyric: 起
     pitch:
       data:
-      - {x: -40, y: 20, shape: io}
+      - {x: -40, y: 0, shape: io}
       - {x: 40, y: 0, shape: io}
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
