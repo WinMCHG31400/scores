@@ -2,7 +2,7 @@
 comment: ""
 output_dir: Vocal
 cache_dir: UCache
-ustx_version: "0.1"
+ustx_version: "0.9"
 bpm: 120
 beat_per_bar: 4
 beat_unit: 4
@@ -231,6 +231,26 @@ expressions:
     is_flag: false
     flag: ""
     skip_output_if_default: false
+  clry:
+    name: voice color y
+    abbr: clry
+    type: Options
+    min: 0
+    max: -1
+    default_value: 0
+    is_flag: false
+    options: []
+    skip_output_if_default: false
+  xsy:
+    name: cross synthesis (curve)
+    abbr: xsy
+    type: Curve
+    min: 0
+    max: 100
+    default_value: 0
+    is_flag: false
+    flag: ""
+    skip_output_if_default: false
 exp_selectors:
 - dyn
 - pitd
@@ -244,14 +264,14 @@ exp_selectors:
 - bre
 exp_primary: 0
 exp_secondary: 1
-key: 3
+key: 4
 time_signatures:
 - bar_position: 0
-  beat_per_bar: 2
+  beat_per_bar: 4
   beat_unit: 4
 tempos:
 - position: 0
-  bpm: 118.99992463338107
+  bpm: 120
 tracks:
 - singer: Aikie_ML_v201
   phonemizer: OpenUtau.Core.DiffSinger.DiffSingerChinesePhonemizer
@@ -1810,25 +1830,12 @@ voice_parts:
     phoneme_expressions: []
     phoneme_overrides: []
   - position: 88800
-    duration: 180
+    duration: 480
     tone: 73
     lyric: 不
     pitch:
       data:
       - {x: -40, y: -120, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    tuning: 0
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 88980
-    duration: 300
-    tone: 73
-    lyric: +
-    pitch:
-      data:
-      - {x: -40, y: 0, shape: io}
       - {x: 40, y: 0, shape: io}
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
