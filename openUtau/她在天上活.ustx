@@ -2,7 +2,7 @@
 comment: ""
 output_dir: Vocal
 cache_dir: UCache
-ustx_version: "0.1"
+ustx_version: "0.10"
 bpm: 120
 beat_per_bar: 4
 beat_unit: 4
@@ -231,6 +231,56 @@ expressions:
     is_flag: false
     flag: ""
     skip_output_if_default: false
+  clry:
+    name: voice color y
+    abbr: clry
+    type: Options
+    min: 0
+    max: -1
+    default_value: 0
+    is_flag: false
+    options: []
+    skip_output_if_default: false
+  xsy:
+    name: cross synthesis (curve)
+    abbr: xsy
+    type: Curve
+    min: 0
+    max: 100
+    default_value: 0
+    is_flag: false
+    flag: ""
+    skip_output_if_default: false
+  grwc:
+    name: growl (curve)
+    abbr: grwc
+    type: Curve
+    min: 0
+    max: 100
+    default_value: 0
+    is_flag: false
+    flag: ""
+    skip_output_if_default: false
+  rpit:
+    name: rendered pitch (masked curve)
+    abbr: rpit
+    type: MaskedCurve
+    min: 2400
+    max: 10800
+    default_value: 6000
+    is_flag: false
+    flag: ""
+    skip_output_if_default: false
+  pito:
+    name: pitch override (masked curve)
+    abbr: pito
+    type: MaskedCurve
+    min: 2400
+    max: 10800
+    default_value: 6000
+    is_flag: false
+    flag: ""
+    skip_output_if_default: false
 exp_selectors:
 - dyn
 - pitd
@@ -251,7 +301,7 @@ time_signatures:
   beat_unit: 4
 tempos:
 - position: 0
-  bpm: 140.00014000014
+  bpm: 125
 tracks:
 - phonemizer: OpenUtau.Core.DefaultPhonemizer
   renderer_settings: {}
@@ -272,7 +322,7 @@ tracks:
   track_color: Blue
   mute: false
   solo: false
-  volume: 12
+  volume: 2.79493670886076
   pan: 0
   track_expressions: []
   voice_color_names:
@@ -3807,5 +3857,15 @@ voice_parts:
     tuning: 0
     phoneme_expressions: []
     phoneme_overrides: []
-  curves: []
+  curves:
+  - xs: []
+    ys: []
+    abbr: brec
+  - xs: []
+    ys: []
+    abbr: voic
+  - xs: []
+    ys: []
+    abbr: tenc
+  masked_curves: []
 wave_parts: []
