@@ -1,5 +1,5 @@
 Dt: 蜡炬不干
-Ds: 记刘慈欣《乡村教师》\n朵芊-人本 心华-V本
+Ds: 记刘慈欣《乡村教师》 - 心华
 //Dv: Version 1.15.9
 Da[作词]: 苏栗无
 Da[作曲]: komeru丶赛璐珞
@@ -53,5 +53,4 @@ Lc: 登星
 J: 2.
 Nc: omit(7){D.S.}|||
 ===
-T: *非官方
-T: *可以在Github仓库WinMCHG31400/scores下载源文件，使用需标明出处
+T: *非官方，源码在Github仓库WinMCHG31400/scores
